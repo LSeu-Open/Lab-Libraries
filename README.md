@@ -5,6 +5,7 @@ A curated collection of tutorials, resources, and knowledge sharing for neurosci
 ## Table of Contents
 
 * [Tutorials](#tutorials)
+  + [Python](https://github.com/LSeu-Open/Lab-Libraries/tree/main/Tutorials/Python)
 * [Workshops](#workshops)
 * [Resource Hub](#resource-hub)
 
