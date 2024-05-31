@@ -19,4 +19,22 @@ A curated collection of tutorials, resources, and knowledge sharing for neurosci
 
 ## Resource Hub 
 
+### Omics
+
+#### Genomics
+#### Proteomics
+#### Transcriptomics
+#### Metabolomics
+#### Lipidomics
+#### Epigenomics
+#### Interactomics
+#### Connectomics
+#### Immunomics
+
+### Image Analysis
+
+### Electrophysiology
+
+### Data Visualization
+
 <br>
