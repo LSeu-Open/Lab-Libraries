@@ -21,6 +21,7 @@ A curated collection of tutorials, resources, and knowledge sharing for neurosci
 ### Python
 
 * [Learn Python from scratch: A Step-by-Step Tutorial](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Learn-Python-from-scratch.md)
+* [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md)
 
 <br>
 
