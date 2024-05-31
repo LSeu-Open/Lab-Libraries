@@ -18,6 +18,10 @@ A curated collection of tutorials, resources, and knowledge sharing for neurosci
 * [Workshops](#workshops)
 ## Tutorials
 
+### Python
+
+* [Learn Python from scratch: A Step-by-Step Tutorial](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Learn-Python-from-scratch.md)
+
 <br>
 
 ## Resource Hub 
