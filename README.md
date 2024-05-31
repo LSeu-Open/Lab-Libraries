@@ -6,14 +6,17 @@ A curated collection of tutorials, resources, and knowledge sharing for neurosci
 
 * [Tutorials](#tutorials)
   + [Python](https://github.com/LSeu-Open/Lab-Libraries/tree/main/Tutorials/Python)
-* [Workshops](#workshops)
+  + [R]()  
 * [Resource Hub](#resource-hub)
-
+  + [Omics](#omics)
+    + [Genomics](#genomics)
+    + [Proteomics](#proteomics)
+    + [Transcriptomics](#transcriptomics)
+  + [Image Analysis](#image-analysis)
+  + [Electrophysiology](#electrophysiology)
+  + [Data Visualization](#data-visualization)
+* [Workshops](#workshops)
 ## Tutorials
-
-<br>
-
-## Workshops
 
 <br>
 
@@ -24,17 +27,15 @@ A curated collection of tutorials, resources, and knowledge sharing for neurosci
 #### Genomics
 #### Proteomics
 #### Transcriptomics
-#### Metabolomics
-#### Lipidomics
-#### Epigenomics
-#### Interactomics
-#### Connectomics
-#### Immunomics
 
 ### Image Analysis
 
 ### Electrophysiology
 
 ### Data Visualization
+
+<br>
+
+## Workshops
 
 <br>
