@@ -65,7 +65,16 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Machine Learning
 
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) : A curated list of awesome Machine Learning frameworks, libraries and software.
+- [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) : machine learning and deep learning tutorials, articles and other resources.
+- [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners) : 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all.
+
 ### Deep Learning
+
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) : A curated list of awesome Deep Learning tutorials, projects and communities.
+- [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers) : The most cited deep learning papers.
+- [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision) : A curated list of deep learning resources for computer vision.
+- [Awesome Deep learning papers and other resources](https://github.com/endymecy/awesome-deeplearning-resources) : Deep Learning and deep reinforcement learning research papers and some codes.
 
 <br>
 
