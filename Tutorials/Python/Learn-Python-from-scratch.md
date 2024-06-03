@@ -38,13 +38,13 @@
 
 <br>
 
-## Introduction
+# Introduction
 
-### Welcome to Python!
+## Welcome to Python!
 
 Python is a high-level, interpreted programming language known for its simplicity, readability, and ease of use. Created in the late 1980s by Guido van Rossum, Python has become a staple in the world of computer science.
 
-### Why Python?
+## Why Python?
 
 Python's popularity stems from its versatility and wide range of applications, including:
 
@@ -53,19 +53,19 @@ Web Development
 Automation
 Education
 
-### About This Tutorial
+## About This Tutorial
 
 This tutorial is designed for individuals in the scientific community who want to learn Python. It provides a collection of resources to help you get started with Python, rather than a comprehensive course.
 
 <br>
 
-## Getting Started
+# Getting Started
 
-### Installing Python on Your Computer
+## Installing Python on Your Computer
 
 Before you can start coding in Python, you need to have Python installed on your computer. Here's a step-by-step guide to help you get started:
 
-#### Windows
+### Windows
 
 > Go to the official Python download page and click on the "Download Python" button.
 
@@ -73,12 +73,12 @@ Select the latest version of Python (currently Python 3.x) and choose the Window
 Run the installer and follow the prompts to install Python.
 Make sure to select the option to add Python to your PATH during the installation process.
 
-#### macOS (via Homebrew)
+### macOS (via Homebrew)
 Open your Terminal application.
 Install Homebrew by following the instructions on the Homebrew website.
 Once Homebrew is installed, run the following command to install Python: brew install python
 
-#### Linux (Ubuntu-based distributions)
+### Linux (Ubuntu-based distributions)
 Open your Terminal application.
 Run the following command to install Python: sudo apt-get install python3
 Verify Your Installation
@@ -92,27 +92,27 @@ You should see the version of Python you just installed. If you don't see the ve
 
 That's it! You now have Python installed on your computer. In the next section, we'll set up a code editor or IDE to start writing Python code.
 
-### Setting up a Code Editor or an Integrated Development Environment (IDE)
+## Setting up a Code Editor or an Integrated Development Environment (IDE)
 
 Now that you have Python installed, you'll need a code editor or Integrated Development Environment (IDE) to write and run your Python code. Here are a few popular options:
 
-#### Code Editors 
+### Code Editors 
 
 A text editor, on the other hand, is a simpler application primarily focused on editing plain text files. While text editors can be used for coding, they lack many of the advanced features found in IDEs. However, modern text editors like VSCode have evolved to include some IDE-like capabilities through extensions and plugins.
 
-##### Visual Studio Code (VS Code)
+#### Visual Studio Code (VS Code)
 Visual Studio Code (VS Code): A lightweight, open-source code editor with a wide range of extensions for Python development, including debugging, testing, and code completion.
 
 > Download and install VS Code from the [official website](https://code.visualstudio.com/).
 
-###### Setting up VS Code for Python
+##### Setting up VS Code for Python
 * First, click the **Extensions tab**.
 * Second, type the python on the search input.
 * Third, click the **Python** extension. It’ll show detailed information on the right pane.
 * Finally, click the Install button to install the Python extension.
 * Restart VS Code and you're ready to go !
 
-###### Usefull VS Code extensions for Python developers
+##### Usefull VS Code extensions for Python developers
 * [AREPL for python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl)
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
@@ -124,12 +124,12 @@ Visual Studio Code (VS Code): A lightweight, open-source code editor with a wide
 * [Python Preview](https://marketplace.visualstudio.com/items?itemName=dongli.python-preview)
 * [Python Snippets](https://marketplace.visualstudio.com/items?itemName=frhtylcn.pythonsnippets)
 
-##### Sublime Text
+#### Sublime Text
 A popular, feature-rich code editor with a large user base and a wide range of plugins for Python development.
 
 > Download and install Sublime Text from the [official website](https://www.sublimetext.com/).
 
-###### Configuring Sublime Text for Python
+##### Configuring Sublime Text for Python
 Sublime Text comes almost configured and ready out of the box. However, if you want to set the Sublime Text for Python, you should install and configure the integrated terminal. 
 
 To set it up :
@@ -143,7 +143,7 @@ To set it up :
 7. Finally, configure your syntax for Python by once more opening the Command Palette and typing ``Python``.
 8. From the drop-down menu, select ``Set Syntax: Python``. This ensures that your code highlighting, color scheme, and auto-indentation are based on **Python syntax**.
 
-###### Usefull Sublime Text Packages for Python developers
+##### Usefull Sublime Text Packages for Python developers
 
 * [Anaconda](https://packagecontrol.io/packages/Anaconda)
 * [Advanced​New​File](https://packagecontrol.io/packages/AdvancedNewFile)
@@ -157,11 +157,11 @@ To set it up :
 * [Sublime​Linter](https://packagecontrol.io/packages/SublimeLinter)
   
 
-#### Integrated Development Environment (IDE)
+### Integrated Development Environment (IDE)
 
 An IDE is a comprehensive software application designed specifically for software development. It provides an all-in-one environment for writing, editing, building, running, and debugging code.
 
-##### Spyder
+#### Spyder
 Spyder is a free and open source scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
 
 > Download and install Spyder from the [official website](https://www.spyder-ide.org/).
@@ -169,13 +169,13 @@ Spyder is a free and open source scientific environment written in Python, for P
 * Follow the installation instructions and create a new project.
 * Spyder will prompt you to select a Python interpreter; select the one you installed earlier.
 
-###### Usefull Spyder Plugins 
+##### Usefull Spyder Plugins 
 
 * [spyder-notebook](https://github.com/spyder-ide/spyder-notebook)
 * [spyder-terminal](https://github.com/spyder-ide/spyder-terminal)
 * [spyder-unittest](https://github.com/spyder-ide/spyder-unittest)
 
-##### PyCharm
+#### PyCharm
 A popular, feature-rich IDE with a wide range of tools for Python development, including debugging, testing, and code completion.
 
 > Download and install PyCharm Community Edition from the [official website](https://www.jetbrains.com/pycharm/).
@@ -191,7 +191,7 @@ A popular, feature-rich IDE with a wide range of tools for Python development, i
 
 
 
-#### Key Considerations when Choosing a Code Editor or IDE
+### Key Considerations when Choosing a Code Editor or IDE
 
 When choosing a code editor or IDE, consider the following factors:
 
@@ -203,13 +203,13 @@ When choosing a code editor or IDE, consider the following factors:
 
 <br>
 
-## How i see the learning process
+# How i see the learning process
 
 Mastering a new coding language requires a strategic approach, and this section provides a suggested learning path for Python in an academic setting. While individual learning styles and needs may vary, this roadmap offers a flexible framework for those who require guidance.
 
 The most effective way to learn Python is by doing, as hands-on experience is crucial for mastering the language. Depending on your level of dedication and prior experience, you can expect to grasp the foundational concepts of Python within 1-3 months, while advanced topics may require 4-12 months of consistent effort to master.
 
-### Understand why you’re learning Python
+## Understand why you’re learning Python
 
 Before embarking on a Python learning journey, it's essential to establish clear motivations for doing so. This will enable you to develop a tailored learning plan that suits your needs.
 
@@ -223,7 +223,7 @@ By answering these questions and defining your goals, you'll maintain motivation
 
 The answers to these questions will inform the structure of your learning path, which is crucial for the subsequent steps.
 
-### Get started with the Python Basics and data manipulation (Month 1-3)
+## Get started with the Python Basics and data manipulation (Month 1-3)
 
 Firstly, let's dive into the core concepts of Python programming. This foundational knowledge will serve as a strong base for more advanced topics. 
 
@@ -244,7 +244,7 @@ Now that we've covered the basics, let's focus on one of the most essential skil
 2. Techniques for data manipulation and analysis, including sorting, filtering, grouping, merging, and pivoting data.
 3. Data visualization using Matplotlib and Seaborn libraries to create informative and visually appealing plots and graphs.
 
-### Master intermediate Python concepts (Month 4-6)
+## Master intermediate Python concepts (Month 4-6)
 
 As your familiarity grows, it's time to dive deeper into advanced Python topics. This includes understanding object-oriented programming, error handling, and more complex data structures.
 
@@ -256,17 +256,17 @@ Mastering Best Practices and Debugging:
 
 Now that you have a solid foundation in Python basics, it's time to dive even deeper into more specific areas based on your interests. If machine learning piques your interest, begin the Machine Learning Fundamentals with Python Track. As you progress, make sure your projects are more complex. For example, create a machine learning model to predict house prices or design an image classification system.
 
-### Advanced Python and specialization (Month 7+)
+## Advanced Python and specialization (Month 7+)
 
 At this point, you should have a good understanding of Python and its applications in your field of interest. Now is the time to specialize.
 
 Based on your interests and career aspirations, specialize in one area. This could be data science, machine learning, web development, automation, or any other field. For instance, If you're interested in natural language processing, you might start learning about libraries like NLTK and SpaCy. Keep working on projects and reading about new developments in your field.
 
-### Keep challenging yourself (Infinite)
+## Keep challenging yourself (Infinite)
 
 <br>
 
-## Tips for learning Python
+# Tips for learning Python
 
 * **Choose Your Focus !**
 
@@ -302,7 +302,7 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 <br>
 
-## the Learning resources
+# the Learning resources
 
 :book: official Python documentation : https://wiki.python.org/moin/FrontPage
 
@@ -359,9 +359,5 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 | Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
 | [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | already familiar with Python and/or programming, hoping to learn tools for data science | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
-
-<br>
-
-## Conclusion
 
 <br>
