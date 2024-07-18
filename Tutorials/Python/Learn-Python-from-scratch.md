@@ -377,7 +377,7 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| | |  |  | |
+| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | Beginners | Code examples with explanations. |  Operators, Data Types, Control Flow, Functions, Classes and more... |
 | | |  |  | |
 | | |  |  | |
 | | |  |  | |
