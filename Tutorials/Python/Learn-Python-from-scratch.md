@@ -352,9 +352,13 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 # Learning resources
 
-:book: official Python documentation : https://wiki.python.org/moin/FrontPage
+<div align="center">
+  
+:book: [Official Python Documentation](https://wiki.python.org/moin/FrontPage)
 
-:video_game: Online Interactive courses
+</div>
+
+:video_game: **Online Interactive courses**
 
 | Website                       | Licence                | Pricing                | 
 |:-----------------------------|:-----------------------:|:-----------------------:|
@@ -366,64 +370,36 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 | [Codédex](https://www.codedex.io/python) | |  |
 | [RealPython](https://realpython.com/) | |  |
 
-**Specific Topics**
-
-- []
-
 <br>
 
-:computer: Tutorials
+:computer: **Tutorials**
 
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | Beginners | Code examples with explanations. |  Operators, Data Types, Control Flow, Functions, Classes and more... |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
+| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | Beginners | Code examples with explanations. |  All the basics, plus more... |
+| [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | Beginners | Video Tutorials | All the basics, plus more... |
+| [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | Beginners | Code examples with explanations. | All the basics, plus more... |
+| [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | Beginners | Code examples with explanations. | All the basics, plus more... |
+| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | Beginners | Code examples with explanations. |  All the basics, plus more...  |
 
-
-**Specific Topics**
-
-- []
 
 <br>
 
-:book: Book References
-
-**Begginer**
+:book: **Book References**
 
 | Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [A Byte of Python](https://python.swaroopch.com/) | Swaroop C H | New to Python and those needing a refresher. | Easy to understand, gentle, thorough | Python fundamentals and problem solving |
-| [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Al Sweigart           | Beginners in Python, data enthusiasts, system admins | Practical applications, easy to follow | Python basics, CSV, PDF, Excel, web scraping, images, email, debugging, and more.   |
-| [How To Code in Python](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-python-3) | Lisa Tagliaferri,  Pankaj | New to Python and refresher seekers | Practical, digestable, pleasant | Python basics, installation, debugging logging, data types, hints and tips.|
-| [Learning Python](https://github.com/Quyaz/books/blob/master/Learning%20Python,%205th%20Edition.pdf) |  Mark Lutz | New to Python | Broad and deep exploration of Python. |  Python basics,  into advanced Python features |
-| [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds3/index.html) |  Brad Miller, David Ranum | New to Python and computer science | Classic concepts, topically diverse, smart. | Data structures, algorithms, fundamentals of Python |
-| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | New to Python | step-by-step pace, contains variety | Python fundamentals, editors, PEP8, testings, NeoPixels, command line interfaces.|
-| [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)      | Kenneth Reitz, Trey Hunner  | New and experienced Python users | Practical, enjoyable, broad. | Python basics, installation, virtual environments, project structure, coding style, documentation, packaging, GUI development, command line interface development, and much more. |
-
-
-**Intermediate**
-
-| Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Intermediate Python](https://book.pythontips.com/en/latest/) | Muhammad Yasoob Ullah Khalid | Intermediate Python developers | dvanced yet understandable concepts, unique among Python programming books | Debugging, exception handling, functional programming, mutable/immutable types, and much more.   |
-| [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | already familiar with Python and/or programming, hoping to learn tools for data science | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
-
-
-
-**Advanced**
-
-| Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Architecture Patterns with Python](https://www.cosmicpython.com/l) | Harry J.W. Percival, Bob Gregory |  Intermediate to advanced Python developers  | Explains deep concepts in thorough but understandable ways, introduces advanced design concepts|Test Drive Development, Domain Driven Design, microservices |
-
-**Specific Topics**
-
-| Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | already familiar with Python and/or programming, hoping to learn tools for data science | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
+| [A Byte of Python](https://python.swaroopch.com/) | Swaroop C H | Beginners | Easy to understand, gentle, thorough | Python fundamentals and problem solving |
+| [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Al Sweigart           | Beginners | Practical applications, easy to follow | Python basics, CSV, PDF, Excel, web scraping, images, email, debugging, and more.   |
+| [How To Code in Python](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-python-3) | Lisa Tagliaferri,  Pankaj | Beginners | Practical, digestable, pleasant | Python basics, installation, debugging logging, data types, hints and tips.|
+| [Learning Python](https://github.com/Quyaz/books/blob/master/Learning%20Python,%205th%20Edition.pdf) |  Mark Lutz | Beginners | Broad and deep exploration of Python. |  Python basics,  into advanced Python features |
+| [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds3/index.html) |  Brad Miller, David Ranum | Beginners | Classic concepts, topically diverse, smart. | Data structures, algorithms, fundamentals of Python |
+| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | Beginners | step-by-step pace, contains variety | Python fundamentals, editors, PEP8, testings, NeoPixels, command line interfaces.|
+| [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)      | Kenneth Reitz, Trey Hunner  | Beginners | Practical, enjoyable, broad. | Python basics, installation, virtual environments, project structure, coding style, documentation, packaging, GUI development, command line interface development, and much more. |
+| [Intermediate Python](https://book.pythontips.com/en/latest/) | Muhammad Yasoob Ullah Khalid | Intermediate | dvanced yet understandable concepts, unique among Python programming books | Debugging, exception handling, functional programming, mutable/immutable types, and much more.   |
+| [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | Intermediate | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
+| [Architecture Patterns with Python](https://www.cosmicpython.com/l) | Harry J.W. Percival, Bob Gregory | Advanced  | Explains deep concepts in thorough but understandable ways, introduces advanced design concepts|Test Drive Development, Domain Driven Design, microservices |
+| [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | Advanced | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
 
 <br>
