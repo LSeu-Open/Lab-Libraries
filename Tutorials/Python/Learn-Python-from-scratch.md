@@ -382,6 +382,7 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 | [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | Beginners | Code examples with explanations. | All the basics, plus more... |
 | [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | Beginners | Code examples with explanations. | All the basics, plus more... |
 | [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | Beginners | Code examples with explanations. |  All the basics, plus more...  |
+| [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | Beginners | Code examples with explanations. |  All the basics, plus more...  |
 
 
 <br>
