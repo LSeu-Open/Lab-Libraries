@@ -360,15 +360,13 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 :video_game: **Online Interactive courses**
 
-| Website                       | Licence                | Pricing                | 
-|:-----------------------------|:-----------------------:|:-----------------------:|
-| [PyFlo](https://pyflo.net) |  |  |
-| [CodeAcademy](https://www.codecademy.com/search?query=python) | |  |
-| [w3school](https://www.w3schools.com/python/default.asp) | |  |
-| [hackinscience](https://www.hackinscience.org) | |  |
-| [learpython.org](https://www.learnpython.org) | |  |
-| [Codédex](https://www.codedex.io/python) | |  |
-| [RealPython](https://realpython.com/) | |  |
+| Website                       | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [PyFlo](https://pyflo.net) | Beginners | explanations + QCM/MCQ  |  All the basics, plus more...  |
+| [w3school](https://www.w3schools.com/python/default.asp) | all Levels | explanations + Online interpreter | Extensive range of topics |
+| [hackinscience](https://www.hackinscience.org) | all Levels | Online interpreter | Extensive range of topics |
+| [learpython.org](https://www.learnpython.org) | Beginners | explanations + Online interpreter | All the basics |
+| [Codédex](https://www.codedex.io/python) | Beginners | Funny environment with explanations + Online interpreter |  All the basics |
 
 <br>
 
@@ -385,7 +383,7 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 | [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | Beginners | Code examples with explanations. |  All the basics, plus more...  |
 | [Python Tutorials from ThePythonGuru](https://thepythonguru.com/) | ThePythonGuru | Beginners | Code examples with explanations. |  All the basics, plus more...  |
 | [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | Beginners | Code examples with explanations. |  All the basics, plus more...  |
-
+| [RealPython](https://realpython.com/) |  Real Python | all Levels | Video Tutorials | Extensive range of topics  |
 
 <br>
 
