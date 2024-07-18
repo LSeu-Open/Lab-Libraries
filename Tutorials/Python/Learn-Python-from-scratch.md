@@ -247,21 +247,28 @@ When choosing a code editor or IDE, consider the following factors:
 
 Mastering a new coding language requires a strategic approach, and this section provides a suggested learning path for Python in an academic setting. While individual learning styles and needs may vary, this roadmap offers a flexible framework for those who require guidance.
 
-The most effective way to learn Python is by doing, as hands-on experience is crucial for mastering the language. Depending on your level of dedication and prior experience, you can expect to grasp the foundational concepts of Python within 1-3 months, while advanced topics may require 4-12 months of consistent effort to master.
+<div align="center">
+  
+**The most effective way to learn Python is by doing, as hands-on experience is crucial for mastering the language.** 
+  
+</div>
+
+Depending on your level of dedication and prior experience, you can expect to grasp the foundational concepts of Python within 1-3 months, while advanced topics may require 4-12 months of consistent effort to master.
 
 ## Understand why you’re learning Python
 
 Before embarking on a Python learning journey, it's essential to establish clear motivations for doing so. This will enable you to develop a tailored learning plan that suits your needs.
 
-To define specific goals, ask yourself some key questions. What are your career aspirations? Are you seeking a career in data science, web development, software engineering, or another field where Python is commonly utilized?
+To define specific goals, ask yourself some key questions : 
 
-What areas of interest do you have? Are you drawn to data analysis, application development, or artificial intelligence? What problems do you aim to solve? Do you want to automate tasks, analyze data, develop software, or create machine learning models?
+* What are your career aspirations?
+* Are you seeking a career in data science, web development, software engineering, or another field where Python is commonly utilized?
+* What areas of interest do you have?
+* Are you drawn to data analysis, application development, or artificial intelligence?
+* What problems do you aim to solve?
+* Do you want to automate tasks, analyze data, develop software, or create machine learning models?
 
-By answering these questions and defining your goals, you'll maintain motivation and focus throughout the learning process.
-
-> Your interests will guide your learning journey. 
-
-The answers to these questions will inform the structure of your learning path, which is crucial for the subsequent steps.
+By answering these questions and defining your goals, you'll maintain motivation and focus throughout the learning process. The answers to these questions will inform the structure of your learning path, which is crucial for the subsequent steps.
 
 ## Get started with the Python Basics and data manipulation (Month 1-3)
 
@@ -278,29 +285,30 @@ Key areas include:
 7. **Working with Strings and Lists**: Master string manipulation techniques and learn how to create, access, modify, and iterate over lists in Python.
 8. **Libraries in Python**: Familiarize yourself with the importance of libraries like Pandas, NumPy, Matplotlib, Seaborn for data handling, manipulation, analysis, and visualization.
 
-Now that we've covered the basics, let's focus on one of the most essential skills: **handling and manipulating data**. This is an invaluable skill for various Python-related tasks, particularly in the fields of data science and machine learning. In this section, you will focus into:
-
-1. The fundamental libraries, such as Pandas and NumPy.
-2. Techniques for data manipulation and analysis, including sorting, filtering, grouping, merging, and pivoting data.
-3. Data visualization using Matplotlib and Seaborn libraries to create informative and visually appealing plots and graphs.
-
 ## Master intermediate Python concepts (Month 4-6)
 
 As your familiarity grows, it's time to dive deeper into advanced Python topics. This includes understanding object-oriented programming, error handling, and more complex data structures.
+
+Now that we've covered the basics, let's focus on one of the most essential skills: **handling and manipulating data**. This is an invaluable skill for various Python-related tasks, particularly in the fields of data science and machine learning. In this section, you will focus into:
+
+1. **The fundamental libraries, such as Pandas and NumPy.**
+2. Techniques for **data manipulation and analysis**, including sorting, filtering, grouping, merging, and pivoting data.
+3. **Data visualization** using Matplotlib and Seaborn libraries to create informative and visually appealing plots and graphs.
 
 Mastering Best Practices and Debugging:
 1. **Writing efficient and readable code** is crucial for collaboration and maintenance. Learn how to structure your code effectively, use appropriate naming conventions, and comment your code efficiently.
 2. Familiarize yourself with **different debugging techniques** such as print statements, using a debugger, or logging. Also, explore useful tools like PyCharm's debugger for enhanced efficiency.
 3. **Error handling** is an essential aspect of programming. Learn how to handle exceptions, use try/except blocks, and finally understand the importance of raising custom errors when necessary.
 
-
-Now that you have a solid foundation in Python basics, it's time to dive even deeper into more specific areas based on your interests. If machine learning piques your interest, begin the Machine Learning Fundamentals with Python Track. As you progress, make sure your projects are more complex. For example, create a machine learning model to predict house prices or design an image classification system.
+Now that you have a solid grasp of Python fundamentals, it's time to explore specific areas relevant to our lab's work. If you're interested in computational modeling, begin the Computational Neuroscience with Python Track. As you progress, ensure your projects are increasingly complex and applicable to neuroscientific research. For example, develop a predictive model for neural activity or design an algorithm for identifying patterns in brain imaging data.
 
 ## Advanced Python and specialization (Month 7+)
 
 At this point, you should have a good understanding of Python and its applications in your field of interest. Now is the time to specialize.
 
-Based on your interests and career aspirations, specialize in one area. This could be data science, machine learning, web development, automation, or any other field. For instance, If you're interested in natural language processing, you might start learning about libraries like NLTK and SpaCy. Keep working on projects and reading about new developments in your field.
+Considering your research focus and career goals, narrow down your expertise in one area. This could be computational neuroscience, neuroinformatics, data analysis, or any other field relevant to our lab's work. 
+
+For instance, if you're interested in analyzing brain imaging data, you might start exploring libraries like Nibabel, MNE-Python, or SciPy. Continuously develop your skills by working on projects and staying up-to-date with advancements in these fields.
 
 ## Keep challenging yourself (Infinite)
 
@@ -348,36 +356,15 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 :video_game: Online Interactive courses
 
-**Begginer**
-
-| Website                       | Authors                | Audience                | Strengths                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-
-
-**Intermediate**
-
-| Website                       | Authors                | Audience                | Strengths                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-
-**Advanced**
-
-| Website                       | Authors                | Audience                | Strengths                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
+| Website                       | Licence                | Pricing                | 
+|:-----------------------------|:-----------------------:|:-----------------------:|
+| [PyFlo](https://pyflo.net) |  |  |
+| [CodeAcademy](https://www.codecademy.com/search?query=python) | |  |
+| [w3school](https://www.w3schools.com/python/default.asp) | |  |
+| [hackinscience](https://www.hackinscience.org) | |  |
+| [learpython.org](https://www.learnpython.org) | |  |
+| [Codédex](https://www.codedex.io/python) | |  |
+| [RealPython](https://realpython.com/) | |  |
 
 **Specific Topics**
 
@@ -387,7 +374,6 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 :computer: Tutorials
 
-**Begginer**
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
@@ -397,25 +383,6 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 | | |  |  | |
 | | |  |  | |
 
-**Intermediate**
-
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-
-**Advanced**
-
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
-| | |  |  | |
 
 **Specific Topics**
 
