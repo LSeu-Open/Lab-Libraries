@@ -33,8 +33,8 @@
   - [Advanced Python and specialization (Month 7+)](#advanced-python-and-specialization-month-7)
   - [Keep challenging yourself (Infinite)](#keep-challenging-yourself-infinite)
 - [Tips for learning Python](#tips-for-learning-python)
-- [the Learning resources](#the-learning-resources)
-- [Conclusion](#conclusion)
+- [Learning resources](#learning-resources)
+
 
 <br>
 
@@ -302,15 +302,43 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 <br>
 
-# the Learning resources
+# Learning resources
 
 :book: official Python documentation : https://wiki.python.org/moin/FrontPage
 
 :video_game: Online Interactive courses
 
 **Begginer**
+
+| Website                       | Authors                | Audience                | Strengths                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+
+
 **Intermediate**
+
+| Website                       | Authors                | Audience                | Strengths                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+
 **Advanced**
+
+| Website                       | Authors                | Audience                | Strengths                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+
 **Specific Topics**
 
 - []
@@ -318,8 +346,35 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 :computer: Tutorials
 
 **Begginer**
+
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+
 **Intermediate**
+
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+
 **Advanced**
+
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+| | |  |  | |
+
 **Specific Topics**
 
 - []
