@@ -83,6 +83,9 @@ You should see the version of Python you just installed. If you don't see the ve
 
 That's it! You now have Python installed on your computer. In the next section, we'll set up a code editor or IDE to start writing Python code.
 
+### In Your Browser 
+If you don’t feel like installing Python, or you cannot install it for whatever reason, There is another alternative : you can use [Python right from your browser](https://python-playground.netlify.app/) ; no installation necessary!
+
 <br>
 
 ## Setting up a Code Editor or an Integrated Development Environment (IDE)
