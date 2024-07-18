@@ -1,4 +1,4 @@
-# Learn Python from scratch: A Step-by-Step Tutorial
+# Learn Python from scratch: A Tutorial
 
 <br>
 
@@ -15,16 +15,7 @@
     - [Linux (Ubuntu-based distributions)](#linux-ubuntu-based-distributions)
   - [Setting up a Code Editor or an Integrated Development Environment (IDE)](#setting-up-a-code-editor-or-an-integrated-development-environment-ide)
     - [Code Editors](#code-editors)
-      - [Visual Studio Code (VS Code)](#visual-studio-code-vs-code)
-        - [Setting up VS Code for Python](#setting-up-vs-code-for-python)
-        - [Usefull VS Code extensions for Python developers](#usefull-vs-code-extensions-for-python-developers)
-      - [Sublime Text](#sublime-text)
-        - [Configuring Sublime Text for Python](#configuring-sublime-text-for-python)
-        - [Usefull Sublime Text Packages for Python developers](#usefull-sublime-text-packages-for-python-developers)
     - [Integrated Development Environment (IDE)](#integrated-development-environment-ide)
-      - [Spyder](#spyder)
-        - [Usefull Spyder Plugins](#usefull-spyder-plugins)
-      - [PyCharm](#pycharm)
     - [Key Considerations when Choosing a Code Editor or IDE](#key-considerations-when-choosing-a-code-editor-or-ide)
 - [How i see the learning process](#how-i-see-the-learning-process)
   - [Understand why you’re learning Python](#understand-why-youre-learning-python)
@@ -92,6 +83,8 @@ You should see the version of Python you just installed. If you don't see the ve
 
 That's it! You now have Python installed on your computer. In the next section, we'll set up a code editor or IDE to start writing Python code.
 
+<br>
+
 ## Setting up a Code Editor or an Integrated Development Environment (IDE)
 
 Now that you have Python installed, you'll need a code editor or Integrated Development Environment (IDE) to write and run your Python code. Here are a few popular options:
@@ -99,6 +92,9 @@ Now that you have Python installed, you'll need a code editor or Integrated Deve
 ### Code Editors 
 
 A text editor, on the other hand, is a simpler application primarily focused on editing plain text files. While text editors can be used for coding, they lack many of the advanced features found in IDEs. However, modern text editors like VSCode have evolved to include some IDE-like capabilities through extensions and plugins.
+
+<details>
+<summary> 💻 <b>Code Editors List</b></summary>
 
 #### Visual Studio Code (VS Code)
 Visual Studio Code (VS Code): A lightweight, open-source code editor with a wide range of extensions for Python development, including debugging, testing, and code completion.
@@ -156,11 +152,15 @@ To set it up :
 * [Side​Bar​Enhancements](https://packagecontrol.io/packages/SideBarEnhancements)
 * [Sublime​Linter](https://packagecontrol.io/packages/SublimeLinter)
   
+</details>
 
 ### Integrated Development Environment (IDE)
 
 An IDE is a comprehensive software application designed specifically for software development. It provides an all-in-one environment for writing, editing, building, running, and debugging code.
 
+<details>
+<summary> 💻 <b> IDE List</b></summary>
+  
 #### Spyder
 Spyder is a free and open source scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
 
@@ -189,7 +189,7 @@ A popular, feature-rich IDE with a wide range of tools for Python development, i
 * Follow the installation instructions and create a new project.
 * PyCharm will prompt you to select a Python interpreter; select the one you installed earlier.
 
-
+</details>
 
 ### Key Considerations when Choosing a Code Editor or IDE
 
@@ -199,7 +199,8 @@ When choosing a code editor or IDE, consider the following factors:
 * **Features**: Does it have features like syntax highlighting, code completion, and debugging?
 * **Community support**: Is there an active community and resources available?
 
-> For beginners, VS Code and PyCharm are popular choices due to their ease of use and extensive features.
+> [!TIP]
+> **For beginners, VS Code and PyCharm are popular choices due to their ease of use and extensive features.**
 
 <br>
 
@@ -343,6 +344,8 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 
 - []
 
+<br>
+
 :computer: Tutorials
 
 **Begginer**
@@ -378,6 +381,8 @@ Learning Python is an iterative process. As you gain more experience, revisit ol
 **Specific Topics**
 
 - []
+
+<br>
 
 :book: Book References
 
