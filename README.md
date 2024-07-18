@@ -11,6 +11,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
     + [Data Science](#data-science)
     + [Machine Learning](#machine-learning)
     + [Deep Learning](#deep-learning)
+      
 * [Resource Hub](#resource-hub)
   + [Python](#python)
   + [Image Analysis](#image-analysis)
@@ -18,6 +19,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
   + [Data Science](#data-science)
   + [Machine Learning](#machine-learning)
   + [Deep Learning](#deep-learning)
+    
 * [Workshops](#workshops)
 
 <br>
@@ -28,12 +30,11 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 #### Basics
 
-* [Learn Python from scratch: A Step-by-Step Tutorial](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Learn-Python-from-scratch.md)
+* [Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Learn-Python-from-scratch.md)
 * [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md)
 * [Getting Started With Jupyter Notebook for Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Getting-Started-With-Jupyter-Notebook-for-Python.md)
 * [Introduction to Version Control](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Introduction-to-Version-Control.md)
 * [Testing and Debugging Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Testing-and-Debugging-Python.md)
-* [How to do Python package management ?](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/How-to-do-Python-package-management.md)
 
 #### Image Analysis
 
