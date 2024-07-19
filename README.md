@@ -26,7 +26,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Local Tutorials
 
-- [A Method to Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Learn-Python-from-scratch.md)
+- [A Method to Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/A-Method-to-Learn-Python-from-scratch.md)
 - [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md)
 - [Getting Started With Jupyter Notebook for Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Getting-Started-With-Jupyter-Notebook-for-Python.md)
 
