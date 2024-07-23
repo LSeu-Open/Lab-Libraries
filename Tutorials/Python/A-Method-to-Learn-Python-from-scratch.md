@@ -238,7 +238,7 @@ When choosing a code editor or IDE, consider the following factors:
 * **Community support**: Is there an active community and resources available?
 
 > [!TIP]
-> **For beginners, VS Code and PyCharm are popular choices due to their ease of use and extensive features.**
+> **For beginners, VS Code and PyCharm are popular choices due to their ease of use and extensive features. You can also use other popular code editors. Choose the one that feels most comfortable for you.**
 
 <br>
 
