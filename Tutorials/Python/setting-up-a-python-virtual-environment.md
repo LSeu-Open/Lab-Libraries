@@ -485,9 +485,9 @@ By understanding and utilizing these tools, you can ensure that your projects ar
 
 The world of Python development is vast and ever-evolving. As you become more comfortable with setting up and managing virtual environments, consider exploring other advanced topics such as:
 
-- **Continuous Integration/Continuous Deployment (CI/CD)** : Automating the testing and deployment of your code.
-- **Containerization** : Using tools like Docker to create portable and consistent environments.
-- **Version Control** : Mastering Git for better collaboration and version management.
+- **[Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md)** : Automating the testing and deployment of your code.
+- **[Containerization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Containerization.md)** : Using tools like Docker to create portable and consistent environments.
+- **[Version Control](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md)** : Mastering Git for better collaboration and version management.
 
 Keep learning and experimenting with new tools and techniques to enhance your development skills and workflow.
 
