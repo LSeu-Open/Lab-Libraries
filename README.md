@@ -134,8 +134,8 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Tutorials <a name="tutorials-image-analysis"></a>
 
-- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more.
-- [NeubiasPasteur2023_AdvancedCellPose](https://github.com/gletort/NeubiasPasteur2023_AdvancedCellPose) : Tutorial for running CellPose advanced functions.
+- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more. ⬛ **all Levels**
+- [NeubiasPasteur2023_AdvancedCellPose](https://github.com/gletort/NeubiasPasteur2023_AdvancedCellPose) : Tutorial for running CellPose advanced functions. 🟨 **Intermediate**
 
 ## Data Visualization
 
@@ -152,10 +152,10 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Tutorials <a name="tutorials-data-visualization"></a>
 
-- [Matplotlib Tutorials](https://matplotlib.org/stable/users/index.html#users-guide-index) : Matplotlib is a popular Python library used to create static, animated, and interactive 2D and 3D visualizations of data.
-- [Plotly Tutorials](https://plotly.com/graphing-libraries/) : Plotly is an open-source graphing library that enables users to create high-quality, interactive plots, charts, and graphs in Python, R, and MATLAB.
-- [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) : Seaborn is a Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics.
-- [Visualization using Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) : Pandas is a powerful open-source library in Python for data manipulation and analysis. Learn how to visualize data with Pandas.
+- [Matplotlib Tutorials](https://matplotlib.org/stable/users/index.html#users-guide-index) : Matplotlib is a popular Python library used to create static, animated, and interactive 2D and 3D visualizations of data. 🟩 **Begginer**
+- [Plotly Tutorials](https://plotly.com/graphing-libraries/) : Plotly is an open-source graphing library that enables users to create high-quality, interactive plots, charts, and graphs in Python, R, and MATLAB. 🟩 **Begginer**
+- [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) : Seaborn is a Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. 🟩 **Begginer**
+- [Visualization using Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) : Pandas is a powerful open-source library in Python for data manipulation and analysis. Learn how to visualize data with Pandas. 🟩 **Begginer**
 
 ## Data Science
 
