@@ -4,6 +4,10 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 # Table of Contents
 
++ [Fundamentals of Modern Development](#fundamentals-of-modern-development)
+  - [Lists and Repositories](#lists-and-repositories-python)
+  - [Local Tutorials](#local-tutorials-python)
+  - [Learning resources](#learning-resources-python)
 + [Python](#python)
   - [Lists and Repositories](#lists-and-repositories-python)
   - [Local Tutorials](#local-tutorials-python)
@@ -34,6 +38,19 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 + [Local Workshops](#local-workshops)
 <br>
 
+## Fundamentals of Modern Development
+
+### Lists and Repositories <a name="lists-and-repositories-Fundamentals"></a>
+
+### Local Tutorials <a name="local-tutorials-Fundamentals"></a>
+
+- [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Begginer**
+- [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟩 **Begginer**
+- [Containerization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Containerization.md) 🟨 **Intermediate** 
+- [Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟨 **Intermediate** 
+
+### Learning resources <a name="learning-resources-Fundamentals"></a>
+
 ## Python
 
 ### Lists and Repositories <a name="lists-and-repositories-python"></a>
@@ -42,13 +59,13 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 - [Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications) : Free software that works great, and also happens to be open-source Python.
 - [Awesome Python Books](https://github.com/junnplus/awesome-python-books) : Directory of Python books.
 - [Awesome Python Resources](https://github.com/DjangoEx/awesome-python-resources) : About Awesome Python Resources.
-- [Fucking Awesome Python](https://github.com/trananhkma/fucking-awesome-python) : awesome-python with :octocat: ⭐ and 🍴.
+- [Fucking Awesome Python](https://github.com/trananhkma/fucking-awesome-python) : awesome-python ressources.
 
 ### Local Tutorials <a name="local-tutorials-python"></a>
 
-- [A Method to Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/A-Method-to-Learn-Python-from-scratch.md)
-- [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md)
-- [Getting Started With Jupyter Notebook for Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Getting-Started-With-Jupyter-Notebook-for-Python.md)
+- [A Method to Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/A-Method-to-Learn-Python-from-scratch.md) 🟩 **Begginer**
+- [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md) 🟩 **Begginer**
+- [Getting Started With Jupyter Notebook for Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Getting-Started-With-Jupyter-Notebook-for-Python.md) 🟨 **Intermediate** 
 
 ### Learning resources <a name="learning-resources-python"></a>
   
@@ -167,7 +184,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Libraries <a name="libraries-machine-learning"></a>
 
-### Tutorials <a name="tutorials-machine-learning"></a
+### Tutorials  <a name="tutorials-machine-learning"></a
  
 ### Learning resources <a name="learning-resources-machine-learning"></a>
 
