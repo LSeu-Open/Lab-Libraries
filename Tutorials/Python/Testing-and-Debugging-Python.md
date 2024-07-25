@@ -1,5 +1,10 @@
 # Testing and Debugging Python
 
+🟩🟩🟩 **Beginner** | 🟨🟨🟨🟨🟨 **Intermediate** | 🟧🟧🟧 **Advanced**
+
+**No prior experience required**
+
+
 ## Introduction
 - Overview of Testing and Debugging
 - Importance of Testing and Debugging in Python
