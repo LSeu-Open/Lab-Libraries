@@ -1,6 +1,6 @@
 # Setting Up a Python Development Environment
 
-🟩🟩🟩 **Beginner** (No prior experience required)
+🟩 **Beginner** (No prior experience required)
 
 ## Table of Contents
 
