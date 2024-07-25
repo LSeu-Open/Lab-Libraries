@@ -1,6 +1,6 @@
 # A Method to Learn Python from scratch 
 
-🟩🟩🟩 **Beginner** (No prior experience required)
+🟩 **Beginner** (No prior experience required)
 
 <h2> Table of Content </h2>
 
