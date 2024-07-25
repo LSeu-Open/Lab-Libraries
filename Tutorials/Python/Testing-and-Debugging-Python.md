@@ -2,9 +2,6 @@
 
 🟨 **Intermediate** (Recommended experience)
 
-**No prior experience required**
-
-
 ## Introduction
 - Overview of Testing and Debugging
 - Importance of Testing and Debugging in Python
