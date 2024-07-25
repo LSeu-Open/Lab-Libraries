@@ -1,6 +1,6 @@
 # Testing and Debugging Python
 
-🟩🟩🟩 **Beginner** | 🟨🟨🟨🟨🟨 **Intermediate** | 🟧🟧🟧 **Advanced**
+🟨 **Intermediate** (Recommended experience)
 
 **No prior experience required**
 
