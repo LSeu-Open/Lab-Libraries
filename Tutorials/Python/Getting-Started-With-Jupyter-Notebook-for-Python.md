@@ -1,6 +1,6 @@
 # Getting Started With Jupyter Notebook for Python
 
-🟨🟨🟨🟨🟨 **Intermediate** (Recommended experience)
+🟨 **Intermediate** (Recommended experience)
 
 ## Table of Content
 
