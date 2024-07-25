@@ -44,11 +44,34 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Lists and Repositories <a name="lists-and-repositories-Fundamentals"></a>
 
+***Command Line Interface (CLI)***
+
+- [Awesome Shell](https://github.com/alebcay/awesome-shell) : A curated list of awesome command-line frameworks, toolkits, guides and gizmos.
+- [Awesome Cli](https://github.com/umutphp/awesome-cli) : A simple command line tool to give you a fancy command line interface to dive into Awesome lists.
+- [Awesome Windows Cli](https://github.com/Awesome-Windows/awesome-windows-command-line) : Use your Windows terminal to do awesome things.
+- [Awesome macOS Cli](https://github.com/phmullins/awesome-macos-commandline) : A curated list of awesome command-line software for macOS.
+- [Awesome Cli Frameworks](https://github.com/shadawck/awesome-cli-frameworks) : Collection of tools to build beautiful command line interface in different languages.
+- [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) : A curated list of command line apps.
+
+***Containerization***
+
+- [Awesome Containers](https://github.com/borntorock/awesome-containers/blob/master/awesome-containers.md) : A curated list of amazingly awesome open source container resources.
+- [Awesome Compose](https://github.com/docker/awesome-compose) : Awesome Docker Compose samples.
+- [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples) : Various Docker Compose examples of selfhosted FOSS and proprietary projects.
+- [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) : A curated list for awesome kubernetes sources.
+
+***Version Control System (VCS)***
+
+- [Awesome Git](https://github.com/dictcp/awesome-git) : A curated list of amazingly awesome Git tools, resources and shiny thing.
+- [Awesome VCS tools](https://github.com/postpdm/awesome-vcs-tools) : A curated list of awesome Version control tools - clients, diffs.
+- [Git/GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) : A list of cool features of Git and GitHub.
+
+
 ### Local Tutorials <a name="local-tutorials-Fundamentals"></a>
 
 - [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Begginer**
 - [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟩 **Begginer**
-- [Containerization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Containerization.md) 🟨 **Intermediate** 
+- [Introduction to Containerization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Containerization.md) 🟨 **Intermediate** 
 - [Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟨 **Intermediate** 
 
 ### Learning resources <a name="learning-resources-Fundamentals"></a>
