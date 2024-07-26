@@ -468,9 +468,6 @@ Perhaps some companies perform better than others; are the profits of the top 10
 There are plenty of questions that we could look into next, and it’s easy to see how the flow of working in a notebook can match one’s own thought process. For the purposes of this tutorial, we'll stop our analysis here, but feel free to continue digging into the data on your own!
 
 This flow helped us to easily investigate our data set in one place without context switching between applications, and our work is immediately shareable and reproducible. If we wished to create a more concise report for a particular audience, we could quickly refactor our work by merging cells and removing intermediary code.
-```
-
-This section provides a structured and concise example analysis using Jupyter Notebook, demonstrating how to load, clean, and analyze data, as well as how to create visualizations using Matplotlib and Seaborn.
 
 <br>
 
