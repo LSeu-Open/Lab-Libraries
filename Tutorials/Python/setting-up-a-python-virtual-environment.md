@@ -12,9 +12,7 @@
   - [Conda](#conda)
   - [Poetry](#poetry)
 - [Conclusion](#conclusion)
-- [References](#references)
-  - [Links to Official Documentation](#links-to-official-documentation)
-  - [Additional Resources for Learning](#additional-resources-for-learning)
+- [Links to Official Documentation](#links-to-official-documentation)
 
 <br>
 
@@ -493,20 +491,12 @@ Keep learning and experimenting with new tools and techniques to enhance your de
 
 <br>
 
-## References
-
-### Links to Official Documentation
+## Links to Official Documentation
 
 - **venv**: [Python venv Documentation](https://docs.python.org/3/library/venv.html)
 - **virtualenv**: [virtualenv Documentation](https://virtualenv.pypa.io/en/stable/)
 - **Conda**: [Conda Documentation](https://docs.conda.io/en/latest/)
 - **Poetry**: [Poetry Documentation](https://python-poetry.org/docs/)
 
-### Additional Resources for Learning
-
-- **Python Official Documentation**: [Python Docs](https://docs.python.org/3/)
-- **Real Python Tutorials**: [Real Python](https://realpython.com/)
-- **Python Weekly Newsletter**: [Python Weekly](https://pythonweekly.com/)
-- **Python Discord Community**: [Python Discord](https://discord.gg/python)
 
 
