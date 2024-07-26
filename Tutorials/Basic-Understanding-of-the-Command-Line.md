@@ -4,8 +4,6 @@
 
 ## Table of Contents
 
-# Table of Contents
-
 + [Introduction to Command Line Interface (CLI)](#introduction-to-command-line-interface-cli)
     - [What Is Command Line Interface/CLI?](#what-is-command-line-interfacecli)
     - [What Does the Command Line Look Like?](#what-does-the-command-line-look-like)
