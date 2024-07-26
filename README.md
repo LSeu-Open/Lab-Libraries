@@ -70,7 +70,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 ### Local Tutorials <a name="local-tutorials-Fundamentals"></a>
 
 - [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Begginer**
-- [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟩 **Begginer**
+- [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟨 **Intermediate** 
 - [Introduction to Containerization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Containerization.md) 🟨 **Intermediate** 
 - [Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟧 **Advanced** 
 
