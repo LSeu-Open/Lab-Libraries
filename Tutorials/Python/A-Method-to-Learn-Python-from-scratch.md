@@ -347,4 +347,7 @@ Learning to code takes time, and Python is no exception. Don't rush through the 
   
 Learning Python is an iterative process. As you gain more experience, revisit old projects or exercises and try to improve them or do them in a different way. This could mean optimizing your code, implementing a new feature, or even just making your code more readable. This process of iteration will help reinforce what you've learned and show you how much you've improved over time.
 
+> [!IMPORTANT]
+> **Python awaits ! Let's open that text file, write some code, and watch it come alive! We've gathered all the resources you'll need to start your Python adventure right [here](https://github.com/LSeu-Open/Lab-Libraries/tree/main?tab=readme-ov-file#learning-resources-python).**
+
 <br>
