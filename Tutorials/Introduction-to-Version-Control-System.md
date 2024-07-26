@@ -36,18 +36,21 @@
       - [Creating and Managing Repositories](#creating-and-managing-repositories-github)
       - [Collaborating on GitHub](#collaborating-on-github)
       - [GitHub Features](#github-features)
+      - [Github tutorials](#github-tutorials)
     - [GitLab](#gitlab)
       - [Introduction to GitLab](#introduction-to-gitlab)
       - [Creating a GitLab Account](#creating-a-gitlab-account)
       - [Creating and Managing Repositories](#creating-and-managing-repositories-gitlab)
       - [Collaborating on GitLab](#collaborating-on-gitlab)
       - [GitLab Features](#gitlab-features)
+      - [GitLab tutorials](#gitlab-tutorials)
     - [Codeberg](#codeberg)
       - [Introduction to Codeberg](#introduction-to-codeberg)
       - [Creating a Codeberg Account](#creating-a-codeberg-account)
       - [Creating and Managing Repositories](#creating-and-managing-repositories-codeberg)
       - [Collaborating on Codeberg](#collaborating-on-codeberg)
       - [Codeberg Features](#codeberg-features)
+      - [Codeberg tutorials](#codeberg-tutorials)
 
 ## Introduction
 
