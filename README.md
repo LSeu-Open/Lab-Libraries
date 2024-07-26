@@ -138,7 +138,6 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | [Intermediate Python](https://book.pythontips.com/en/latest/) | Muhammad Yasoob Ullah Khalid | 🟨 **Intermediate**  | dvanced yet understandable concepts, unique among Python programming books | Debugging, exception handling, functional programming, mutable/immutable types, and much more.   |
 | [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | 🟨 **Intermediate**  | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
 | [Architecture Patterns with Python](https://www.cosmicpython.com/l) | Harry J.W. Percival, Bob Gregory | 🟧 **Advanced**  | Explains deep concepts in thorough but understandable ways, introduces advanced design concepts|Test Drive Development, Domain Driven Design, microservices |
-| [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | 🟧 **Advanced**  | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
 
 
 ## Image Analysis
