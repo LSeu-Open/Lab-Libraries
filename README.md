@@ -18,25 +18,22 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
   - [Lists and Repositories](#lists-and-repositories-image-analysis)
   - [Libraries](#libraries-image-analysis)
   - [Tutorials](#tutorials-image-analysis)
-+ [Data Visualization](#data-visualization)
-  - [Lists and Repositories](#lists-and-repositories-data-visualization)
-  - [Libraries](#libraries-data-visualization)
-  - [Tutorials](#tutorials-data-visualization)
 + [Data Science](#data-science)
   - [Lists and Repositories](#lists-and-repositories-data-science)
-  - [Libraries](#libraries-data-science)
-  - [Tutorials](#tutorials-data-science)
-  - [Learning resources](#learning-resources-data-science)
-+ [Machine Learning](#machine-learning)
-  - [Lists and Repositories](#lists-and-repositories-machine-learning)
-  - [Libraries](#libraries-machine-learning)
-  - [Tutorials](#tutorials-machine-learning)
-  - [Learning resources](#learning-resources-machine-learning)
-+ [Deep Learning](#deep-learning)
-  - [Lists and Repositories](#lists-and-repositories-deep-learning)
-  - [Libraries](#libraries-deep-learning)
-  - [Tutorials](#tutorials-deep-learning)
-  - [Learning resources](#learning-resources-deep-learning)
+  - [Data Visualization](#data-visualization)
+      - [Lists and Repositories](#lists-and-repositories-data-visualization)
+      - [Libraries](#libraries-data-visualization)
+      - [Tutorials](#tutorials-data-visualization)
+  - [Machine Learning](#machine-learning)
+      - [Lists and Repositories](#lists-and-repositories-machine-learning)
+      - [Libraries](#libraries-machine-learning)
+      - [Tutorials](#tutorials-machine-learning)
+      - [Learning resources](#learning-resources-machine-learning)
+  - [Deep Learning](#deep-learning)
+      - [Lists and Repositories](#lists-and-repositories-deep-learning)
+      - [Libraries](#libraries-deep-learning)
+      - [Tutorials](#tutorials-deep-learning)
+      - [Learning resources](#learning-resources-deep-learning)
 + [Local Workshops](#local-workshops)
 <br>
 
@@ -105,6 +102,9 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | [hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
 | [learpython.org](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | All the basics |
 | [Codédex](https://www.codedex.io/python) | 🟩 **Begginer** | Funny environment with explanations + Online interpreter |  All the basics |
+| [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Begginer**  | explanations + Online interpreter | The basics |
+| [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Begginer**  | explanations + Online interpreter | Build on Introduction to programming |
+| [Kaggle : Pandas](https://www.kaggle.com/learn/pandas) | 🟨 **Intermediate**  | explanations + Online interpreter |  Data manipulation skills. |
 
 <br>
 
@@ -153,11 +153,26 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 ### Libraries <a name="libraries-image-analysis"></a>
 
 - [Napari](https://napari.org/stable/) : a fast, interactive viewer for multi-dimensional images in Python.
+- [Scikit-Image](https://github.com/scikit-image/scikit-image) : Image processing in Python.
 
 ### Tutorials <a name="tutorials-image-analysis"></a>
 
 - [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more. ⬛ **all Levels**
+- [Scikit mage Tutorials](https://github.com/scikit-image/skimage-tutorials) : A collection of tutorials for the scikit-image package. ⬛ **all Levels**
 - [NeubiasPasteur2023_AdvancedCellPose](https://github.com/gletort/NeubiasPasteur2023_AdvancedCellPose) : Tutorial for running CellPose advanced functions. 🟨 **Intermediate**
+
+# Data Science
+
+## Lists and Repositories <a name="lists-and-repositories-data-science"></a>
+
+- [Awesome Data Science](https://github.com/academic/awesome-datascience) : An awesome Data Science repository to learn and apply for real world problems.
+- [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science) : Probably the best curated list of data science software in Python.
+- [Data Analysis Script](https://github.com/WillKoehrsen/Data-Analysis) : Data Science Projects Using Python and a little R. Code and Notebooks for numerous data science projects.
+- [Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) : 10 Weeks, 20 Lessons, Data Science for All!
+- [Data Science IPython Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) : Data science Python notebooks on Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
+- [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) : Python Data Science Handbook: full text in Jupyter Notebooks.
+- [Python Data Science Tutorials](https://github.com/ujjwalkarn/DataSciencePython) : Common data analysis and machine learning tasks using python.
+- [AI Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) : Roadmap to becoming an Artificial Intelligence Expert.
 
 ## Data Visualization
 
@@ -179,24 +194,6 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 - [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) : Seaborn is a Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. 🟩 **Begginer**
 - [Visualization using Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) : Pandas is a powerful open-source library in Python for data manipulation and analysis. Learn how to visualize data with Pandas. 🟩 **Begginer**
 
-## Data Science
-
-### Lists and Repositories <a name="lists-and-repositories-data-science"></a>
-
-- [Awesome Data Science](https://github.com/academic/awesome-datascience) : An awesome Data Science repository to learn and apply for real world problems.
-- [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science) : Probably the best curated list of data science software in Python.
-- [Data Analysis Script](https://github.com/WillKoehrsen/Data-Analysis) : Data Science Projects Using Python and a little R. Code and Notebooks for numerous data science projects.
-- [Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) : 10 Weeks, 20 Lessons, Data Science for All!
-- [Data Science IPython Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) : Data science Python notebooks on Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
-- [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) : Python Data Science Handbook: full text in Jupyter Notebooks.
-- [Python Data Science Tutorials](https://github.com/ujjwalkarn/DataSciencePython) : Common data analysis and machine learning tasks using python.
-
-### Libraries <a name="libraries-data-science"></a>
-
-### Tutorials <a name="tutorials-data-science"></a>
-
-### Learning resources <a name="learning-resources-data-science"></a>
-
 ## Machine Learning
 
 ### Lists and Repositories <a name="lists-and-repositories-machine-learning"></a>
@@ -208,9 +205,20 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Libraries <a name="libraries-machine-learning"></a>
 
-### Tutorials  <a name="tutorials-machine-learning"></a
+- [Caret](https://cran.r-project.org/web/packages/caret/index.html) : R equivalent of the "Scikit-Learn" package.
+- [cuML](https://github.com/rapidsai/cuml) : Enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming.
+- [mlpack](https://github.com/mlpack/mlpack) : An intuitive, fast, and flexible header-only C++ machine learning library with bindings to other languages.
+- [scikit-learn](https://scikit-learn.org/stable/) :  Python module for machine learning built on top of SciPy.
  
 ### Learning resources <a name="learning-resources-machine-learning"></a>
+
+:video_game: **Online Interactive courses**
+
+| Website                       | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics... |
+| [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Begginer** | explanations + Online interpreter |  Extract human-understandable insights from any model |
+| [Kaggle : Intermediate Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟨 **Intermediate** | explanations + Online interpreter |  Handle missing values, non-numeric values, data leakage, and more... |
 
 ## Deep Learning
 
@@ -223,6 +231,12 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ### Libraries <a name="libraries-deep-learning"></a>
 
+- [Catalyst](https://catalyst-team.com/) : a PyTorch framework for Deep Learning Research and Development. It focuses on reproducibility, rapid experimentation, and codebase reuse so you can create something new rather than write yet another train loop.
+- [Keras](https://keras.io/) : A multi-backend deep learning framework, with support for JAX, TensorFlow, and PyTorch. Effortlessly build and train models for computer vision, natural language processing, audio processing...
+- [PyTorch](https://pytorch.org/) : Tensors and Dynamic neural networks in Python with strong GPU acceleration.
+- [Tensorflow](https://tensorflow.org/) : An Open Source Machine Learning Framework for Everyone.
+- [Torchvision](https://pytorch.org/vision/stable/index.html) : torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.
+  
 ### Tutorials <a name="tutorials-deep-learning"></a>
 
 ### Learning resources <a name="learning-resources-deep-learning"></a>
