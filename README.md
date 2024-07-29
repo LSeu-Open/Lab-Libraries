@@ -187,8 +187,9 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Book Name                    | Authors                  | Audience                   | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟩 **Begginer**  | basics from mathematical perspective |
 | [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/index.html) | Max Kuhn and Kjell Johnson| 🟨 **Intermediate** | measuring performance, tuning parameters, model optimization, exploratory visualization, and more |
-| [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟨 **Intermediate** | basics from mathematical perspective |
+
 
 ## Data Visualization
 
