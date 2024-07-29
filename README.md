@@ -96,13 +96,13 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
 | [PyFlo](https://pyflo.net) | 🟩 **Begginer** | explanations + QCM/MCQ  |  All the basics, plus more...  |
-| [w3school](https://www.w3schools.com/python/default.asp) | ⬛ **all Levels**  | explanations + Online interpreter | Extensive range of topics |
-| [hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
 | [learpython.org](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | All the basics |
 | [Codédex](https://www.codedex.io/python) | 🟩 **Begginer** | Funny environment with explanations + Online interpreter |  All the basics |
 | [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Begginer**  | explanations + Online interpreter | The basics |
 | [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Begginer**  | explanations + Online interpreter | Build on Introduction to programming |
 | [Kaggle : Pandas](https://www.kaggle.com/learn/pandas) | 🟨 **Intermediate**  | explanations + Online interpreter |  Data manipulation skills. |
+| [w3school](https://www.w3schools.com/python/default.asp) | ⬛ **all Levels**  | explanations + Online interpreter | Extensive range of topics |
+| [hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
 
 <br>
 
