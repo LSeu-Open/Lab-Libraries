@@ -95,10 +95,10 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Codédex](https://www.codedex.io/python) | 🟩 **Begginer** | Funny environment with explanations + Online interpreter |  All the basics |
-| [Learpython](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | All the basics |
-| [PyFlo](https://pyflo.net) | 🟩 **Begginer** | explanations + QCM/MCQ  |  All the basics, plus more...  |
-| [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Begginer**  | explanations + Online interpreter | The basics |
+| [Codédex](https://www.codedex.io/python) | 🟩 **Begginer** | Funny environment with explanations + Online interpreter | Basics and more |
+| [Learpython](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
+| [PyFlo](https://pyflo.net) | 🟩 **Begginer** | explanations + QCM/MCQ  | Basics and more |
+| [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Begginer**  | explanations + Online interpreter | Basics and more |
 | [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Begginer**  | explanations + Online interpreter | Build on Introduction to programming |
 | [Kaggle : Pandas](https://www.kaggle.com/learn/pandas) | 🟨 **Intermediate**  | explanations + Online interpreter |  Data manipulation skills. |
 | [Hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
@@ -110,14 +110,14 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
-| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more... |
-| [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | 🟩 **Begginer** | Video Tutorials | All the basics, plus more... |
-| [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | 🟩 **Begginer** | Code examples with explanations. | All the basics, plus more... |
-| [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | 🟩 **Begginer** | Code examples with explanations. | All the basics, plus more... |
-| [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
-| [Python Tutorials from ThePythonGuru](https://thepythonguru.com/) | ThePythonGuru | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
-| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
+| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | 🟩 **Begginer** | Video Tutorials | Basics and more |
+| [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Python Tutorials from ThePythonGuru](https://thepythonguru.com/) | ThePythonGuru | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
 | [RealPython](https://realpython.com/) |  Real Python | ⬛ **all Levels** | Video Tutorials | Extensive range of topics  |
 
 <br>
@@ -177,7 +177,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [w3schools : Data Science Tutorials ](https://www.w3schools.com/datascience/default.asp) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics, and  more |
+| [w3schools : Data Science Tutorials ](https://www.w3schools.com/datascience/default.asp) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
 | [Kaggle : Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | 🟨 **Intermediate** | explanations + Online interpreter |  Mutual information, Clustering and Principal Component Analysis and more |
 | [Kaggle : Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | 🟨 **Intermediate** | explanations + Online interpreter |  Missing Values, Scaling, Normalization and more |
 
@@ -233,18 +233,18 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [DataCamp : Machine Learning in R for beginners](https://www.datacamp.com/tutorial/machine-learning-in-r) | 🟩 **Begginer** | explanations + Online interpreter |  introduction to the basics of machine learning in R |
-| [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics... |
-| [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Begginer** | explanations + Online interpreter |  Extract human-understandable insights from any model |
-| [w3schools : Machine Learning Tutorials ](https://www.w3schools.com/python/python_ml_getting_started.asp) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics, and  more |
-| [Kaggle : Intermediate Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟨 **Intermediate** | explanations + Online interpreter |  Handle missing values, non-numeric values, data leakage, and more... |
+| [DataCamp : Machine Learning in R for beginners](https://www.datacamp.com/tutorial/machine-learning-in-r) | 🟩 **Begginer** | explanations + Online interpreter | introduction to the basics of machine learning in R |
+| [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
+| [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Begginer** | explanations + Online interpreter | Extract human-understandable insights from any model |
+| [w3schools : Machine Learning Tutorials ](https://www.w3schools.com/python/python_ml_getting_started.asp) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
+| [Kaggle : Intermediate Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟨 **Intermediate** | explanations + Online interpreter | Handle missing values, non-numeric values, data leakage, and more... |
 | [Kaggle : Time Series](https://www.kaggle.com/learn/time-series) | 🟨 **Intermediate** | explanations + Online interpreter | Apply machine learning to real-world forecasting tasks. |
 
 :computer: **Tutorials**
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google |  🟩 **Begginer** | videos tutorials + QCM/MCQ  | All the basics and more |
+| [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google |  🟩 **Begginer** | videos tutorials + QCM/MCQ  | Basics and more |
 | [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging) | Google |  🟨 **Intermediate** | videos tutorials + QCM/MCQ  | Validate data, debug and optimize a machine learning model, and monitor its performance during development, launch, and production.|
 
 :book: **Book References**
