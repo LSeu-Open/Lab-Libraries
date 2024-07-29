@@ -20,6 +20,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
   - [Tutorials](#tutorials-image-analysis)
 + [Data Science](#data-science)
   - [Lists and Repositories](#lists-and-repositories-data-science)
+  - [Learning resources](#learning-resources-data-science)
   - [Data Visualization](#data-visualization)
       - [Lists and Repositories](#lists-and-repositories-data-visualization)
       - [Libraries](#libraries-data-visualization)
