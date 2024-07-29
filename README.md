@@ -27,12 +27,10 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
   - [Machine Learning](#machine-learning)
       - [Lists and Repositories](#lists-and-repositories-machine-learning)
       - [Libraries](#libraries-machine-learning)
-      - [Tutorials](#tutorials-machine-learning)
       - [Learning resources](#learning-resources-machine-learning)
   - [Deep Learning](#deep-learning)
       - [Lists and Repositories](#lists-and-repositories-deep-learning)
       - [Libraries](#libraries-deep-learning)
-      - [Tutorials](#tutorials-deep-learning)
       - [Learning resources](#learning-resources-deep-learning)
 + [Local Workshops](#local-workshops)
 <br>
@@ -159,7 +157,6 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 - [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more. ⬛ **all Levels**
 - [Scikit mage Tutorials](https://github.com/scikit-image/skimage-tutorials) : A collection of tutorials for the scikit-image package. ⬛ **all Levels**
-- [NeubiasPasteur2023_AdvancedCellPose](https://github.com/gletort/NeubiasPasteur2023_AdvancedCellPose) : Tutorial for running CellPose advanced functions. 🟨 **Intermediate**
 
 # Data Science
 
@@ -173,6 +170,25 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) : Python Data Science Handbook: full text in Jupyter Notebooks.
 - [Python Data Science Tutorials](https://github.com/ujjwalkarn/DataSciencePython) : Common data analysis and machine learning tasks using python.
 - [AI Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) : Roadmap to becoming an Artificial Intelligence Expert.
+
+### Learning resources <a name="learning-resources-data-science"></a>
+
+:video_game: **Online Interactive courses**
+
+| Website                       | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [Kaggle : Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | 🟨 **Intermediate** | explanations + Online interpreter |  Mutual information, Clustering and Principal Component Analysis and more |
+| [Kaggle : Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | 🟨 **Intermediate** | explanations + Online interpreter |  Missing Values, Scaling, Normalization and more |
+
+
+
+:book: **Book References**
+
+| Book Name                    | Authors                  | Audience                   | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/index.html) | Max Kuhn and Kjell Johnson| 🟨 **Intermediate** | measuring performance, tuning parameters, model optimization, exploratory visualization, and more |
+| [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟨 **Intermediate** | basics from mathematical perspective |
+
 
 ## Data Visualization
 
@@ -219,6 +235,25 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics... |
 | [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Begginer** | explanations + Online interpreter |  Extract human-understandable insights from any model |
 | [Kaggle : Intermediate Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟨 **Intermediate** | explanations + Online interpreter |  Handle missing values, non-numeric values, data leakage, and more... |
+| [Kaggle : Time Series](https://www.kaggle.com/learn/time-series) | 🟨 **Intermediate** | explanations + Online interpreter |  Apply machine learning to real-world forecasting tasks.  |
+
+:computer: **Tutorials**
+
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google |  🟩 **Begginer** | videos tutorials + QCM/MCQ  | All the basics and more |
+| [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging) | Google |  🟨 **Intermediate** | videos tutorials + QCM/MCQ  | Validate data, debug and optimize a machine learning model, and monitor its performance during development, launch, and production.|
+
+:book: **Book References**
+
+| Book Name                    | Authors                  | Audience                   | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [An Introduction to Machine Learning Interpretability](https://bradleyboehmke.github.io/HOML/) | Patrick Hall and Navdeep Gill | 🟩 **Begginer** | Learn how to explain your model |
+| [Machine Learning for Humans](https://everythingcomputerscience.com/books/Machine%20Learning%20for%20Humans.pdf) | Vishal Maini Samer Sabri | 🟩 **Begginer** | Supervised Learning, Unsupervised Learning, Neural Networks and more |
+| [Python Machine Learning Projects](https://bradleyboehmke.github.io/HOML/) | Brian Bocheron and Lisa Tagliaferri | 🟨 **Intermediate** | Create machine-learning projects to test your skills and build a portfolio |
+| [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html) | Shai Shalev-Shwartz and Shai Ben-David | ⬛ **all Levels** | Foundations, Theoretical to Algorithmic Applications, Additional Learning Models, and Advanced Theory |
+| [The Hundred-Page Machine Learning Book](https://themlbook.com/wiki/doku.php) | Andriy Burkov | ⬛ **all Levels**  | Fundamental Algorithms plus in-depth material, Anatomy of a Learning Algorithm, Basic Practice, Neural Networks and more |
+| [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/) | Bradley Boehmke & Brandon Greenwell | ⬛ **all Levels**  | Generalized low-rank models, Clustering algorithms, Autoencoders, Regularized models, Random forests, Gradient boosting machines and more |
 
 ## Deep Learning
 
@@ -236,14 +271,32 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 - [PyTorch](https://pytorch.org/) : Tensors and Dynamic neural networks in Python with strong GPU acceleration.
 - [Tensorflow](https://tensorflow.org/) : An Open Source Machine Learning Framework for Everyone.
 - [Torchvision](https://pytorch.org/vision/stable/index.html) : torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.
-  
-### Tutorials <a name="tutorials-deep-learning"></a>
 
 ### Learning resources <a name="learning-resources-deep-learning"></a>
 
+:video_game: **Online Interactive courses**
+
+| Website                       | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [Kaggle : Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) | 🟨 **Intermediate** | explanations + Online interpreter |  Use TensorFlow and Keras to build and train neural networks for structured data |
+| [Kaggle : Computer Vision](https://www.kaggle.com/learn/computer-vision) | 🟨 **Intermediate** | explanations + Online interpreter |  Apply machine learning to real-world forecasting tasks.  |
+
+:computer: **Tutorials**
+
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [ML Zero to Hero](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials |  Few basics on Tensorflow coding |
+| [Coding TensorFlow](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials | Large panel of topics |
+
+:book: **Book References**
+
+| Book Name                    | Authors                  | Audience                   | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [Dive into Deep Learning](https://d2l.ai/d2l-en.pdfl) | Aston zhang, zachary c. Lipton, mu li, and alexander j. Smola | 🟨 **Intermediate** | implementations with PyTorch, NumPy/MXNet, JAX, and TensorFlow. |
+
 <br>
 
-## Local Workshops
+# Local Workshops
 
 (TO BE DISCUSSED)
 
