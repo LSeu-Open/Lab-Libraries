@@ -41,19 +41,19 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ***Command Line Interface (CLI)***
 
-- [Awesome Shell](https://github.com/alebcay/awesome-shell) : A curated list of awesome command-line frameworks, toolkits, guides and gizmos.
 - [Awesome Cli](https://github.com/umutphp/awesome-cli) : A simple command line tool to give you a fancy command line interface to dive into Awesome lists.
-- [Awesome Windows Cli](https://github.com/Awesome-Windows/awesome-windows-command-line) : Use your Windows terminal to do awesome things.
-- [Awesome macOS Cli](https://github.com/phmullins/awesome-macos-commandline) : A curated list of awesome command-line software for macOS.
+- [Awesome Cli Apps](https://github.com/agarrharr/awesome-cli-apps) : A curated list of command line apps.
 - [Awesome Cli Frameworks](https://github.com/shadawck/awesome-cli-frameworks) : Collection of tools to build beautiful command line interface in different languages.
-- [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) : A curated list of command line apps.
+- [Awesome macOS Cli](https://github.com/phmullins/awesome-macos-commandline) : A curated list of awesome command-line software for macOS.
+- [Awesome Shell](https://github.com/alebcay/awesome-shell) : A curated list of awesome command-line frameworks, toolkits, guides and gizmos.
+- [Awesome Windows Cli](https://github.com/Awesome-Windows/awesome-windows-command-line) : Use your Windows terminal to do awesome things.
 
 ***Containerization***
 
-- [Awesome Containers](https://github.com/borntorock/awesome-containers/blob/master/awesome-containers.md) : A curated list of amazingly awesome open source container resources.
 - [Awesome Compose](https://github.com/docker/awesome-compose) : Awesome Docker Compose samples.
+- [Awesome Containers](https://github.com/borntorock/awesome-containers/blob/master/awesome-containers.md) : A curated list of amazingly awesome open source container resources.
 - [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples) : Various Docker Compose examples of selfhosted FOSS and proprietary projects.
-- [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) : A curated list for awesome kubernetes sources.
+- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) : A curated list for awesome kubernetes sources.
 
 ***Version Control System (VCS)***
 
@@ -61,12 +61,11 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 - [Awesome VCS tools](https://github.com/postpdm/awesome-vcs-tools) : A curated list of awesome Version control tools - clients, diffs.
 - [Git/GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) : A list of cool features of Git and GitHub.
 
-
 ### Local Tutorials <a name="local-tutorials-Fundamentals"></a>
 
 - [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Begginer**
-- [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟨 **Intermediate** 
 - [Introduction to Containerization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Containerization.md) 🟨 **Intermediate** (Scheduled)
+- [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟨 **Intermediate** 
 - [Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟧 **Advanced** (Scheduled)
 
 ### Learning resources <a name="learning-resources-Fundamentals"></a>
@@ -95,14 +94,14 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [PyFlo](https://pyflo.net) | 🟩 **Begginer** | explanations + QCM/MCQ  |  All the basics, plus more...  |
-| [learpython.org](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | All the basics |
 | [Codédex](https://www.codedex.io/python) | 🟩 **Begginer** | Funny environment with explanations + Online interpreter |  All the basics |
+| [Learpython](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | All the basics |
+| [PyFlo](https://pyflo.net) | 🟩 **Begginer** | explanations + QCM/MCQ  |  All the basics, plus more...  |
 | [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Begginer**  | explanations + Online interpreter | The basics |
 | [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Begginer**  | explanations + Online interpreter | Build on Introduction to programming |
 | [Kaggle : Pandas](https://www.kaggle.com/learn/pandas) | 🟨 **Intermediate**  | explanations + Online interpreter |  Data manipulation skills. |
-| [w3school](https://www.w3schools.com/python/default.asp) | ⬛ **all Levels**  | explanations + Online interpreter | Extensive range of topics |
-| [hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
+| [Hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
+| [W3school](https://www.w3schools.com/python/default.asp) | ⬛ **all Levels**  | explanations + Online interpreter | Extensive range of topics |
 
 <br>
 
@@ -110,11 +109,11 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
 | [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more... |
 | [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | 🟩 **Begginer** | Video Tutorials | All the basics, plus more... |
 | [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | 🟩 **Begginer** | Code examples with explanations. | All the basics, plus more... |
 | [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | 🟩 **Begginer** | Code examples with explanations. | All the basics, plus more... |
-| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
 | [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
 | [Python Tutorials from ThePythonGuru](https://thepythonguru.com/) | ThePythonGuru | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
 | [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Begginer** | Code examples with explanations. |  All the basics, plus more...  |
@@ -162,6 +161,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 ## Lists and Repositories <a name="lists-and-repositories-data-science"></a>
 
+- [AI Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) : Roadmap to becoming an Artificial Intelligence Expert.
 - [Awesome Data Science](https://github.com/academic/awesome-datascience) : An awesome Data Science repository to learn and apply for real world problems.
 - [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science) : Probably the best curated list of data science software in Python.
 - [Data Analysis Script](https://github.com/WillKoehrsen/Data-Analysis) : Data Science Projects Using Python and a little R. Code and Notebooks for numerous data science projects.
@@ -169,7 +169,6 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 - [Data Science IPython Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) : Data science Python notebooks on Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
 - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) : Python Data Science Handbook: full text in Jupyter Notebooks.
 - [Python Data Science Tutorials](https://github.com/ujjwalkarn/DataSciencePython) : Common data analysis and machine learning tasks using python.
-- [AI Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) : Roadmap to becoming an Artificial Intelligence Expert.
 
 ### Learning resources <a name="learning-resources-data-science"></a>
 
@@ -177,6 +176,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [w3schools : Data Science Tutorials ](https://www.w3schools.com/datascience/default.asp) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics, and  more |
 | [Kaggle : Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | 🟨 **Intermediate** | explanations + Online interpreter |  Mutual information, Clustering and Principal Component Analysis and more |
 | [Kaggle : Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | 🟨 **Intermediate** | explanations + Online interpreter |  Missing Values, Scaling, Normalization and more |
 
@@ -188,7 +188,6 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
 | [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/index.html) | Max Kuhn and Kjell Johnson| 🟨 **Intermediate** | measuring performance, tuning parameters, model optimization, exploratory visualization, and more |
 | [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟨 **Intermediate** | basics from mathematical perspective |
-
 
 ## Data Visualization
 
@@ -232,10 +231,12 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [DataCamp : Machine Learning in R for beginners](https://www.datacamp.com/tutorial/machine-learning-in-r) | 🟩 **Begginer** | explanations + Online interpreter |  introduction to the basics of machine learning in R |
 | [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics... |
 | [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Begginer** | explanations + Online interpreter |  Extract human-understandable insights from any model |
+| [w3schools : Machine Learning Tutorials ](https://www.w3schools.com/python/python_ml_getting_started.asp) | 🟩 **Begginer** | explanations + Online interpreter |  All the basics, and  more |
 | [Kaggle : Intermediate Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟨 **Intermediate** | explanations + Online interpreter |  Handle missing values, non-numeric values, data leakage, and more... |
-| [Kaggle : Time Series](https://www.kaggle.com/learn/time-series) | 🟨 **Intermediate** | explanations + Online interpreter |  Apply machine learning to real-world forecasting tasks.  |
+| [Kaggle : Time Series](https://www.kaggle.com/learn/time-series) | 🟨 **Intermediate** | explanations + Online interpreter | Apply machine learning to real-world forecasting tasks. |
 
 :computer: **Tutorials**
 
@@ -251,9 +252,9 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | [An Introduction to Machine Learning Interpretability](https://bradleyboehmke.github.io/HOML/) | Patrick Hall and Navdeep Gill | 🟩 **Begginer** | Learn how to explain your model |
 | [Machine Learning for Humans](https://everythingcomputerscience.com/books/Machine%20Learning%20for%20Humans.pdf) | Vishal Maini Samer Sabri | 🟩 **Begginer** | Supervised Learning, Unsupervised Learning, Neural Networks and more |
 | [Python Machine Learning Projects](https://bradleyboehmke.github.io/HOML/) | Brian Bocheron and Lisa Tagliaferri | 🟨 **Intermediate** | Create machine-learning projects to test your skills and build a portfolio |
-| [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html) | Shai Shalev-Shwartz and Shai Ben-David | ⬛ **all Levels** | Foundations, Theoretical to Algorithmic Applications, Additional Learning Models, and Advanced Theory |
-| [The Hundred-Page Machine Learning Book](https://themlbook.com/wiki/doku.php) | Andriy Burkov | ⬛ **all Levels**  | Fundamental Algorithms plus in-depth material, Anatomy of a Learning Algorithm, Basic Practice, Neural Networks and more |
 | [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/) | Bradley Boehmke & Brandon Greenwell | ⬛ **all Levels**  | Generalized low-rank models, Clustering algorithms, Autoencoders, Regularized models, Random forests, Gradient boosting machines and more |
+| [The Hundred-Page Machine Learning Book](https://themlbook.com/wiki/doku.php) | Andriy Burkov | ⬛ **all Levels**  | Fundamental Algorithms plus in-depth material, Anatomy of a Learning Algorithm, Basic Practice, Neural Networks and more |
+| [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html) | Shai Shalev-Shwartz and Shai Ben-David | ⬛ **all Levels** | Foundations, Theoretical to Algorithmic Applications, Additional Learning Models, and Advanced Theory |
 
 ## Deep Learning
 
@@ -285,8 +286,8 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [ML Zero to Hero](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials |  Few basics on Tensorflow coding |
 | [Coding TensorFlow](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials | Large panel of topics |
+| [DL Zero to Hero](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials |  Few basics on Tensorflow coding |
 
 :book: **Book References**
 
