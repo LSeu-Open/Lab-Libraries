@@ -96,7 +96,7 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
 | [Codédex](https://www.codedex.io/python) | 🟩 **Begginer** | Funny environment with explanations + Online interpreter | Basics and more |
-| [Learpython](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
+| [Learnpython](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
 | [PyFlo](https://pyflo.net) | 🟩 **Begginer** | explanations + QCM/MCQ  | Basics and more |
 | [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Begginer**  | explanations + Online interpreter | Basics and more |
 | [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Begginer**  | explanations + Online interpreter | Build on Introduction to programming |
@@ -181,7 +181,13 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | [Kaggle : Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | 🟨 **Intermediate** | explanations + Online interpreter |  Mutual information, Clustering and Principal Component Analysis and more |
 | [Kaggle : Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | 🟨 **Intermediate** | explanations + Online interpreter |  Missing Values, Scaling, Normalization and more |
 
+:computer: **Tutorials**
 
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [Data Science Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners) | DATAI Team | 🟩 **Begginer** | Notebook +  explainations | Basics and more |
+| [Data Science Full Course For Beginners](https://www.youtube.com/playlist?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV) | codebasics | 🟩 **Begginer** | Youtube videos tutorials | Everything, from basics to advanced topics |
+| [Learn Data Science from Scratch](https://data-flair.training/blogs/data-science-tutorials-home/) | DataFlair | ⬛ **all Levels** | explanations + example| Everything, from basics to advanced topics |
 
 :book: **Book References**
 
@@ -245,7 +251,9 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
 | [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google |  🟩 **Begginer** | videos tutorials + QCM/MCQ  | Basics and more |
+| [Machine Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/machine-learning-tutorial-for-beginners) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
 | [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging) | Google |  🟨 **Intermediate** | videos tutorials + QCM/MCQ  | Validate data, debug and optimize a machine learning model, and monitor its performance during development, launch, and production.|
+
 
 :book: **Book References**
 
@@ -288,8 +296,12 @@ A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [Basics of Pytorch](https://www.kaggle.com/code/kanncaa1/pytorch-tutorial-for-deep-learning-lovers) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
 | [Coding TensorFlow](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials | Large panel of topics |
+| [Deep Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/deep-learning-tutorial-for-beginners/notebook) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
 | [DL Zero to Hero](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials |  Few basics on Tensorflow coding |
+
+
 
 :book: **Book References**
 
