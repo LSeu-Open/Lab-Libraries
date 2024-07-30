@@ -1,8 +1,31 @@
+<img src="https://github.com/LSeu-Open/Lab-Libraries/blob/main/Banners/Header_Lib.png" alt="Header" />
+
 <h1> Lab-Libraries </h1>  
+
+<br>
 
 A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
-⬛ **all Levels** | 🟩 **Begginer** | 🟨 **Intermediate** | 🟧 **Advanced** 
+I believe that everyone should have access to high-quality learning resources, regardless of their level of expertise. That's why we've organized this content into four levels, each designed to cater to different needs and skill sets.
+
+🟩 **Beginner** : Foundational knowledge is essential for success. Learn the basics and get started with ease.
+
+🟨 **Intermediate** : Build on what you know with more complex topics and applications. 
+
+🟧 **Advanced** : For experts looking to refine their skills and tackle challenging projects.
+
+⬛ **All Levels** : Access all challenges and exercises. 
+
+<br>
+
+> [!IMPORTANT]
+> Please note that while I try to provide a comprehensive selection of resources, **this repository may not be exhaustive**, and omission does not imply exclusion. Inclusion in this collection does not constitute an endorsement of any particular tool or service.
+>
+> If you'd like **to suggest improvements or new categories, please submit a pull request (PR)** to enhance the repository's contents. Your contributions are valued and appreciated !
+> 
+> **All header images in this repository were generated using locally runned image generation models.**
+
+<br>
 
 # Table of Contents
 
