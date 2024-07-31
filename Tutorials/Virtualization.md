@@ -297,6 +297,9 @@ Both containerization and virtual machines (VMs) are technologies used to create
 | **Startup Time**      | Slower                                       | Faster                                      |
 | **Portability**       | Less portable due to OS dependencies         | Highly portable, runs on any Docker-compatible host |
 
+Summary in one Picture:
+
+![Image](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Banners/Virtualization_vs_Containers.png)
 
 Choosing between containerization and virtual machines depends on your specific needs and use cases. VMs offer strong isolation and are suitable for running different operating systems, while Docker containers are lightweight and efficient, making them ideal for modern, scalable applications.
 
