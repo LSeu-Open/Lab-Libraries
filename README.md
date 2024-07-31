@@ -90,7 +90,7 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Begginer**
 - [Introduction to Virtualization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Virtualization.md) 🟨 **Intermediate**
 - [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟨 **Intermediate** 
-- [Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟧 **Advanced** (Scheduled)
+- [Introduction to Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟧 **Advanced** (Scheduled)
 
 ### Learning resources <a name="learning-resources-Fundamentals"></a>
 
