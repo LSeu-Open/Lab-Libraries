@@ -478,8 +478,8 @@ kubectl apply -f deployment.yaml
 ```
 ### Exposing a Service:
 
-* Create a Service: Define a service to expose your application.
-* Apply the Service: Use the kubectl command to apply the service to the cluster.
+- **Create a Service** : Define a service to expose your application.
+- **Apply the Service**: Use the kubectl command to apply the service to the cluster.
 
 ```
 # Example Service YAML
@@ -501,14 +501,14 @@ kubectl apply -f service.yaml
 
 ### Kubernetes Commands
 
-Create a Deployment: kubectl apply -f <deployment.yaml>
-Create a Service: kubectl apply -f <service.yaml>
-Get Pods: kubectl get pods
-Get Services: kubectl get services
-Describe a Pod: kubectl describe pod <pod_name>
-Scale a Deployment: kubectl scale deployment <deployment_name> --replicas=<number>
-Delete a Deployment: kubectl delete deployment <deployment_name>
-Delete a Service: kubectl delete service <service_name>
+- **Create a Deployment** : kubectl apply -f <deployment.yaml>
+- **Create a Service** : kubectl apply -f <service.yaml>
+- **Get Pods** : kubectl get pods
+- **Get Services** : kubectl get services
+- **Describe a Pod** : kubectl describe pod <pod_name>
+- **Scale a Deployment** : kubectl scale deployment <deployment_name> --replicas=<number>
+- **Delete a Deployment** : kubectl delete deployment <deployment_name>
+- **Delete a Service**: kubectl delete service <service_name>
 
 <br>
 
