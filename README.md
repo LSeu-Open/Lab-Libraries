@@ -336,6 +336,8 @@ I believe that everyone should have access to high-quality learning resources, r
 
 # Local Workshops
 
+- [Use LLMs to write code: Integrate LLMs into your IDE](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)
+
 (TO BE DISCUSSED)
 
 <br>
