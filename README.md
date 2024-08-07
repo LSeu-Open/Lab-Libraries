@@ -94,6 +94,40 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Learning resources <a name="learning-resources-Fundamentals"></a>
 
+:video_game: **Online Interactive courses**
+
+| Website                       | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
+| [Learn the Command Line by Codecademy](https://www.codecademy.com/learn/learn-the-command-line) | 🟩 **Begginer** | explanations + Online interpreter | Essential skills for working at the command line, covering navigation, file management, redirection, and environment configuration. |
+
+
+<br>
+
+:computer: **Tutorials**
+
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [Cheat Sheet: Unix/Mac Commands](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Laurence Bradford | 🟩 **Begginer** | command Cheat Sheet | Basics of MacOS CLI |
+| [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | Mozilla | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Command Line for Beginners](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | FreeCodeCamp | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) | Linuxcommand | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line?tab=readme-ov-file#one-liners) | Joshua Levy | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [The Front-End Developer's Guide to the Terminal](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/#cycling-and-toggling-commands-15) | Josh Comeau | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) | Ubuntu | 🟩 **Begginer** | Code examples with explanations. | Basics of Linux CLI |
+| [Windows Commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | 🟩 **Begginer** | Documentation with explanations. | Basics of Windows CLI |
+
+<br>
+
+:book: **Book References**
+
+| Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [The Command Line Crash Course](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Zed A. Shaw | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download) | William Shotts | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+
+
+<br>
+
 ## Python
 
 ### Lists and Repositories <a name="lists-and-repositories-python"></a>
