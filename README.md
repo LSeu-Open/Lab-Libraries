@@ -72,18 +72,20 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Awesome Shell](https://github.com/alebcay/awesome-shell) : A curated list of awesome command-line frameworks, toolkits, guides and gizmos.
 - [Awesome Windows Cli](https://github.com/Awesome-Windows/awesome-windows-command-line) : Use your Windows terminal to do awesome things.
 
-***Containerization***
+***Virtualization***
 
 - [Awesome Compose](https://github.com/docker/awesome-compose) : Awesome Docker Compose samples.
 - [Awesome Containers](https://github.com/borntorock/awesome-containers/blob/master/awesome-containers.md) : A curated list of amazingly awesome open source container resources.
 - [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples) : Various Docker Compose examples of selfhosted FOSS and proprietary projects.
 - [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) : A curated list for awesome kubernetes sources.
+- [Docker Tutorials and Labs](https://github.com/docker/labs) : a collection of tutorials for learning how to use Docker with various tools.
 
 ***Version Control System (VCS)***
 
 - [Awesome Git](https://github.com/dictcp/awesome-git) : A curated list of amazingly awesome Git tools, resources and shiny thing.
 - [Awesome VCS tools](https://github.com/postpdm/awesome-vcs-tools) : A curated list of awesome Version control tools - clients, diffs.
 - [Git/GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) : A list of cool features of Git and GitHub.
+- [Git and GitHub learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources) : Git and Github learning resources from Github.
 
 ### Local Tutorials <a name="local-tutorials-Fundamentals"></a>
 
@@ -99,7 +101,8 @@ I believe that everyone should have access to high-quality learning resources, r
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
 | [Learn the Command Line by Codecademy](https://www.codecademy.com/learn/learn-the-command-line) | 🟩 **Begginer** | explanations + Online interpreter | Essential skills for working at the command line, covering navigation, file management, redirection, and environment configuration. |
-
+| [Git Tutorial by w3schools](https://www.w3schools.com/git/) | 🟨 **Intermediate** | explanations + Online interpreter | Basics and more. |
+| [Learn Git & GitHub by Codecademy](https://www.codecademy.com/learn/learn-git) | 🟨 **Intermediate** | explanations + Online interpreter |basics and more. |
 
 <br>
 
@@ -115,6 +118,11 @@ I believe that everyone should have access to high-quality learning resources, r
 | [The Front-End Developer's Guide to the Terminal](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/#cycling-and-toggling-commands-15) | Josh Comeau | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
 | [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) | Ubuntu | 🟩 **Begginer** | Code examples with explanations. | Basics of Linux CLI |
 | [Windows Commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | 🟩 **Begginer** | Documentation with explanations. | Basics of Windows CLI |
+| [A Docker tutorial for beginners](https://docker-curriculum.com/) | Prakhar Srivastav | 🟨 **Intermediate**  | Code examples with explanations. | Basics of Docker usage |
+| [A Step by Step Docker Tutorial for Beginners](https://www.simplilearn.com/tutorials/docker-tutorial) | Sana Afreen | 🟨 **Intermediate**  | Code examples with explanations. |  Basics and more |
+| [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI) | Programming with Mosh | 🟨 **Intermediate**  | Youtube tutorial |  Basics and more|
+| [Learn Docker in 2 Hours](https://www.youtube.com/watch?v=zJ6WbK9zFpI) | KodeKloud | 🟨 **Intermediate**  | Youtube tutorial | Basics of Docker usage |
+| [Docker Tutorial](https://www.geeksforgeeks.org/docker-tutorial/) | geeksforgeeks | 🟨 **Intermediate**  | Code examples with explanations. |  Basics and more |
 
 <br>
 
@@ -124,7 +132,7 @@ I believe that everyone should have access to high-quality learning resources, r
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
 | [The Command Line Crash Course](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Zed A. Shaw | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
 | [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download) | William Shotts | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-
+| [The Docker Handbook – Learn Docker for Beginners](https://www.freecodecamp.org/news/the-docker-handbook/) | Farhan Hasin Chowdhury | 🟨 **Intermediate**| Code examples with explanations. | Basics and more |
 
 <br>
 
