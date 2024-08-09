@@ -101,8 +101,8 @@ I believe that everyone should have access to high-quality learning resources, r
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
 | [Learn the Command Line by Codecademy](https://www.codecademy.com/learn/learn-the-command-line) | 🟩 **Begginer** | explanations + Online interpreter | Essential skills for working at the command line, covering navigation, file management, redirection, and environment configuration. |
-| [Git Tutorial by w3schools](https://www.w3schools.com/git/) | 🟨 **Intermediate** | explanations + Online interpreter | Basics and more. |
-| [Learn Git & GitHub by Codecademy](https://www.codecademy.com/learn/learn-git) | 🟨 **Intermediate** | explanations + Online interpreter |basics and more. |
+| [Git Tutorial by w3schools](https://www.w3schools.com/git/) | 🟨 **Intermediate** | explanations + Online interpreter | Git Basics and more. |
+| [Learn Git & GitHub by Codecademy](https://www.codecademy.com/learn/learn-git) | 🟨 **Intermediate** | explanations + Online interpreter | Git and Github Basics and more. |
 
 <br>
 
