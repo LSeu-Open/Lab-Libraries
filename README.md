@@ -41,6 +41,7 @@ I believe that everyone should have access to high-quality learning resources, r
   - [Lists and Repositories](#lists-and-repositories-image-analysis)
   - [Libraries](#libraries-image-analysis)
   - [Tutorials](#tutorials-image-analysis)
+  - [Learning resources](#learning-resources-image-analysis)
 + [Data Science](#data-science)
   - [Lists and Repositories](#lists-and-repositories-data-science)
   - [Learning resources](#learning-resources-data-science)
@@ -202,6 +203,7 @@ I believe that everyone should have access to high-quality learning resources, r
 | [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | 🟨 **Intermediate**  | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
 | [Architecture Patterns with Python](https://www.cosmicpython.com/l) | Harry J.W. Percival, Bob Gregory | 🟧 **Advanced**  | Explains deep concepts in thorough but understandable ways, introduces advanced design concepts|Test Drive Development, Domain Driven Design, microservices |
 
+<br>
 
 ## Image Analysis
 
@@ -221,7 +223,11 @@ I believe that everyone should have access to high-quality learning resources, r
 ### Tutorials <a name="tutorials-image-analysis"></a>
 
 - [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more. ⬛ **all Levels**
-- [Scikit mage Tutorials](https://github.com/scikit-image/skimage-tutorials) : A collection of tutorials for the scikit-image package. ⬛ **all Levels**
+- [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) : A collection of tutorials for the scikit-image package. ⬛ **all Levels**
+
+### Learning resources <a name="learning-resources-image-analysis"></a>
+
+<br>
 
 # Data Science
 
@@ -261,6 +267,7 @@ I believe that everyone should have access to high-quality learning resources, r
 | [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟩 **Begginer**  | basics from mathematical perspective |
 | [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/index.html) | Max Kuhn and Kjell Johnson| 🟨 **Intermediate** | measuring performance, tuning parameters, model optimization, exploratory visualization, and more |
 
+<br>
 
 ## Data Visualization
 
@@ -281,6 +288,8 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Plotly Tutorials](https://plotly.com/graphing-libraries/) : Plotly is an open-source graphing library that enables users to create high-quality, interactive plots, charts, and graphs in Python, R, and MATLAB. 🟩 **Begginer**
 - [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) : Seaborn is a Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. 🟩 **Begginer**
 - [Visualization using Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) : Pandas is a powerful open-source library in Python for data manipulation and analysis. Learn how to visualize data with Pandas. 🟩 **Begginer**
+
+<br>
 
 ## Machine Learning
 
@@ -330,6 +339,8 @@ I believe that everyone should have access to high-quality learning resources, r
 | [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/) | Bradley Boehmke & Brandon Greenwell | ⬛ **all Levels**  | Generalized low-rank models, Clustering algorithms, Autoencoders, Regularized models, Random forests, Gradient boosting machines and more |
 | [The Hundred-Page Machine Learning Book](https://themlbook.com/wiki/doku.php) | Andriy Burkov | ⬛ **all Levels**  | Fundamental Algorithms plus in-depth material, Anatomy of a Learning Algorithm, Basic Practice, Neural Networks and more |
 | [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html) | Shai Shalev-Shwartz and Shai Ben-David | ⬛ **all Levels** | Foundations, Theoretical to Algorithmic Applications, Additional Learning Models, and Advanced Theory |
+
+<br>
 
 ## Deep Learning
 
