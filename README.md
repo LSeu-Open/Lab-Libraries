@@ -227,6 +227,10 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Learning resources <a name="learning-resources-image-analysis"></a>
 
+📓 **Notebooks**
+
+I assume a solid grasp of **Python fundamentals** (e.g., data types, control structures) and familiarity with **Jupyter Notebooks**. The following notebooks are sorted from the Bio-Image Analysis Notebooks collection, which is available above, **to make its content more accessible and easier to use**.
+
 <br>
 
 # Data Science
