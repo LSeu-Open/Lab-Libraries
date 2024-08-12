@@ -227,11 +227,22 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Learning resources <a name="learning-resources-image-analysis"></a>
 
-📓 **Notebooks**
+:computer: **Tutorials**
 
-I assume a solid grasp of **Python fundamentals** (e.g., data types, control structures) and familiarity with **Jupyter Notebooks**. The following notebooks are sorted from the Bio-Image Analysis Notebooks collection, which is available above, **to make its content more accessible and easier to use**.
+| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [Batch processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/33_batch_processing/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Basics on how to process multiple images. |
+| [Cell classification](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/27_cell_classification/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Feature extraction and afterwards machine learning algorithms for differentiating objects. |
+| [Colocalization](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/28_colocalization/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Counting cells according to their signal expression in multiple channels. |
+| [Deep Learning based image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20b_deep_learning/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | deep learning based algorithms for image segmentation. |
+| [Feature extraction](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Retrieving quantitative measurements from image data. |
+| [Feature extraction: Youtube Video](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | 🟩 **Begginer** | Youtube tutorial  | Retrieving quantitative measurements from image data. |
+| [Image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Subdividing an image into multiple groups of pixels having different characteristics. |
+| [Machine learning for image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20a_pixel_classification/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Classical machine learning for pixel classification, object segmentation and for generating probability maps. |
+| [Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) | Emmanuelle Gouillart | 🟩 **Begginer** | Code examples with explanations. | Basics of Scikit-image and more |
+| [Segmentation post-processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20h_segmentation_post_processing/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Post-process segmentation results. |
+| [Graphical user interfaces](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/31_graphical_user_interfaces/readme.html) | haesleinhuepf | 🟨 **Intermediate** | Code examples with explanations. | build custom user interfaces |
 
-<br>
 
 # Data Science
 
@@ -262,7 +273,7 @@ I assume a solid grasp of **Python fundamentals** (e.g., data types, control str
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
 | [Data Science Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners) | DATAI Team | 🟩 **Begginer** | Notebook +  explainations | Basics and more |
 | [Data Science Full Course For Beginners](https://www.youtube.com/playlist?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV) | codebasics | 🟩 **Begginer** | Youtube videos tutorials | Everything, from basics to advanced topics |
-| [Learn Data Science from Scratch](https://data-flair.training/blogs/data-science-tutorials-home/) | DataFlair | ⬛ **all Levels** | explanations + example| Everything, from basics to advanced topics |
+| [Learn Data Science from Scratch](https://data-flair.training/blogs/data-science-tutorials-home/) | DataFlair | ⬛ **all Levels** | Code examples with explanations | Everything, from basics to advanced topics |
 
 :book: **Book References**
 
