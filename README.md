@@ -214,11 +214,13 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Awesome Image Distortion Correction](https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction) : A curated list of resources on handling Rolling Shutter effects and Radial Distortions.
 - [Awesome Neuron Segmentation in EM Images](https://github.com/subeeshvasu/Awesome-Neuron-Segmentation-in-EM-Images) : A curated list of resources for 3D segmentation of neurites in EM images.
 - [Bioimage.io](https://bioimage.io/#/) : Website for the BioImage Model zoo -- a model zoo for bioimage analysis.
+- [Segmentation Models](https://github.com/qubvel-org/segmentation_models.pytorch) : Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones.
 
 ### Libraries <a name="libraries-image-analysis"></a>
 
 - [Napari](https://napari.org/stable/) : a fast, interactive viewer for multi-dimensional images in Python.
 - [Scikit-Image](https://github.com/scikit-image/scikit-image) : Image processing in Python.
+
 
 ### Tutorials <a name="tutorials-image-analysis"></a>
 
@@ -236,13 +238,22 @@ I believe that everyone should have access to high-quality learning resources, r
 | [Colocalization](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/28_colocalization/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Counting cells according to their signal expression in multiple channels. |
 | [Deep Learning based image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20b_deep_learning/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | deep learning based algorithms for image segmentation. |
 | [Feature extraction](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Retrieving quantitative measurements from image data. |
-| [Feature extraction: Youtube Video](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | 🟩 **Begginer** | Youtube tutorial  | Retrieving quantitative measurements from image data. |
 | [Image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Subdividing an image into multiple groups of pixels having different characteristics. |
 | [Machine learning for image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20a_pixel_classification/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Classical machine learning for pixel classification, object segmentation and for generating probability maps. |
 | [Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) | Emmanuelle Gouillart | 🟩 **Begginer** | Code examples with explanations. | Basics of Scikit-image and more |
 | [Segmentation post-processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20h_segmentation_post_processing/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Post-process segmentation results. |
 | [Graphical user interfaces](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/31_graphical_user_interfaces/readme.html) | haesleinhuepf | 🟨 **Intermediate** | Code examples with explanations. | build custom user interfaces |
 
+📷 **Video Tutorials**
+
+ Title                        | Authors                 | Audience                 | Format                       | Topics                        |
+|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
+| [cellpose 2.0 tutorial: how to train your own cellular segmentation model](https://www.youtube.com/watch?v=A_PW_N0np9A) | Carsen Stringer| 🟩 **Begginer** | Youtube tutorial | Human-in-the-loop pipeline for quickly prototyping new specialist models. |
+| [Cellpose GPU installation for QuPath and Fiji](https://www.youtube.com/watch?v=yx4w4E4v1uM) | Thierry Pécot  | 🟩 **Begginer** | Youtube tutorial  | Install Cellpose to be processed with the GPÜ within QuPath and Fiji |
+| [Feature extraction: Youtube Video](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | 🟩 **Begginer** | Youtube tutorial  | Retrieving quantitative measurements from image data. |
+| [FIJI for Quantification: Cell Segmentation](https://www.youtube.com/watch?v=82N-eIPqnwM) | Melbourne Advanced Microscopy Facility | 🟩 **Begginer** | Youtube tutorial  | Cell Segmentation in Fiji |
+| [Introduction to QuPath](https://www.youtube.com/watch?v=mvZlU_fI75o) | Zbigniew Mikulski | 🟩 **Begginer** | Youtube tutorial | Major concepts and tools in QuPath  |
+| [Nuclei segmentation based on stardist with QuPath](https://www.youtube.com/watch?v=GBFBVT2stMQ) | Thierry Pécot | 🟩 **Begginer** | Youtube tutorial | Segment nuclei via Stardist in a multiplexed image with QuPath |
 
 # Data Science
 
@@ -310,6 +321,7 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Lists and Repositories <a name="lists-and-repositories-machine-learning"></a>
 
+- [Applied ML](https://github.com/eugeneyan/applied-ml) : Papers & tech blogs by companies sharing their work on data science & machine learning in production.
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) : A curated list of awesome Machine Learning frameworks, libraries and software.
 - [Best-of Machine Learning with Python](https://github.com/ml-tooling/best-of-ml-python) : A ranked list of awesome machine learning Python libraries. Updated weekly.
 - [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) : machine learning and deep learning tutorials, articles and other resources.
@@ -365,6 +377,10 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers) : The most cited deep learning papers.
 - [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision) : A curated list of deep learning resources for computer vision.
 - [Awesome Deep learning papers and other resources](https://github.com/endymecy/awesome-deeplearning-resources) : Deep Learning and deep reinforcement learning research papers and some codes.
+- [Cvat](https://github.com/cvat-ai/cvat) : Annotate better with CVAT, the industry-leading data engine for machine learning.
+- [Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle) : Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from exciting lectures.
+- [Deep Learning Examples](https://github.com/NVIDIA/DeepLearningExamples) : State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance.
+- [Supervision](https://github.com/roboflow/supervision) : Reusable computer vision tools.
 
 ### Libraries <a name="libraries-deep-learning"></a>
 
@@ -391,6 +407,7 @@ I believe that everyone should have access to high-quality learning resources, r
 | [Coding TensorFlow](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials | Large panel of topics |
 | [Deep Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/deep-learning-tutorial-for-beginners/notebook) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
 | [DL Zero to Hero](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials |  Few basics on Tensorflow coding |
+| [Roboflow Notebooks](https://github.com/roboflow/notebooks) | Roboflow | 🟨 **Intermediate** | Notebook +  explainations | SOTA computer vision models and techniques |
 
 
 
