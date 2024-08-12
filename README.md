@@ -248,7 +248,7 @@ I believe that everyone should have access to high-quality learning resources, r
 
  Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [cellpose 2.0 tutorial: how to train your own cellular segmentation model](https://www.youtube.com/watch?v=A_PW_N0np9A) | Carsen Stringer| 🟩 **Begginer** | Youtube tutorial | Human-in-the-loop pipeline for quickly prototyping new specialist models. |
+| [Cellpose 2.0 tutorial: how to train your own cellular segmentation model](https://www.youtube.com/watch?v=A_PW_N0np9A) | Carsen Stringer| 🟩 **Begginer** | Youtube tutorial | Human-in-the-loop pipeline for quickly prototyping new specialist models. |
 | [Cellpose GPU installation for QuPath and Fiji](https://www.youtube.com/watch?v=yx4w4E4v1uM) | Thierry Pécot  | 🟩 **Begginer** | Youtube tutorial  | Install Cellpose to be processed with the GPÜ within QuPath and Fiji |
 | [Feature extraction: Youtube Video](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | 🟩 **Begginer** | Youtube tutorial  | Retrieving quantitative measurements from image data. |
 | [FIJI for Quantification: Cell Segmentation](https://www.youtube.com/watch?v=82N-eIPqnwM) | Melbourne Advanced Microscopy Facility | 🟩 **Begginer** | Youtube tutorial  | Cell Segmentation in Fiji |
