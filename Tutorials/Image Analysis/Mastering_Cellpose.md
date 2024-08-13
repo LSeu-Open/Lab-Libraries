@@ -56,7 +56,7 @@ Linux, Windows and Mac OS are supported for running the code. For running the gr
 > [!NOTE]
 > Note you will always have to run `conda activate cellpose` before you run cellpose.
 >
-> I provide a simple script in my [Automating Cellpose GUI Opening tutorial]() to save you from repeating this tedious task.
+> I provide a simple script in my [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) to save you from repeating this tedious task.
 
 If you have issues with installation, see the [docs](https://cellpose.readthedocs.io/en/latest/installation.html) for more details.
 
