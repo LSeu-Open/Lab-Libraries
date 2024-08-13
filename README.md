@@ -226,8 +226,8 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Local Tutorials <a name="local-tutorials-image-analysis"></a>
 
+- [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) 🟩 **Begginer**  
 - [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) 🟩 **Begginer**
-- [Automate cellpose Gui opening] 
 
 ### Learning resources <a name="learning-resources-image-analysis"></a>
 
