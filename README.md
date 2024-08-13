@@ -214,18 +214,20 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Awesome Image Distortion Correction](https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction) : A curated list of resources on handling Rolling Shutter effects and Radial Distortions.
 - [Awesome Neuron Segmentation in EM Images](https://github.com/subeeshvasu/Awesome-Neuron-Segmentation-in-EM-Images) : A curated list of resources for 3D segmentation of neurites in EM images.
 - [Bioimage.io](https://bioimage.io/#/) : Website for the BioImage Model zoo -- a model zoo for bioimage analysis.
+- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more. ⬛ **all Levels**
 - [Segmentation Models](https://github.com/qubvel-org/segmentation_models.pytorch) : Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones.
-
+- [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) : A collection of tutorials for the scikit-image package. ⬛ **all Levels**
+  
 ### Libraries <a name="libraries-image-analysis"></a>
 
 - [Napari](https://napari.org/stable/) : a fast, interactive viewer for multi-dimensional images in Python.
 - [Scikit-Image](https://github.com/scikit-image/scikit-image) : Image processing in Python.
 
 
-### Tutorials <a name="tutorials-image-analysis"></a>
+### Local Tutorials <a name="local-tutorials-image-analysis"></a>
 
-- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more. ⬛ **all Levels**
-- [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) : A collection of tutorials for the scikit-image package. ⬛ **all Levels**
+- [Cellpose]
+- [Automate cellpose Gui opening] 
 
 ### Learning resources <a name="learning-resources-image-analysis"></a>
 
