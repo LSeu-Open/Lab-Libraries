@@ -40,7 +40,7 @@ I believe that everyone should have access to high-quality learning resources, r
 + [Image Analysis](#image-analysis)
   - [Lists and Repositories](#lists-and-repositories-image-analysis)
   - [Libraries](#libraries-image-analysis)
-  - [Tutorials](#tutorials-image-analysis)
+  - [Local Tutorials](#local-tutorials-image-analysis)
   - [Learning resources](#learning-resources-image-analysis)
 + [Data Science](#data-science)
   - [Lists and Repositories](#lists-and-repositories-data-science)
