@@ -1,0 +1,2 @@
+# Automate Cellpose GUI Opening
+
