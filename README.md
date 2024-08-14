@@ -214,9 +214,8 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Awesome Image Distortion Correction](https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction) : A curated list of resources on handling Rolling Shutter effects and Radial Distortions.
 - [Awesome Neuron Segmentation in EM Images](https://github.com/subeeshvasu/Awesome-Neuron-Segmentation-in-EM-Images) : A curated list of resources for 3D segmentation of neurites in EM images.
 - [Bioimage.io](https://bioimage.io/#/) : Website for the BioImage Model zoo -- a model zoo for bioimage analysis.
-- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more. ⬛ **all Levels**
+- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more.
 - [Segmentation Models](https://github.com/qubvel-org/segmentation_models.pytorch) : Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones.
-- [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) : A collection of tutorials for the scikit-image package. ⬛ **all Levels**
   
 ### Libraries <a name="libraries-image-analysis"></a>
 
@@ -226,7 +225,8 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Local Tutorials <a name="local-tutorials-image-analysis"></a>
 
-- [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) 🟩 **Begginer**  
+- [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) 🟩 **Begginer**
+- [Intersection over Union (IoU): Evaluating Segmentation Algorithm Performance](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Intersection_over_Union.md) 🟩 **Begginer**  
 - [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) 🟩 **Begginer**
 
 ### Learning resources <a name="learning-resources-image-analysis"></a>
@@ -243,6 +243,7 @@ I believe that everyone should have access to high-quality learning resources, r
 | [Image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Subdividing an image into multiple groups of pixels having different characteristics. |
 | [Machine learning for image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20a_pixel_classification/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Classical machine learning for pixel classification, object segmentation and for generating probability maps. |
 | [Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) | Emmanuelle Gouillart | 🟩 **Begginer** | Code examples with explanations. | Basics of Scikit-image and more |
+| [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) | scikit-image | 🟩 **Begginer** | Code examples with explanations. | A collection of tutorials for the scikit-image package. |
 | [Segmentation post-processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20h_segmentation_post_processing/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Post-process segmentation results. |
 | [Graphical user interfaces](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/31_graphical_user_interfaces/readme.html) | haesleinhuepf | 🟨 **Intermediate** | Code examples with explanations. | build custom user interfaces |
 
