@@ -41,6 +41,7 @@ I believe that everyone should have access to high-quality learning resources, r
   - [Lists and Repositories](#lists-and-repositories-image-analysis)
   - [Libraries](#libraries-image-analysis)
   - [Local Tutorials](#local-tutorials-image-analysis)
+  - [Scripts](#scripts-image-analysis)
   - [Learning resources](#learning-resources-image-analysis)
 + [Data Science](#data-science)
   - [Lists and Repositories](#lists-and-repositories-data-science)
@@ -228,6 +229,11 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) 🟩 **Begginer**
 - [Intersection over Union (IoU): Evaluating Segmentation Algorithm Performance](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Intersection_over_Union.md) 🟩 **Begginer**  
 - [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) 🟩 **Begginer**
+
+### Scripts <a name="scripts-image-analysis"></a>
+
+- [Automate Cellpose GUI Opening: Windows Users (.bat)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.bat)
+- [Automate Cellpose GUI Opening: MacOS/Linux Users (.sh)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.sh)
 
 ### Learning resources <a name="learning-resources-image-analysis"></a>
 
