@@ -329,6 +329,7 @@ I believe that everyone should have access to high-quality learning resources, r
 - [Best-of Machine Learning with Python](https://github.com/ml-tooling/best-of-ml-python) : A ranked list of awesome machine learning Python libraries. Updated weekly.
 - [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) : machine learning and deep learning tutorials, articles and other resources.
 - [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners) : 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all.
+- [Machine Learning from Scratch](https://github.com/DorsaRoh/Machine-Learning) : Implements and explains core machine learning algorithms and neural networkds from scratch, assuming you know absolutly nothing.
 
 ### Libraries <a name="libraries-machine-learning"></a>
 
