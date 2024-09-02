@@ -9,6 +9,11 @@ Instead, **simply double-click on the script and the Cellpose GUI will open auto
 > [!CAUTION]
 > This tutorial assumes you have already installed Cellpose using Conda, as described in [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) tutorial.
 
+> [!IMPORTANT]
+> For **Windows users**, download the batch script from [Windows Script (.bat)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.bat). For **macOS/Linux users**, download the shell script from [macOS/Linux Script (.sh)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.sh).
+>
+> **For desktop users, click the three dots (...) in the top-right corner and select 'Download'. For mobile devices, tap the ⋯ menu and choose 'Download'.**
+
 ## Automate GUI Opening on Windows
 
 To automate the launch of the Cellpose GUI in Windows, you'll need to create a script that replicates the manual process. This can be achieved by writing a simple batch file (.bat) that instructs your computer to perform the necessary actions automatically.
