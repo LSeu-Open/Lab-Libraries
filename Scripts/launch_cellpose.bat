@@ -2,7 +2,7 @@
 REM This script opens Anaconda Prompt, activates the cellpose environment, and launches the Cellpose GUI.
 
 REM Set the path to the Anaconda installation directory
-set ANACONDA_PATH=C:\Users\your_usernameAppData\Local\anaconda3
+set ANACONDA_PATH=C:\Users\your_username\AppData\Local\anaconda3
 
 REM Set the path to the Anaconda Scripts directory
 set SCRIPTS_PATH=%ANACONDA_PATH%\Scripts
