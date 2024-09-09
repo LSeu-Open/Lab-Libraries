@@ -1,4 +1,4 @@
-# Automate Cellpose GUI Opening
+# Automate Cellpose GUI Opening (NEED TO BE UPDATED)
 
 ## Why Automate the Cellpose GUI Opening ?
 
