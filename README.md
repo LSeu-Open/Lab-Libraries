@@ -232,6 +232,11 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Scripts <a name="scripts-image-analysis"></a>
 
+> [!NOTE]
+> I'm excited to announce the alpha release of Cellpose-gradio, a **user-friendly interface for using basic features of Cellpose**, now available on GitHub: https://github.com/LSeu-Open/Cellpose_Gradio.
+>
+> To make it easy for everyone to get started, **I've automated the installation and launching process with simple scripts**.
+
 - [Automate Cellpose GUI Opening: Windows Users (.bat)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.bat)
 - [Automate Cellpose GUI Opening: MacOS/Linux Users (.sh)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.sh)
 
