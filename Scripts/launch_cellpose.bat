@@ -1,20 +1,20 @@
 @echo off
-REM This script opens Anaconda Prompt, activates the cellpose environment, and launches the Cellpose GUI.
+REM This script activates the virtual environment and launches the Cellpose GUI.
 
-REM Set the path to the Anaconda installation directory
-set ANACONDA_PATH=C:\Users\your_username\AppData\Local\anaconda3
+REM Set the path to the virtual environment directory
+set VENV_PATH=.\cellpose
 
-REM Set the path to the Anaconda Scripts directory
-set SCRIPTS_PATH=%ANACONDA_PATH%\Scripts
-
-REM Activate the Anaconda environment
-call %SCRIPTS_PATH%\activate.bat %ANACONDA_PATH%
-
-REM Activate the cellpose environment
-call conda activate cellpose
+REM Activate the virtual environment
+call %VENV_PATH%\Scripts\activate.bat
+if %errorlevel% neq 0 (
+    echo Failed to activate virtual environment.
+    pause
+    exit /b 1
+)
 
 REM Launch the Cellpose GUI
 python -m cellpose
 
 REM Pause to keep the window open (optional)
 pause
+
