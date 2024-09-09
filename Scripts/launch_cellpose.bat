@@ -5,7 +5,7 @@ REM Set the path to the virtual environment directory
 set VENV_PATH=.\cellpose
 
 REM Activate the virtual environment
-call %VENV_PATH%\Scripts\activate.bat
+call %VENV_PATH%\Scripts\activate
 if %errorlevel% neq 0 (
     echo Failed to activate virtual environment.
     pause
@@ -13,8 +13,8 @@ if %errorlevel% neq 0 (
 )
 
 REM Launch the Cellpose GUI
+echo Launching Cellpose GUI...
 python -m cellpose
 
 REM Pause to keep the window open (optional)
 pause
-
