@@ -1,16 +1,14 @@
 #!/bin/bash
-# This script activates the cellpose environment and launches the Cellpose GUI.
+# This script activates the virtual environment and launches the Cellpose GUI.
 
-# Set the path to the Anaconda installation directory
-ANACONDA_PATH="/home/yourusername/anaconda3"
+# Set the path to the virtual environment directory
+ENV_NAME=cellpose
 
-# Activate the base Anaconda environment
-source $ANACONDA_PATH/etc/profile.d/conda.sh
-
-# Activate the cellpose environment
-conda activate cellpose
+# Activate the virtual environment
+source $ENV_NAME/bin/activate
 
 # Launch the Cellpose GUI
+echo "Launching Cellpose GUI..."
 python -m cellpose
 
 # Keep the terminal open (optional)
