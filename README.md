@@ -65,6 +65,10 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Lists and Repositories <a name="lists-and-repositories-Fundamentals"></a>
 
+***AI for Coding***
+
+- [AIEnhancedWork](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#coding-llms) : A collection of AI-driven tools designed to enhance productivity and make everyday work more manageable.
+
 ***Command Line Interface (CLI)***
 
 - [Awesome Cli](https://github.com/umutphp/awesome-cli) : A simple command line tool to give you a fancy command line interface to dive into Awesome lists.
@@ -93,6 +97,7 @@ I believe that everyone should have access to high-quality learning resources, r
 
 - [AI Assistance for Coding : Benefits, Challenges, and Best Practices](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/AI-Assisted-Coding.md) 🟩 **Begginer**
 - [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Begginer**
+- [Use LLMs in your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) 🟩 **Begginer**
 - [Introduction to Virtualization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Virtualization.md) 🟨 **Intermediate**
 - [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟨 **Intermediate** 
 - [Introduction to Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟨 **Intermediate** 
