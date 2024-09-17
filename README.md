@@ -95,9 +95,9 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Local Tutorials <a name="local-tutorials-Fundamentals"></a>
 
-- [AI Assistance for Coding : Benefits, Challenges, and Best Practices](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/AI-Assisted-Coding.md) 🟩 **Begginer**
-- [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Begginer**
-- [Use LLMs in your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) 🟩 **Begginer**
+- [AI Assistance for Coding : Benefits, Challenges, and Best Practices](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/AI-Assisted-Coding.md) 🟩 **Beginner**
+- [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Beginner**
+- [Use LLMs in your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) 🟩 **Beginner**
 - [Introduction to Virtualization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Virtualization.md) 🟨 **Intermediate**
 - [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟨 **Intermediate** 
 - [Introduction to Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟨 **Intermediate** 
@@ -108,7 +108,7 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Learn the Command Line by Codecademy](https://www.codecademy.com/learn/learn-the-command-line) | 🟩 **Begginer** | explanations + Online interpreter | Essential skills for working at the command line, covering navigation, file management, redirection, and environment configuration. |
+| [Learn the Command Line by Codecademy](https://www.codecademy.com/learn/learn-the-command-line) | 🟩 **Beginner** | explanations + Online interpreter | Essential skills for working at the command line, covering navigation, file management, redirection, and environment configuration. |
 | [Git Tutorial by w3schools](https://www.w3schools.com/git/) | 🟨 **Intermediate** | explanations + Online interpreter | Git Basics and more. |
 | [Learn Git & GitHub by Codecademy](https://www.codecademy.com/learn/learn-git) | 🟨 **Intermediate** | explanations + Online interpreter | Git and Github Basics and more. |
 
@@ -118,14 +118,14 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Cheat Sheet: Unix/Mac Commands](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Laurence Bradford | 🟩 **Begginer** | command Cheat Sheet | Basics of MacOS CLI |
-| [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | Mozilla | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Command Line for Beginners](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | FreeCodeCamp | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) | Linuxcommand | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line?tab=readme-ov-file#one-liners) | Joshua Levy | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [The Front-End Developer's Guide to the Terminal](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/#cycling-and-toggling-commands-15) | Josh Comeau | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) | Ubuntu | 🟩 **Begginer** | Code examples with explanations. | Basics of Linux CLI |
-| [Windows Commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | 🟩 **Begginer** | Documentation with explanations. | Basics of Windows CLI |
+| [Cheat Sheet: Unix/Mac Commands](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Laurence Bradford | 🟩 **Beginner** | command Cheat Sheet | Basics of MacOS CLI |
+| [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | Mozilla | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Command Line for Beginners](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | FreeCodeCamp | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) | Linuxcommand | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line?tab=readme-ov-file#one-liners) | Joshua Levy | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [The Front-End Developer's Guide to the Terminal](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/#cycling-and-toggling-commands-15) | Josh Comeau | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) | Ubuntu | 🟩 **Beginner** | Code examples with explanations. | Basics of Linux CLI |
+| [Windows Commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | 🟩 **Beginner** | Documentation with explanations. | Basics of Windows CLI |
 | [A Docker tutorial for beginners](https://docker-curriculum.com/) | Prakhar Srivastav | 🟨 **Intermediate**  | Code examples with explanations. | Basics of Docker usage |
 | [A Step by Step Docker Tutorial for Beginners](https://www.simplilearn.com/tutorials/docker-tutorial) | Sana Afreen | 🟨 **Intermediate**  | Code examples with explanations. |  Basics and more |
 | [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI) | Programming with Mosh | 🟨 **Intermediate**  | Youtube tutorial |  Basics and more|
@@ -138,8 +138,8 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [The Command Line Crash Course](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Zed A. Shaw | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download) | William Shotts | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [The Command Line Crash Course](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Zed A. Shaw | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download) | William Shotts | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
 | [The Docker Handbook – Learn Docker for Beginners](https://www.freecodecamp.org/news/the-docker-handbook/) | Farhan Hasin Chowdhury | 🟨 **Intermediate**| Code examples with explanations. | Basics and more |
 
 <br>
@@ -156,8 +156,8 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Local Tutorials <a name="local-tutorials-python"></a>
 
-- [A Method to Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/A-Method-to-Learn-Python-from-scratch.md) 🟩 **Begginer**
-- [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md) 🟩 **Begginer**
+- [A Method to Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/A-Method-to-Learn-Python-from-scratch.md) 🟩 **Beginner**
+- [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md) 🟩 **Beginner**
 - [Getting Started With Jupyter Notebook for Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Getting-Started-With-Jupyter-Notebook-for-Python.md) 🟨 **Intermediate** 
 
 ### Learning resources <a name="learning-resources-python"></a>
@@ -168,11 +168,11 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Codédex](https://www.codedex.io/python) | 🟩 **Begginer** | Funny environment with explanations + Online interpreter | Basics and more |
-| [Learnpython](https://www.learnpython.org) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
-| [PyFlo](https://pyflo.net) | 🟩 **Begginer** | explanations + QCM/MCQ  | Basics and more |
-| [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Begginer**  | explanations + Online interpreter | Basics and more |
-| [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Begginer**  | explanations + Online interpreter | Build on Introduction to programming |
+| [Codédex](https://www.codedex.io/python) | 🟩 **Beginner** | Funny environment with explanations + Online interpreter | Basics and more |
+| [Learnpython](https://www.learnpython.org) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
+| [PyFlo](https://pyflo.net) | 🟩 **Beginner** | explanations + QCM/MCQ  | Basics and more |
+| [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Beginner**  | explanations + Online interpreter | Basics and more |
+| [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Beginner**  | explanations + Online interpreter | Build on Introduction to programming |
 | [Kaggle : Pandas](https://www.kaggle.com/learn/pandas) | 🟨 **Intermediate**  | explanations + Online interpreter |  Data manipulation skills. |
 | [Hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
 | [W3school](https://www.w3schools.com/python/default.asp) | ⬛ **all Levels**  | explanations + Online interpreter | Extensive range of topics |
@@ -183,14 +183,14 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | 🟩 **Begginer** | Video Tutorials | Basics and more |
-| [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Python Tutorials from ThePythonGuru](https://thepythonguru.com/) | ThePythonGuru | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
-| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Begginer** | Code examples with explanations. | Basics and more |
+| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | 🟩 **Beginner** | Video Tutorials | Basics and more |
+| [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Python Tutorials from ThePythonGuru](https://thepythonguru.com/) | ThePythonGuru | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
+| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
 | [RealPython](https://realpython.com/) |  Real Python | ⬛ **all Levels** | Video Tutorials | Extensive range of topics  |
 
 <br>
@@ -199,13 +199,13 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [A Byte of Python](https://python.swaroopch.com/) | Swaroop C H | 🟩 **Begginer** | Easy to understand, gentle, thorough | Python fundamentals and problem solving |
-| [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Al Sweigart           | 🟩 **Begginer** | Practical applications, easy to follow | Python basics, CSV, PDF, Excel, web scraping, images, email, debugging, and more.   |
-| [How To Code in Python](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-python-3) | Lisa Tagliaferri,  Pankaj | 🟩 **Begginer** | Practical, digestable, pleasant | Python basics, installation, debugging logging, data types, hints and tips.|
-| [Learning Python](https://github.com/Quyaz/books/blob/master/Learning%20Python,%205th%20Edition.pdf) |  Mark Lutz | 🟩 **Begginer** | Broad and deep exploration of Python. |  Python basics,  into advanced Python features |
-| [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds3/index.html) |  Brad Miller, David Ranum | 🟩 **Begginer** | Classic concepts, topically diverse, smart. | Data structures, algorithms, fundamentals of Python |
-| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Begginer** | step-by-step pace, contains variety | Python fundamentals, editors, PEP8, testings, NeoPixels, command line interfaces.|
-| [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)      | Kenneth Reitz, Trey Hunner  | 🟩 **Begginer** | Practical, enjoyable, broad. | Python basics, installation, virtual environments, project structure, coding style, documentation, packaging, GUI development, command line interface development, and much more. |
+| [A Byte of Python](https://python.swaroopch.com/) | Swaroop C H | 🟩 **Beginner** | Easy to understand, gentle, thorough | Python fundamentals and problem solving |
+| [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Al Sweigart           | 🟩 **Beginner** | Practical applications, easy to follow | Python basics, CSV, PDF, Excel, web scraping, images, email, debugging, and more.   |
+| [How To Code in Python](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-python-3) | Lisa Tagliaferri,  Pankaj | 🟩 **Beginner** | Practical, digestable, pleasant | Python basics, installation, debugging logging, data types, hints and tips.|
+| [Learning Python](https://github.com/Quyaz/books/blob/master/Learning%20Python,%205th%20Edition.pdf) |  Mark Lutz | 🟩 **Beginner** | Broad and deep exploration of Python. |  Python basics,  into advanced Python features |
+| [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds3/index.html) |  Brad Miller, David Ranum | 🟩 **Beginner** | Classic concepts, topically diverse, smart. | Data structures, algorithms, fundamentals of Python |
+| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Beginner** | step-by-step pace, contains variety | Python fundamentals, editors, PEP8, testings, NeoPixels, command line interfaces.|
+| [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)      | Kenneth Reitz, Trey Hunner  | 🟩 **Beginner** | Practical, enjoyable, broad. | Python basics, installation, virtual environments, project structure, coding style, documentation, packaging, GUI development, command line interface development, and much more. |
 | [Intermediate Python](https://book.pythontips.com/en/latest/) | Muhammad Yasoob Ullah Khalid | 🟨 **Intermediate**  | dvanced yet understandable concepts, unique among Python programming books | Debugging, exception handling, functional programming, mutable/immutable types, and much more.   |
 | [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | 🟨 **Intermediate**  | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
 | [Architecture Patterns with Python](https://www.cosmicpython.com/l) | Harry J.W. Percival, Bob Gregory | 🟧 **Advanced**  | Explains deep concepts in thorough but understandable ways, introduces advanced design concepts|Test Drive Development, Domain Driven Design, microservices |
@@ -232,9 +232,9 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Local Tutorials <a name="local-tutorials-image-analysis"></a>
 
-- [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) 🟩 **Begginer**
-- [Intersection over Union (IoU): Evaluating Segmentation Algorithm Performance](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Intersection_over_Union.md) 🟩 **Begginer**  
-- [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) 🟩 **Begginer**
+- [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) 🟩 **Beginner**
+- [Intersection over Union (IoU): Evaluating Segmentation Algorithm Performance](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Intersection_over_Union.md) 🟩 **Beginner**  
+- [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) 🟩 **Beginner**
 
 ### Scripts <a name="scripts-image-analysis"></a>
 
@@ -252,28 +252,28 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Batch processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/33_batch_processing/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Basics on how to process multiple images. |
-| [Cell classification](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/27_cell_classification/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Feature extraction and afterwards machine learning algorithms for differentiating objects. |
-| [Colocalization](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/28_colocalization/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Counting cells according to their signal expression in multiple channels. |
-| [Deep Learning based image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20b_deep_learning/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | deep learning based algorithms for image segmentation. |
-| [Feature extraction](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Retrieving quantitative measurements from image data. |
-| [Image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Subdividing an image into multiple groups of pixels having different characteristics. |
-| [Machine learning for image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20a_pixel_classification/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Classical machine learning for pixel classification, object segmentation and for generating probability maps. |
-| [Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) | Emmanuelle Gouillart | 🟩 **Begginer** | Code examples with explanations. | Basics of Scikit-image and more |
-| [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) | scikit-image | 🟩 **Begginer** | Code examples with explanations. | A collection of tutorials for the scikit-image package. |
-| [Segmentation post-processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20h_segmentation_post_processing/readme.html) | haesleinhuepf | 🟩 **Begginer** | Code examples with explanations. | Post-process segmentation results. |
+| [Batch processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/33_batch_processing/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Basics on how to process multiple images. |
+| [Cell classification](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/27_cell_classification/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Feature extraction and afterwards machine learning algorithms for differentiating objects. |
+| [Colocalization](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/28_colocalization/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Counting cells according to their signal expression in multiple channels. |
+| [Deep Learning based image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20b_deep_learning/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | deep learning based algorithms for image segmentation. |
+| [Feature extraction](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Retrieving quantitative measurements from image data. |
+| [Image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Subdividing an image into multiple groups of pixels having different characteristics. |
+| [Machine learning for image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20a_pixel_classification/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Classical machine learning for pixel classification, object segmentation and for generating probability maps. |
+| [Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) | Emmanuelle Gouillart | 🟩 **Beginner** | Code examples with explanations. | Basics of Scikit-image and more |
+| [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) | scikit-image | 🟩 **Beginner** | Code examples with explanations. | A collection of tutorials for the scikit-image package. |
+| [Segmentation post-processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20h_segmentation_post_processing/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Post-process segmentation results. |
 | [Graphical user interfaces](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/31_graphical_user_interfaces/readme.html) | haesleinhuepf | 🟨 **Intermediate** | Code examples with explanations. | build custom user interfaces |
 
 📷 **Video Tutorials**
 
  Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Cellpose 2.0 tutorial: how to train your own cellular segmentation model](https://www.youtube.com/watch?v=A_PW_N0np9A) | Carsen Stringer| 🟩 **Begginer** | Youtube tutorial | Human-in-the-loop pipeline for quickly prototyping new specialist models. |
-| [Cellpose GPU installation for QuPath and Fiji](https://www.youtube.com/watch?v=yx4w4E4v1uM) | Thierry Pécot  | 🟩 **Begginer** | Youtube tutorial  | Install Cellpose to be processed with the GPÜ within QuPath and Fiji |
-| [Feature extraction: Youtube Video](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | 🟩 **Begginer** | Youtube tutorial  | Retrieving quantitative measurements from image data. |
-| [FIJI for Quantification: Cell Segmentation](https://www.youtube.com/watch?v=82N-eIPqnwM) | Melbourne Advanced Microscopy Facility | 🟩 **Begginer** | Youtube tutorial  | Cell Segmentation in Fiji |
-| [Introduction to QuPath](https://www.youtube.com/watch?v=mvZlU_fI75o) | Zbigniew Mikulski | 🟩 **Begginer** | Youtube tutorial | Major concepts and tools in QuPath  |
-| [Nuclei segmentation based on stardist with QuPath](https://www.youtube.com/watch?v=GBFBVT2stMQ) | Thierry Pécot | 🟩 **Begginer** | Youtube tutorial | Segment nuclei via Stardist in a multiplexed image with QuPath |
+| [Cellpose 2.0 tutorial: how to train your own cellular segmentation model](https://www.youtube.com/watch?v=A_PW_N0np9A) | Carsen Stringer| 🟩 **Beginner** | Youtube tutorial | Human-in-the-loop pipeline for quickly prototyping new specialist models. |
+| [Cellpose GPU installation for QuPath and Fiji](https://www.youtube.com/watch?v=yx4w4E4v1uM) | Thierry Pécot  | 🟩 **Beginner** | Youtube tutorial  | Install Cellpose to be processed with the GPÜ within QuPath and Fiji |
+| [Feature extraction: Youtube Video](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | 🟩 **Beginner** | Youtube tutorial  | Retrieving quantitative measurements from image data. |
+| [FIJI for Quantification: Cell Segmentation](https://www.youtube.com/watch?v=82N-eIPqnwM) | Melbourne Advanced Microscopy Facility | 🟩 **Beginner** | Youtube tutorial  | Cell Segmentation in Fiji |
+| [Introduction to QuPath](https://www.youtube.com/watch?v=mvZlU_fI75o) | Zbigniew Mikulski | 🟩 **Beginner** | Youtube tutorial | Major concepts and tools in QuPath  |
+| [Nuclei segmentation based on stardist with QuPath](https://www.youtube.com/watch?v=GBFBVT2stMQ) | Thierry Pécot | 🟩 **Beginner** | Youtube tutorial | Segment nuclei via Stardist in a multiplexed image with QuPath |
 
 # Data Science
 
@@ -294,7 +294,7 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [w3schools : Data Science Tutorials ](https://www.w3schools.com/datascience/default.asp) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
+| [w3schools : Data Science Tutorials ](https://www.w3schools.com/datascience/default.asp) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
 | [Kaggle : Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | 🟨 **Intermediate** | explanations + Online interpreter |  Mutual information, Clustering and Principal Component Analysis and more |
 | [Kaggle : Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | 🟨 **Intermediate** | explanations + Online interpreter |  Missing Values, Scaling, Normalization and more |
 
@@ -302,15 +302,15 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Data Science Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners) | DATAI Team | 🟩 **Begginer** | Notebook +  explainations | Basics and more |
-| [Data Science Full Course For Beginners](https://www.youtube.com/playlist?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV) | codebasics | 🟩 **Begginer** | Youtube videos tutorials | Everything, from basics to advanced topics |
+| [Data Science Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners) | DATAI Team | 🟩 **Beginner** | Notebook +  explainations | Basics and more |
+| [Data Science Full Course For Beginners](https://www.youtube.com/playlist?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV) | codebasics | 🟩 **Beginner** | Youtube videos tutorials | Everything, from basics to advanced topics |
 | [Learn Data Science from Scratch](https://data-flair.training/blogs/data-science-tutorials-home/) | DataFlair | ⬛ **all Levels** | Code examples with explanations | Everything, from basics to advanced topics |
 
 :book: **Book References**
 
 | Book Name                    | Authors                  | Audience                   | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟩 **Begginer**  | basics from mathematical perspective |
+| [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟩 **Beginner**  | basics from mathematical perspective |
 | [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/index.html) | Max Kuhn and Kjell Johnson| 🟨 **Intermediate** | measuring performance, tuning parameters, model optimization, exploratory visualization, and more |
 
 <br>
@@ -330,10 +330,10 @@ I believe that everyone should have access to high-quality learning resources, r
 
 ### Tutorials <a name="tutorials-data-visualization"></a>
 
-- [Matplotlib Tutorials](https://matplotlib.org/stable/users/index.html#users-guide-index) : Matplotlib is a popular Python library used to create static, animated, and interactive 2D and 3D visualizations of data. 🟩 **Begginer**
-- [Plotly Tutorials](https://plotly.com/graphing-libraries/) : Plotly is an open-source graphing library that enables users to create high-quality, interactive plots, charts, and graphs in Python, R, and MATLAB. 🟩 **Begginer**
-- [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) : Seaborn is a Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. 🟩 **Begginer**
-- [Visualization using Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) : Pandas is a powerful open-source library in Python for data manipulation and analysis. Learn how to visualize data with Pandas. 🟩 **Begginer**
+- [Matplotlib Tutorials](https://matplotlib.org/stable/users/index.html#users-guide-index) : Matplotlib is a popular Python library used to create static, animated, and interactive 2D and 3D visualizations of data. 🟩 **Beginner**
+- [Plotly Tutorials](https://plotly.com/graphing-libraries/) : Plotly is an open-source graphing library that enables users to create high-quality, interactive plots, charts, and graphs in Python, R, and MATLAB. 🟩 **Beginner**
+- [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) : Seaborn is a Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. 🟩 **Beginner**
+- [Visualization using Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) : Pandas is a powerful open-source library in Python for data manipulation and analysis. Learn how to visualize data with Pandas. 🟩 **Beginner**
 
 <br>
 
@@ -361,10 +361,10 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Website                       | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [DataCamp : Machine Learning in R for beginners](https://www.datacamp.com/tutorial/machine-learning-in-r) | 🟩 **Begginer** | explanations + Online interpreter | introduction to the basics of machine learning in R |
-| [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
-| [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Begginer** | explanations + Online interpreter | Extract human-understandable insights from any model |
-| [w3schools : Machine Learning Tutorials ](https://www.w3schools.com/python/python_ml_getting_started.asp) | 🟩 **Begginer** | explanations + Online interpreter | Basics and more |
+| [DataCamp : Machine Learning in R for beginners](https://www.datacamp.com/tutorial/machine-learning-in-r) | 🟩 **Beginner** | explanations + Online interpreter | introduction to the basics of machine learning in R |
+| [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
+| [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Beginner** | explanations + Online interpreter | Extract human-understandable insights from any model |
+| [w3schools : Machine Learning Tutorials ](https://www.w3schools.com/python/python_ml_getting_started.asp) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
 | [Kaggle : Intermediate Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟨 **Intermediate** | explanations + Online interpreter | Handle missing values, non-numeric values, data leakage, and more... |
 | [Kaggle : Time Series](https://www.kaggle.com/learn/time-series) | 🟨 **Intermediate** | explanations + Online interpreter | Apply machine learning to real-world forecasting tasks. |
 
@@ -372,7 +372,7 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Title                        | Authors                 | Audience                 | Format                       | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google |  🟩 **Begginer** | videos tutorials + QCM/MCQ  | Basics and more |
+| [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google |  🟩 **Beginner** | videos tutorials + QCM/MCQ  | Basics and more |
 | [Machine Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/machine-learning-tutorial-for-beginners) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
 | [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging) | Google |  🟨 **Intermediate** | videos tutorials + QCM/MCQ  | Validate data, debug and optimize a machine learning model, and monitor its performance during development, launch, and production.|
 
@@ -381,8 +381,8 @@ I believe that everyone should have access to high-quality learning resources, r
 
 | Book Name                    | Authors                  | Audience                   | Topics                        |
 |:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [An Introduction to Machine Learning Interpretability](https://bradleyboehmke.github.io/HOML/) | Patrick Hall and Navdeep Gill | 🟩 **Begginer** | Learn how to explain your model |
-| [Machine Learning for Humans](https://everythingcomputerscience.com/books/Machine%20Learning%20for%20Humans.pdf) | Vishal Maini Samer Sabri | 🟩 **Begginer** | Supervised Learning, Unsupervised Learning, Neural Networks and more |
+| [An Introduction to Machine Learning Interpretability](https://bradleyboehmke.github.io/HOML/) | Patrick Hall and Navdeep Gill | 🟩 **Beginner** | Learn how to explain your model |
+| [Machine Learning for Humans](https://everythingcomputerscience.com/books/Machine%20Learning%20for%20Humans.pdf) | Vishal Maini Samer Sabri | 🟩 **Beginner** | Supervised Learning, Unsupervised Learning, Neural Networks and more |
 | [Python Machine Learning Projects](https://bradleyboehmke.github.io/HOML/) | Brian Bocheron and Lisa Tagliaferri | 🟨 **Intermediate** | Create machine-learning projects to test your skills and build a portfolio |
 | [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/) | Bradley Boehmke & Brandon Greenwell | ⬛ **all Levels**  | Generalized low-rank models, Clustering algorithms, Autoencoders, Regularized models, Random forests, Gradient boosting machines and more |
 | [The Hundred-Page Machine Learning Book](https://themlbook.com/wiki/doku.php) | Andriy Burkov | ⬛ **all Levels**  | Fundamental Algorithms plus in-depth material, Anatomy of a Learning Algorithm, Basic Practice, Neural Networks and more |
