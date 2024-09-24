@@ -6,7 +6,7 @@
 
 A curated collection of tutorials, resources, and knowledge sharing for my lab.
 
-I believe that everyone should have access to high-quality learning resources, regardless of their level of expertise. That's why we've organized this content into four levels, each designed to cater to different needs and skill sets.
+I believe that everyone should have access to high-quality learning resources, regardless of their level of expertise. That's why I've organized this content into four levels, each designed to cater to different needs and skill sets.
 
 🟩 **Beginner** : Foundational knowledge is essential for success. Learn the basics and get started with ease.
 
