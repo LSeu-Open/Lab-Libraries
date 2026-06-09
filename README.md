@@ -1,451 +1,428 @@
-<img src="https://github.com/LSeu-Open/Lab-Libraries/blob/main/Banners/Header_Lib.png" alt="Header" />
+![Lab-Libraries](https://raw.githubusercontent.com/LSeu-Open/Lab-Libraries/main/Banners/Header_Lib.png)
 
-<h1> Lab-Libraries </h1>  
+# Lab-Libraries
 
-<br>
+A curated collection of tutorials, guides, and learning resources for students and
+researchers in the lab. It covers the practical computing skills used in day-to-day
+scientific work: the command line, version control, Python, image analysis, and data
+science.
 
-A curated collection of tutorials, resources, and knowledge sharing for my lab.
+> Looking to run something rather than learn? Ready-to-use, single-purpose scripts
+> live in [lab-scripts](https://github.com/LSeu-Open/lab-scripts). This repository holds
+> the **knowledge** (tutorials, guides, curated resources); the other holds the
+> **runnable tools**.
 
-I believe that everyone should have access to high-quality learning resources, regardless of their level of expertise. That's why I've organized this content into four levels, each designed to cater to different needs and skill sets.
+## How this is organized
 
-🟩 **Beginner** : Foundational knowledge is essential for success. Learn the basics and get started with ease.
+Entries are grouped by topic and tagged by level, so you can find material that matches
+your experience:
 
-🟨 **Intermediate** : Build on what you know with more complex topics and applications. 
+- **Beginner** — assumes no prior knowledge.
+- **Intermediate** — assumes working familiarity with the topic.
+- **Advanced** — in-depth or specialized material.
+- **All levels** — useful regardless of experience.
 
-🟧 **Advanced** : For experts looking to refine their skills and tackle challenging projects.
+> [!NOTE]
+> This collection is not exhaustive: omission does not imply exclusion, and inclusion is
+> not an endorsement. Suggestions and additions are welcome through a pull request — see
+> [CONTRIBUTING.md](CONTRIBUTING.md). Header images were generated locally with
+> open image-generation models.
 
-⬛ **All Levels** : Access all challenges and exercises. 
+## Table of Contents
 
-<br>
-
-> [!IMPORTANT]
-> Please note that while I try to provide a comprehensive selection of resources, **this repository may not be exhaustive**, and omission does not imply exclusion. Inclusion in this collection does not constitute an endorsement of any particular tool or service.
->
-> If you'd like **to suggest improvements or new categories, please submit a pull request (PR)** to enhance the repository's contents. Your contributions are valued and appreciated !
-> 
-> **All header images in this repository were generated using locally runned image generation models.**
-
-<br>
-
-# Table of Contents
-
-+ [Fundamentals of Modern Development](#fundamentals-of-modern-development)
+- [Fundamentals of Modern Development](#fundamentals-of-modern-development)
+  - [Lists and Repositories](#lists-and-repositories-fundamentals)
+  - [Local Tutorials](#local-tutorials-fundamentals)
+  - [Learning Resources](#learning-resources-fundamentals)
+- [Python](#python)
   - [Lists and Repositories](#lists-and-repositories-python)
   - [Local Tutorials](#local-tutorials-python)
-  - [Learning resources](#learning-resources-python)
-+ [Python](#python)
-  - [Lists and Repositories](#lists-and-repositories-python)
-  - [Local Tutorials](#local-tutorials-python)
-  - [Learning resources](#learning-resources-python)
-+ [Image Analysis](#image-analysis)
+  - [Learning Resources](#learning-resources-python)
+- [Image Analysis](#image-analysis)
   - [Lists and Repositories](#lists-and-repositories-image-analysis)
   - [Libraries](#libraries-image-analysis)
   - [Local Tutorials](#local-tutorials-image-analysis)
   - [Scripts](#scripts-image-analysis)
-  - [Learning resources](#learning-resources-image-analysis)
-+ [Data Science](#data-science)
+  - [Learning Resources](#learning-resources-image-analysis)
+- [Data Science](#data-science)
   - [Lists and Repositories](#lists-and-repositories-data-science)
-  - [Learning resources](#learning-resources-data-science)
-  - [Data Visualization](#data-visualization)
-      - [Lists and Repositories](#lists-and-repositories-data-visualization)
-      - [Libraries](#libraries-data-visualization)
-      - [Tutorials](#tutorials-data-visualization)
-  - [Machine Learning](#machine-learning)
-      - [Lists and Repositories](#lists-and-repositories-machine-learning)
-      - [Libraries](#libraries-machine-learning)
-      - [Learning resources](#learning-resources-machine-learning)
-  - [Deep Learning](#deep-learning)
-      - [Lists and Repositories](#lists-and-repositories-deep-learning)
-      - [Libraries](#libraries-deep-learning)
-      - [Learning resources](#learning-resources-deep-learning)
-+ [Local Workshops](#local-workshops)
-<br>
+  - [Learning Resources](#learning-resources-data-science)
+- [Data Visualization](#data-visualization)
+  - [Lists and Repositories](#lists-and-repositories-data-visualization)
+  - [Libraries](#libraries-data-visualization)
+  - [Tutorials](#tutorials-data-visualization)
+- [Machine Learning](#machine-learning)
+  - [Lists and Repositories](#lists-and-repositories-machine-learning)
+  - [Libraries](#libraries-machine-learning)
+  - [Learning Resources](#learning-resources-machine-learning)
+- [Deep Learning](#deep-learning)
+  - [Lists and Repositories](#lists-and-repositories-deep-learning)
+  - [Libraries](#libraries-deep-learning)
+  - [Learning Resources](#learning-resources-deep-learning)
+- [Local Workshops](#local-workshops)
 
 ## Fundamentals of Modern Development
 
-### Lists and Repositories <a name="lists-and-repositories-Fundamentals"></a>
+### Lists and Repositories <a name="lists-and-repositories-fundamentals"></a>
 
-***AI for Coding***
+**AI for coding**
 
-- [AIEnhancedWork](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#coding-llms) : A collection of AI-driven tools designed to enhance productivity and make everyday work more manageable.
+- [AIEnhancedWork](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#coding-llms) — A curated collection of AI tools for coding and everyday work.
 
-***Command Line Interface (CLI)***
+**Command line**
 
-- [Awesome Cli](https://github.com/umutphp/awesome-cli) : A simple command line tool to give you a fancy command line interface to dive into Awesome lists.
-- [Awesome Cli Apps](https://github.com/agarrharr/awesome-cli-apps) : A curated list of command line apps.
-- [Awesome Cli Frameworks](https://github.com/shadawck/awesome-cli-frameworks) : Collection of tools to build beautiful command line interface in different languages.
-- [Awesome macOS Cli](https://github.com/phmullins/awesome-macos-commandline) : A curated list of awesome command-line software for macOS.
-- [Awesome Shell](https://github.com/alebcay/awesome-shell) : A curated list of awesome command-line frameworks, toolkits, guides and gizmos.
-- [Awesome Windows Cli](https://github.com/Awesome-Windows/awesome-windows-command-line) : Use your Windows terminal to do awesome things.
+- [Awesome CLI](https://github.com/umutphp/awesome-cli) — A command-line tool for browsing Awesome lists.
+- [Awesome CLI Apps](https://github.com/agarrharr/awesome-cli-apps) — A curated list of command-line applications.
+- [Awesome CLI Frameworks](https://github.com/shadawck/awesome-cli-frameworks) — Tools for building command-line interfaces in several languages.
+- [Awesome macOS CLI](https://github.com/phmullins/awesome-macos-commandline) — A curated list of command-line software for macOS.
+- [Awesome Shell](https://github.com/alebcay/awesome-shell) — A curated list of command-line frameworks, toolkits, and guides.
+- [Awesome Windows CLI](https://github.com/Awesome-Windows/awesome-windows-command-line) — A curated list of command-line tools for Windows.
 
-***Virtualization***
+**Virtualization and containers**
 
-- [Awesome Compose](https://github.com/docker/awesome-compose) : Awesome Docker Compose samples.
-- [Awesome Containers](https://github.com/borntorock/awesome-containers/blob/master/awesome-containers.md) : A curated list of amazingly awesome open source container resources.
-- [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples) : Various Docker Compose examples of selfhosted FOSS and proprietary projects.
-- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) : A curated list for awesome kubernetes sources.
-- [Docker Tutorials and Labs](https://github.com/docker/labs) : a collection of tutorials for learning how to use Docker with various tools.
+- [Awesome Compose](https://github.com/docker/awesome-compose) — Sample Docker Compose configurations.
+- [Awesome Containers](https://github.com/borntorock/awesome-containers/blob/master/awesome-containers.md) — A curated list of open-source container resources.
+- [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples) — Docker Compose examples for self-hosted open-source and proprietary projects.
+- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) — A curated list of Kubernetes resources.
+- [Docker Tutorials and Labs](https://github.com/docker/labs) — A collection of tutorials for using Docker with various tools.
 
-***Version Control System (VCS)***
+**Version control**
 
-- [Awesome Git](https://github.com/dictcp/awesome-git) : A curated list of amazingly awesome Git tools, resources and shiny thing.
-- [Awesome VCS tools](https://github.com/postpdm/awesome-vcs-tools) : A curated list of awesome Version control tools - clients, diffs.
-- [Git/GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) : A list of cool features of Git and GitHub.
-- [Git and GitHub learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources) : Git and Github learning resources from Github.
+- [Awesome Git](https://github.com/dictcp/awesome-git) — A curated list of Git tools and resources.
+- [Awesome VCS Tools](https://github.com/postpdm/awesome-vcs-tools) — A curated list of version-control tools, clients, and diff utilities.
+- [Git/GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) — A reference of Git and GitHub features.
+- [Git and GitHub Learning Resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources) — Official learning resources from GitHub.
 
-### Local Tutorials <a name="local-tutorials-Fundamentals"></a>
+### Local Tutorials <a name="local-tutorials-fundamentals"></a>
 
-- [AI Assistance for Coding : Benefits, Challenges, and Best Practices](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/AI-Assisted-Coding.md) 🟩 **Beginner**
-- [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) 🟩 **Beginner**
-- [Use LLMs in your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) 🟩 **Beginner**
-- [Introduction to Virtualization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Virtualization.md) 🟨 **Intermediate**
-- [Introduction to Version Control System (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) 🟨 **Intermediate** 
-- [Introduction to Continuous Integration/Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) 🟨 **Intermediate** 
+- [AI Assistance for Coding: Benefits, Challenges, and Best Practices](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/AI-Assisted-Coding.md) — Beginner
+- [Basic Understanding of the Command Line](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Basic-Understanding-of-the-Command-Line.md) — Beginner
+- [Using LLMs in your Integrated Development Environment (IDE)](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) — Beginner
+- [Introduction to Virtualization](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Virtualization.md) — Intermediate
+- [Introduction to Version Control Systems (VCS)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Introduction-to-Version-Control-System.md) — Intermediate
+- [Introduction to Continuous Integration / Continuous Deployment (CI/CD)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Continuous%20Integration-Continuous%20Deployment.md) — Intermediate
 
-### Learning resources <a name="learning-resources-Fundamentals"></a>
+### Learning Resources <a name="learning-resources-fundamentals"></a>
 
-:video_game: **Online Interactive courses**
+#### Interactive courses
 
-| Website                       | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Learn the Command Line by Codecademy](https://www.codecademy.com/learn/learn-the-command-line) | 🟩 **Beginner** | explanations + Online interpreter | Essential skills for working at the command line, covering navigation, file management, redirection, and environment configuration. |
-| [Git Tutorial by w3schools](https://www.w3schools.com/git/) | 🟨 **Intermediate** | explanations + Online interpreter | Git Basics and more. |
-| [Learn Git & GitHub by Codecademy](https://www.codecademy.com/learn/learn-git) | 🟨 **Intermediate** | explanations + Online interpreter | Git and Github Basics and more. |
+| Resource | Level | Format | Topics |
+|:---|:---|:---|:---|
+| [Learn the Command Line (Codecademy)](https://www.codecademy.com/learn/learn-the-command-line) | Beginner | Lessons + online interpreter | Navigation, file management, redirection, environment configuration |
+| [Git Tutorial (w3schools)](https://www.w3schools.com/git/) | Intermediate | Lessons + online interpreter | Git fundamentals |
+| [Learn Git & GitHub (Codecademy)](https://www.codecademy.com/learn/learn-git) | Intermediate | Lessons + online interpreter | Git and GitHub fundamentals |
 
-<br>
+#### Tutorials
 
-:computer: **Tutorials**
+| Title | Author | Level | Format | Topics |
+|:---|:---|:---|:---|:---|
+| [Cheat Sheet: Unix/Mac Commands](https://learntocodewith.me/resources/unix-command-cheat-sheet/) | Laurence Bradford | Beginner | Cheat sheet | macOS command line |
+| [Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | Mozilla | Beginner | Tutorial with examples | Command-line fundamentals |
+| [Command Line for Beginners](https://www.freecodecamp.org/news/command-line-for-beginners/) | freeCodeCamp | Beginner | Tutorial with examples | Command-line fundamentals |
+| [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) | LinuxCommand | Beginner | Tutorial with examples | Shell fundamentals |
+| [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line?tab=readme-ov-file#one-liners) | Joshua Levy | Beginner | Tutorial with examples | Command-line fundamentals |
+| [The Front-End Developer's Guide to the Terminal](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/#cycling-and-toggling-commands-15) | Josh Comeau | Beginner | Tutorial with examples | Terminal usage |
+| [The Linux Command Line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) | Ubuntu | Beginner | Tutorial with examples | Linux command line |
+| [Windows Commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | Beginner | Documentation | Windows command line |
+| [A Docker Tutorial for Beginners](https://docker-curriculum.com/) | Prakhar Srivastav | Intermediate | Tutorial with examples | Docker fundamentals |
+| [A Step-by-Step Docker Tutorial for Beginners](https://www.simplilearn.com/tutorials/docker-tutorial) | Sana Afreen | Intermediate | Tutorial with examples | Docker fundamentals |
+| [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI) | Programming with Mosh | Intermediate | Video | Docker fundamentals |
+| [Learn Docker in 2 Hours](https://www.youtube.com/watch?v=zJ6WbK9zFpI) | KodeKloud | Intermediate | Video | Docker fundamentals |
+| [Docker Tutorial](https://www.geeksforgeeks.org/docker-tutorial/) | GeeksforGeeks | Intermediate | Tutorial with examples | Docker fundamentals |
 
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Cheat Sheet: Unix/Mac Commands](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Laurence Bradford | 🟩 **Beginner** | command Cheat Sheet | Basics of MacOS CLI |
-| [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | Mozilla | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Command Line for Beginners](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | FreeCodeCamp | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) | Linuxcommand | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line?tab=readme-ov-file#one-liners) | Joshua Levy | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [The Front-End Developer's Guide to the Terminal](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/#cycling-and-toggling-commands-15) | Josh Comeau | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) | Ubuntu | 🟩 **Beginner** | Code examples with explanations. | Basics of Linux CLI |
-| [Windows Commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) | Microsoft | 🟩 **Beginner** | Documentation with explanations. | Basics of Windows CLI |
-| [A Docker tutorial for beginners](https://docker-curriculum.com/) | Prakhar Srivastav | 🟨 **Intermediate**  | Code examples with explanations. | Basics of Docker usage |
-| [A Step by Step Docker Tutorial for Beginners](https://www.simplilearn.com/tutorials/docker-tutorial) | Sana Afreen | 🟨 **Intermediate**  | Code examples with explanations. |  Basics and more |
-| [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI) | Programming with Mosh | 🟨 **Intermediate**  | Youtube tutorial |  Basics and more|
-| [Learn Docker in 2 Hours](https://www.youtube.com/watch?v=zJ6WbK9zFpI) | KodeKloud | 🟨 **Intermediate**  | Youtube tutorial | Basics of Docker usage |
-| [Docker Tutorial](https://www.geeksforgeeks.org/docker-tutorial/) | geeksforgeeks | 🟨 **Intermediate**  | Code examples with explanations. |  Basics and more |
+#### Books
 
-<br>
-
-:book: **Book References**
-
-| Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [The Command Line Crash Course](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Zed A. Shaw | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download) | William Shotts | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [The Docker Handbook – Learn Docker for Beginners](https://www.freecodecamp.org/news/the-docker-handbook/) | Farhan Hasin Chowdhury | 🟨 **Intermediate**| Code examples with explanations. | Basics and more |
-
-<br>
+| Title | Authors | Level | Topics |
+|:---|:---|:---|:---|
+| [The Command Line Crash Course](https://cglab.ca/~morin/teaching/1405/clcc/book/cli-crash-course.html) | Zed A. Shaw | Beginner | Command-line fundamentals |
+| [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download) | William Shotts | Beginner | Linux command line, from basics to shell scripting |
+| [The Docker Handbook — Learn Docker for Beginners](https://www.freecodecamp.org/news/the-docker-handbook/) | Farhan Hasin Chowdhury | Intermediate | Docker fundamentals |
 
 ## Python
 
 ### Lists and Repositories <a name="lists-and-repositories-python"></a>
 
-- [Awesome Python](https://github.com/vinta/awesome-python) : An opinionated list of awesome Python frameworks, libraries, software and resources.
-- [Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications) : Free software that works great, and also happens to be open-source Python.
-- [Awesome Python Books](https://github.com/junnplus/awesome-python-books) : Directory of Python books.
-- [Awesome Python Resources](https://github.com/DjangoEx/awesome-python-resources) : About Awesome Python Resources.
-- [Fucking Awesome Python](https://github.com/trananhkma/fucking-awesome-python) : awesome-python ressources.
+- [Awesome Python](https://github.com/vinta/awesome-python) — An opinionated list of Python frameworks, libraries, software, and resources.
+- [Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications) — Open-source applications written in Python.
+- [Awesome Python Books](https://github.com/junnplus/awesome-python-books) — A directory of Python books.
+- [Awesome Python Resources](https://github.com/DjangoEx/awesome-python-resources) — A curated list of Python learning resources.
+- [Fucking Awesome Python](https://github.com/trananhkma/fucking-awesome-python) — A fork of awesome-python with additional resources.
 
 ### Local Tutorials <a name="local-tutorials-python"></a>
 
-- [A Method to Learn Python from scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/A-Method-to-Learn-Python-from-scratch.md) 🟩 **Beginner**
-- [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md) 🟩 **Beginner**
-- [Getting Started With Jupyter Notebook for Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Getting-Started-With-Jupyter-Notebook-for-Python.md) 🟨 **Intermediate** 
+- [A Method to Learn Python from Scratch](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/A-Method-to-Learn-Python-from-scratch.md) — Beginner
+- [Setting up a Python Virtual Environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md) — Beginner
+- [Getting Started with Jupyter Notebook for Python](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/Getting-Started-With-Jupyter-Notebook-for-Python.md) — Intermediate
 
-### Learning resources <a name="learning-resources-python"></a>
-  
-:book: [Official Python Documentation](https://wiki.python.org/moin/FrontPage)
+### Learning Resources <a name="learning-resources-python"></a>
 
-:video_game: **Online Interactive courses**
+Reference: [Official Python Documentation](https://wiki.python.org/moin/FrontPage).
 
-| Website                       | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Codédex](https://www.codedex.io/python) | 🟩 **Beginner** | Funny environment with explanations + Online interpreter | Basics and more |
-| [Learnpython](https://www.learnpython.org) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
-| [PyFlo](https://pyflo.net) | 🟩 **Beginner** | explanations + QCM/MCQ  | Basics and more |
-| [Kaggle : Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | 🟩 **Beginner**  | explanations + Online interpreter | Basics and more |
-| [Kaggle : Python](https://www.kaggle.com/learn/python) | 🟩 **Beginner**  | explanations + Online interpreter | Build on Introduction to programming |
-| [Kaggle : Pandas](https://www.kaggle.com/learn/pandas) | 🟨 **Intermediate**  | explanations + Online interpreter |  Data manipulation skills. |
-| [Hackinscience](https://www.hackinscience.org) | ⬛ **all Levels**  | Online interpreter | Extensive range of topics |
-| [W3school](https://www.w3schools.com/python/default.asp) | ⬛ **all Levels**  | explanations + Online interpreter | Extensive range of topics |
+#### Interactive courses
 
-<br>
+| Resource | Level | Format | Topics |
+|:---|:---|:---|:---|
+| [Codédex](https://www.codedex.io/python) | Beginner | Interactive lessons + online interpreter | Fundamentals and more |
+| [LearnPython](https://www.learnpython.org) | Beginner | Lessons + online interpreter | Fundamentals and more |
+| [PyFlo](https://pyflo.net) | Beginner | Lessons + quizzes | Fundamentals and more |
+| [Kaggle: Intro to Programming](https://www.kaggle.com/learn/intro-to-programming) | Beginner | Lessons + online interpreter | Programming fundamentals |
+| [Kaggle: Python](https://www.kaggle.com/learn/python) | Beginner | Lessons + online interpreter | Builds on Intro to Programming |
+| [Kaggle: Pandas](https://www.kaggle.com/learn/pandas) | Intermediate | Lessons + online interpreter | Data manipulation |
+| [HackInScience](https://www.hackinscience.org) | All levels | Online interpreter | Wide range of topics |
+| [w3schools](https://www.w3schools.com/python/default.asp) | All levels | Lessons + online interpreter | Wide range of topics |
 
-:computer: **Tutorials**
+#### Tutorials
 
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | 🟩 **Beginner** | Video Tutorials | Basics and more |
-| [Python Tutorials from PythonSpot](https://pythonspot.com/) | PythonSpot | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Python Tutorials from Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)| Tutorialspoint | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Python Tutorials from studytonight](https://www.studytonight.com/python/) | Study Tonight | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Python Tutorials from ThePythonGuru](https://thepythonguru.com/) | ThePythonGuru | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Beginner** | Code examples with explanations. | Basics and more |
-| [RealPython](https://realpython.com/) |  Real Python | ⬛ **all Levels** | Video Tutorials | Extensive range of topics  |
+| Title | Author | Level | Format | Topics |
+|:---|:---|:---|:---|:---|
+| [Dive Into Python 3](https://diveintopython3.net/) | Mark Pilgrim | Beginner | Tutorial with examples | Fundamentals and more |
+| [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python) | Oleksii Trekhleb | Beginner | Tutorial with examples | Fundamentals and more |
+| [Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) | Corey Schafer | Beginner | Video series | Fundamentals and more |
+| [Python Tutorials (PythonSpot)](https://pythonspot.com/) | PythonSpot | Beginner | Tutorial with examples | Fundamentals and more |
+| [Python Tutorials (Tutorialspoint)](https://www.tutorialspoint.com/python/index.htm) | Tutorialspoint | Beginner | Tutorial with examples | Fundamentals and more |
+| [Python Tutorials (Studytonight)](https://www.studytonight.com/python/) | Studytonight | Beginner | Tutorial with examples | Fundamentals and more |
+| [Python Tutorials (ThePythonGuru)](https://thepythonguru.com/) | ThePythonGuru | Beginner | Tutorial with examples | Fundamentals and more |
+| [Python for You and Me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | Beginner | Tutorial with examples | Fundamentals and more |
+| [Real Python](https://realpython.com/) | Real Python | All levels | Articles and videos | Wide range of topics |
 
-<br>
+#### Books
 
-:book: **Book References**
-
-| Book Name                    | Authors                  | Audience                   | Strengths                           | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [A Byte of Python](https://python.swaroopch.com/) | Swaroop C H | 🟩 **Beginner** | Easy to understand, gentle, thorough | Python fundamentals and problem solving |
-| [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Al Sweigart           | 🟩 **Beginner** | Practical applications, easy to follow | Python basics, CSV, PDF, Excel, web scraping, images, email, debugging, and more.   |
-| [How To Code in Python](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-python-3) | Lisa Tagliaferri,  Pankaj | 🟩 **Beginner** | Practical, digestable, pleasant | Python basics, installation, debugging logging, data types, hints and tips.|
-| [Learning Python](https://github.com/Quyaz/books/blob/master/Learning%20Python,%205th%20Edition.pdf) |  Mark Lutz | 🟩 **Beginner** | Broad and deep exploration of Python. |  Python basics,  into advanced Python features |
-| [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds3/index.html) |  Brad Miller, David Ranum | 🟩 **Beginner** | Classic concepts, topically diverse, smart. | Data structures, algorithms, fundamentals of Python |
-| [Python for you and me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | 🟩 **Beginner** | step-by-step pace, contains variety | Python fundamentals, editors, PEP8, testings, NeoPixels, command line interfaces.|
-| [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)      | Kenneth Reitz, Trey Hunner  | 🟩 **Beginner** | Practical, enjoyable, broad. | Python basics, installation, virtual environments, project structure, coding style, documentation, packaging, GUI development, command line interface development, and much more. |
-| [Intermediate Python](https://book.pythontips.com/en/latest/) | Muhammad Yasoob Ullah Khalid | 🟨 **Intermediate**  | dvanced yet understandable concepts, unique among Python programming books | Debugging, exception handling, functional programming, mutable/immutable types, and much more.   |
-| [Python Data Science Handbook](https://automatetheboringstuff.com/) | Jake VanderPlas | 🟨 **Intermediate**  | nerdy and practical | Numpy, Pandas, Matplotlib, machine learning, and other hip subject matter   |
-| [Architecture Patterns with Python](https://www.cosmicpython.com/l) | Harry J.W. Percival, Bob Gregory | 🟧 **Advanced**  | Explains deep concepts in thorough but understandable ways, introduces advanced design concepts|Test Drive Development, Domain Driven Design, microservices |
-
-<br>
+| Title | Authors | Level | Topics |
+|:---|:---|:---|:---|
+| [A Byte of Python](https://python.swaroopch.com/) | Swaroop C. H. | Beginner | Python fundamentals and problem solving |
+| [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Al Sweigart | Beginner | Python basics, CSV, PDF, Excel, web scraping, images, email, debugging |
+| [How to Code in Python](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-python-3) | Lisa Tagliaferri, Pankaj | Beginner | Python basics, debugging, logging, data types |
+| [Learning Python](https://github.com/Quyaz/books/blob/master/Learning%20Python,%205th%20Edition.pdf) | Mark Lutz | Beginner | Python basics through advanced features |
+| [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds3/index.html) | Brad Miller, David Ranum | Beginner | Data structures, algorithms, Python fundamentals |
+| [Python for You and Me](https://pymbook.readthedocs.io/en/latest/) | Kushal Das | Beginner | Python fundamentals, editors, PEP 8, testing, command-line interfaces |
+| [The Hitchhiker's Guide to Python](https://docs.python-guide.org/) | Kenneth Reitz, Trey Hunner | Beginner | Environments, project structure, coding style, packaging, documentation |
+| [Intermediate Python](https://book.pythontips.com/en/latest/) | Muhammad Yasoob Ullah Khalid | Intermediate | Debugging, exceptions, functional programming, mutability |
+| [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) | Jake VanderPlas | Intermediate | NumPy, Pandas, Matplotlib, scikit-learn |
+| [Architecture Patterns with Python](https://www.cosmicpython.com/) | Harry J. W. Percival, Bob Gregory | Advanced | Test-driven development, domain-driven design, microservices |
 
 ## Image Analysis
 
 ### Lists and Repositories <a name="lists-and-repositories-image-analysis"></a>
 
-- [Awesome Biological Image Analysis](https://github.com/LSeu-Open/awesome-biological-image-analysis) : A curated list of softwares, tools, pipelines, plugins etc. for image analysis related to biological questions.
-- [Awesome Image Quality Assessment (IQA)](https://github.com/subeeshvasu/Awesome-Image-Quality-Assessment) : A comprehensive collection of IQA papers.
-- [Awesome Image Distortion Correction](https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction) : A curated list of resources on handling Rolling Shutter effects and Radial Distortions.
-- [Awesome Neuron Segmentation in EM Images](https://github.com/subeeshvasu/Awesome-Neuron-Segmentation-in-EM-Images) : A curated list of resources for 3D segmentation of neurites in EM images.
-- [Bioimage.io](https://bioimage.io/#/) : Website for the BioImage Model zoo -- a model zoo for bioimage analysis.
-- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) : Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image processing, bio-image data science and more.
-- [Segmentation Models](https://github.com/qubvel-org/segmentation_models.pytorch) : Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones.
-  
+- [Awesome Biological Image Analysis](https://github.com/LSeu-Open/awesome-biological-image-analysis) — A curated list of software, tools, pipelines, and plugins for biological image analysis.
+- [Awesome Image Quality Assessment (IQA)](https://github.com/subeeshvasu/Awesome-Image-Quality-Assessment) — A collection of image-quality-assessment papers.
+- [Awesome Image Distortion Correction](https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction) — Resources on rolling-shutter effects and radial distortions.
+- [Awesome Neuron Segmentation in EM Images](https://github.com/subeeshvasu/Awesome-Neuron-Segmentation-in-EM-Images) — Resources for 3D segmentation of neurites in electron-microscopy images.
+- [Bioimage.io](https://bioimage.io/#/) — The BioImage Model Zoo, a model repository for bioimage analysis.
+- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) — Jupyter notebooks for bioimage analysis and GPU-accelerated image processing.
+- [Segmentation Models](https://github.com/qubvel-org/segmentation_models.pytorch) — Semantic segmentation models with 500+ pretrained convolutional and transformer backbones.
+
 ### Libraries <a name="libraries-image-analysis"></a>
 
-- [Napari](https://napari.org/stable/) : a fast, interactive viewer for multi-dimensional images in Python.
-- [Scikit-Image](https://github.com/scikit-image/scikit-image) : Image processing in Python.
-
+- [napari](https://napari.org/stable/) — A fast, interactive viewer for multi-dimensional images in Python.
+- [scikit-image](https://github.com/scikit-image/scikit-image) — Image processing in Python.
 
 ### Local Tutorials <a name="local-tutorials-image-analysis"></a>
 
-- [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) 🟩 **Beginner**
-- [Intersection over Union (IoU): Evaluating Segmentation Algorithm Performance](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Intersection_over_Union.md) 🟩 **Beginner**  
-- [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) 🟩 **Beginner**
+- [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) — Beginner
+- [Intersection over Union (IoU): Evaluating Segmentation Performance](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Intersection_over_Union.md) — Beginner
+- [Mastering Cellpose: From Installation to Advanced Features](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Mastering_Cellpose.md) — Beginner
 
 ### Scripts <a name="scripts-image-analysis"></a>
 
 > [!NOTE]
->  the Beta release of Cellpose-gradio, a **user-friendly interface for using Cellpose**, is now available on GitHub: https://github.com/LSeu-Open/Cellpose_Gradio.
->
-> To make it easy for everyone to get started, **I've automated the installation and launching process with simple scripts**.
+> Cellpose-Gradio, a graphical interface for Cellpose, is available on GitHub:
+> [Cellpose_Gradio](https://github.com/LSeu-Open/Cellpose_Gradio). Its installation and
+> launch are automated with the scripts below.
 
-- [Automate Cellpose GUI Opening: Windows Users (.bat)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.bat)
-- [Automate Cellpose GUI Opening: MacOS/Linux Users (.sh)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.sh)
+- [Automate Cellpose GUI Opening — Windows (.bat)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.bat)
+- [Automate Cellpose GUI Opening — macOS/Linux (.sh)](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Scripts/launch_cellpose.sh)
 
-### Learning resources <a name="learning-resources-image-analysis"></a>
+> [!TIP]
+> Additional single-purpose lab scripts (image and data conversion, mesh generation,
+> neuro-visualization, and more) live in the companion
+> [lab-scripts](https://github.com/LSeu-Open/lab-scripts) repository.
 
-:computer: **Tutorials**
+### Learning Resources <a name="learning-resources-image-analysis"></a>
 
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Batch processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/33_batch_processing/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Basics on how to process multiple images. |
-| [Cell classification](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/27_cell_classification/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Feature extraction and afterwards machine learning algorithms for differentiating objects. |
-| [Colocalization](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/28_colocalization/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Counting cells according to their signal expression in multiple channels. |
-| [Deep Learning based image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20b_deep_learning/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | deep learning based algorithms for image segmentation. |
-| [Feature extraction](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Retrieving quantitative measurements from image data. |
-| [Image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Subdividing an image into multiple groups of pixels having different characteristics. |
-| [Machine learning for image segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20a_pixel_classification/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Classical machine learning for pixel classification, object segmentation and for generating probability maps. |
-| [Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) | Emmanuelle Gouillart | 🟩 **Beginner** | Code examples with explanations. | Basics of Scikit-image and more |
-| [Scikit Image Tutorials](https://github.com/scikit-image/skimage-tutorials) | scikit-image | 🟩 **Beginner** | Code examples with explanations. | A collection of tutorials for the scikit-image package. |
-| [Segmentation post-processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20h_segmentation_post_processing/readme.html) | haesleinhuepf | 🟩 **Beginner** | Code examples with explanations. | Post-process segmentation results. |
-| [Graphical user interfaces](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/31_graphical_user_interfaces/readme.html) | haesleinhuepf | 🟨 **Intermediate** | Code examples with explanations. | build custom user interfaces |
+#### Tutorials
 
-📷 **Video Tutorials**
+| Title | Author | Level | Format | Topics |
+|:---|:---|:---|:---|:---|
+| [Batch Processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/33_batch_processing/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Processing multiple images |
+| [Cell Classification](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/27_cell_classification/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Feature extraction and machine learning for object classification |
+| [Colocalization](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/28_colocalization/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Counting cells by signal across multiple channels |
+| [Deep-Learning-Based Image Segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20b_deep_learning/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Deep-learning algorithms for image segmentation |
+| [Feature Extraction](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Quantitative measurements from image data |
+| [Image Segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Subdividing an image into regions |
+| [Machine Learning for Image Segmentation](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20a_pixel_classification/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Pixel classification and probability maps |
+| [scikit-image: Image Processing](https://scipy-lectures.org/packages/scikit-image/index.html) | Emmanuelle Gouillart | Beginner | Tutorial with examples | scikit-image fundamentals |
+| [scikit-image Tutorials](https://github.com/scikit-image/skimage-tutorials) | scikit-image | Beginner | Tutorial with examples | A collection of scikit-image tutorials |
+| [Segmentation Post-Processing](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20h_segmentation_post_processing/readme.html) | haesleinhuepf | Beginner | Tutorial with examples | Post-processing segmentation results |
+| [Graphical User Interfaces](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/31_graphical_user_interfaces/readme.html) | haesleinhuepf | Intermediate | Tutorial with examples | Building custom user interfaces |
 
- Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Cellpose 2.0 tutorial: how to train your own cellular segmentation model](https://www.youtube.com/watch?v=A_PW_N0np9A) | Carsen Stringer| 🟩 **Beginner** | Youtube tutorial | Human-in-the-loop pipeline for quickly prototyping new specialist models. |
-| [Cellpose GPU installation for QuPath and Fiji](https://www.youtube.com/watch?v=yx4w4E4v1uM) | Thierry Pécot  | 🟩 **Beginner** | Youtube tutorial  | Install Cellpose to be processed with the GPÜ within QuPath and Fiji |
-| [Feature extraction: Youtube Video](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | 🟩 **Beginner** | Youtube tutorial  | Retrieving quantitative measurements from image data. |
-| [FIJI for Quantification: Cell Segmentation](https://www.youtube.com/watch?v=82N-eIPqnwM) | Melbourne Advanced Microscopy Facility | 🟩 **Beginner** | Youtube tutorial  | Cell Segmentation in Fiji |
-| [Introduction to QuPath](https://www.youtube.com/watch?v=mvZlU_fI75o) | Zbigniew Mikulski | 🟩 **Beginner** | Youtube tutorial | Major concepts and tools in QuPath  |
-| [Nuclei segmentation based on stardist with QuPath](https://www.youtube.com/watch?v=GBFBVT2stMQ) | Thierry Pécot | 🟩 **Beginner** | Youtube tutorial | Segment nuclei via Stardist in a multiplexed image with QuPath |
+#### Video tutorials
 
-# Data Science
+| Title | Author | Level | Format | Topics |
+|:---|:---|:---|:---|:---|
+| [Cellpose 2.0: How to Train Your Own Cellular Segmentation Model](https://www.youtube.com/watch?v=A_PW_N0np9A) | Carsen Stringer | Beginner | Video | Human-in-the-loop training of specialist models |
+| [Cellpose GPU Installation for QuPath and Fiji](https://www.youtube.com/watch?v=yx4w4E4v1uM) | Thierry Pécot | Beginner | Video | GPU-accelerated Cellpose in QuPath and Fiji |
+| [Feature Extraction](https://www.youtube.com/watch?v=dria4wCiaz0) | haesleinhuepf | Beginner | Video | Quantitative measurements from image data |
+| [Fiji for Quantification: Cell Segmentation](https://www.youtube.com/watch?v=82N-eIPqnwM) | Melbourne Advanced Microscopy Facility | Beginner | Video | Cell segmentation in Fiji |
+| [Introduction to QuPath](https://www.youtube.com/watch?v=mvZlU_fI75o) | Zbigniew Mikulski | Beginner | Video | Core concepts and tools in QuPath |
+| [Nuclei Segmentation with StarDist in QuPath](https://www.youtube.com/watch?v=GBFBVT2stMQ) | Thierry Pécot | Beginner | Video | Nuclei segmentation in multiplexed images |
 
-## Lists and Repositories <a name="lists-and-repositories-data-science"></a>
+## Data Science
 
-- [AI Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) : Roadmap to becoming an Artificial Intelligence Expert.
-- [Awesome Data Science](https://github.com/academic/awesome-datascience) : An awesome Data Science repository to learn and apply for real world problems.
-- [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science) : Probably the best curated list of data science software in Python.
-- [Data Analysis Script](https://github.com/WillKoehrsen/Data-Analysis) : Data Science Projects Using Python and a little R. Code and Notebooks for numerous data science projects.
-- [Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) : 10 Weeks, 20 Lessons, Data Science for All!
-- [Data Science IPython Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) : Data science Python notebooks on Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
-- [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) : Python Data Science Handbook: full text in Jupyter Notebooks.
-- [Python Data Science Tutorials](https://github.com/ujjwalkarn/DataSciencePython) : Common data analysis and machine learning tasks using python.
+### Lists and Repositories <a name="lists-and-repositories-data-science"></a>
 
-### Learning resources <a name="learning-resources-data-science"></a>
+- [AI Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) — A roadmap for becoming an artificial-intelligence specialist.
+- [Awesome Data Science](https://github.com/academic/awesome-datascience) — A data-science repository for learning and applying methods to real-world problems.
+- [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science) — A curated list of data-science software in Python.
+- [Data Analysis](https://github.com/WillKoehrsen/Data-Analysis) — Code and notebooks for numerous data-science projects in Python and R.
+- [Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) — A Microsoft course: 10 weeks, 20 lessons.
+- [Data Science IPython Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) — Notebooks on deep learning, scikit-learn, big data, Matplotlib, pandas, NumPy, and SciPy.
+- [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) — The full text of the handbook in Jupyter notebooks.
+- [Python Data Science Tutorials](https://github.com/ujjwalkarn/DataSciencePython) — Common data-analysis and machine-learning tasks in Python.
 
-:video_game: **Online Interactive courses**
+### Learning Resources <a name="learning-resources-data-science"></a>
 
-| Website                       | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [w3schools : Data Science Tutorials ](https://www.w3schools.com/datascience/default.asp) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
-| [Kaggle : Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | 🟨 **Intermediate** | explanations + Online interpreter |  Mutual information, Clustering and Principal Component Analysis and more |
-| [Kaggle : Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | 🟨 **Intermediate** | explanations + Online interpreter |  Missing Values, Scaling, Normalization and more |
+#### Interactive courses
 
-:computer: **Tutorials**
+| Resource | Level | Format | Topics |
+|:---|:---|:---|:---|
+| [w3schools: Data Science](https://www.w3schools.com/datascience/default.asp) | Beginner | Lessons + online interpreter | Fundamentals and more |
+| [Kaggle: Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | Intermediate | Lessons + online interpreter | Mutual information, clustering, principal component analysis |
+| [Kaggle: Data Cleaning](https://www.kaggle.com/learn/data-cleaning) | Intermediate | Lessons + online interpreter | Missing values, scaling, normalization |
 
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Data Science Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners) | DATAI Team | 🟩 **Beginner** | Notebook +  explainations | Basics and more |
-| [Data Science Full Course For Beginners](https://www.youtube.com/playlist?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV) | codebasics | 🟩 **Beginner** | Youtube videos tutorials | Everything, from basics to advanced topics |
-| [Learn Data Science from Scratch](https://data-flair.training/blogs/data-science-tutorials-home/) | DataFlair | ⬛ **all Levels** | Code examples with explanations | Everything, from basics to advanced topics |
+#### Tutorials
 
-:book: **Book References**
+| Title | Author | Level | Format | Topics |
+|:---|:---|:---|:---|:---|
+| [Data Science Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners) | DATAI Team | Beginner | Notebook | Fundamentals and more |
+| [Data Science Full Course for Beginners](https://www.youtube.com/playlist?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV) | codebasics | Beginner | Video series | Basics to advanced topics |
+| [Learn Data Science from Scratch](https://data-flair.training/blogs/data-science-tutorials-home/) | DataFlair | All levels | Tutorial with examples | Basics to advanced topics |
 
-| Book Name                    | Authors                  | Audience                   | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Foundations of Data Science](http://www.feat.engineering/index.html) | Avrim Blum, John Hopcroft, and Ravindran Kannan | 🟩 **Beginner**  | basics from mathematical perspective |
-| [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/index.html) | Max Kuhn and Kjell Johnson| 🟨 **Intermediate** | measuring performance, tuning parameters, model optimization, exploratory visualization, and more |
+#### Books
 
-<br>
+| Title | Authors | Level | Topics |
+|:---|:---|:---|:---|
+| [Foundations of Data Science](https://www.cs.cornell.edu/jeh/book.pdf) | Avrim Blum, John Hopcroft, Ravindran Kannan | Beginner | Mathematical foundations of data science |
+| [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/index.html) | Max Kuhn, Kjell Johnson | Intermediate | Measuring performance, tuning, model optimization, exploratory visualization |
 
 ## Data Visualization
 
 ### Lists and Repositories <a name="lists-and-repositories-data-visualization"></a>
 
-- [Awesome Dataviz](https://github.com/hal9ai/awesome-dataviz) :  A curated list of data science, analysis and visualization tools.
-- [Awesome Data Science viz](https://github.com/quantmind/awesome-data-science-viz) : A curated list of awesome data visualization libraries and resources.
-- [Exploration and Visualization of Data With Python](https://github.com/StephenElston/ExploringDataWithPython) : Methods of data exploration and visualization using Python.
-- [Python Data Viz workshop](https://github.com/stefmolin/python-data-viz-workshop) : A workshop on data visualization in Python with notebooks and exercises for following along.
+- [Awesome Dataviz](https://github.com/hal9ai/awesome-dataviz) — A curated list of data-analysis and visualization tools.
+- [Awesome Data Science Viz](https://github.com/quantmind/awesome-data-science-viz) — A curated list of data-visualization libraries and resources.
+- [Exploring Data with Python](https://github.com/StephenElston/ExploringDataWithPython) — Methods for data exploration and visualization in Python.
+- [Python Data Viz Workshop](https://github.com/stefmolin/python-data-viz-workshop) — A workshop on data visualization in Python, with notebooks and exercises.
 
 ### Libraries <a name="libraries-data-visualization"></a>
 
-- [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2) : ggplot2 is a popular open-source plotting system for the statistical programming language R. A curated list of awesome ggplot2 tutorials, packages etc.
+- [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2) — A curated list of tutorials and packages for ggplot2, the plotting system for the R language.
 
 ### Tutorials <a name="tutorials-data-visualization"></a>
 
-- [Matplotlib Tutorials](https://matplotlib.org/stable/users/index.html#users-guide-index) : Matplotlib is a popular Python library used to create static, animated, and interactive 2D and 3D visualizations of data. 🟩 **Beginner**
-- [Plotly Tutorials](https://plotly.com/graphing-libraries/) : Plotly is an open-source graphing library that enables users to create high-quality, interactive plots, charts, and graphs in Python, R, and MATLAB. 🟩 **Beginner**
-- [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) : Seaborn is a Python library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. 🟩 **Beginner**
-- [Visualization using Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) : Pandas is a powerful open-source library in Python for data manipulation and analysis. Learn how to visualize data with Pandas. 🟩 **Beginner**
-
-<br>
+- [Matplotlib Tutorials](https://matplotlib.org/stable/users/index.html#users-guide-index) — Matplotlib creates static, animated, and interactive 2D and 3D visualizations in Python. (Beginner)
+- [Plotly Tutorials](https://plotly.com/graphing-libraries/) — Plotly is an open-source graphing library for interactive plots in Python, R, and MATLAB. (Beginner)
+- [Seaborn Tutorials](https://seaborn.pydata.org/tutorial.html) — Seaborn is a Matplotlib-based library for statistical graphics in Python. (Beginner)
+- [Visualization with Pandas](https://pandas.pydata.org/pandas-docs/version/0.18.0/visualization.html) — Plotting directly from pandas data structures. (Beginner)
 
 ## Machine Learning
 
 ### Lists and Repositories <a name="lists-and-repositories-machine-learning"></a>
 
-- [Applied ML](https://github.com/eugeneyan/applied-ml) : Papers & tech blogs by companies sharing their work on data science & machine learning in production.
-- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) : A curated list of awesome Machine Learning frameworks, libraries and software.
-- [Best-of Machine Learning with Python](https://github.com/ml-tooling/best-of-ml-python) : A ranked list of awesome machine learning Python libraries. Updated weekly.
-- [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) : machine learning and deep learning tutorials, articles and other resources.
-- [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners) : 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all.
-- [Machine Learning from Scratch](https://github.com/DorsaRoh/Machine-Learning) : Implements and explains core machine learning algorithms and neural networkds from scratch, assuming you know absolutly nothing.
+- [Applied ML](https://github.com/eugeneyan/applied-ml) — Papers and engineering blog posts on data science and machine learning in production.
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) — A curated list of machine-learning frameworks, libraries, and software.
+- [Best-of Machine Learning with Python](https://github.com/ml-tooling/best-of-ml-python) — A ranked, weekly-updated list of machine-learning libraries in Python.
+- [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) — Machine-learning and deep-learning tutorials, articles, and resources.
+- [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners) — A Microsoft course: 12 weeks, 26 lessons, 52 quizzes.
+- [Machine Learning from Scratch](https://github.com/DorsaRoh/Machine-Learning) — Core machine-learning algorithms and neural networks implemented and explained from first principles.
 
 ### Libraries <a name="libraries-machine-learning"></a>
 
-- [Caret](https://cran.r-project.org/web/packages/caret/index.html) : R equivalent of the "Scikit-Learn" package.
-- [cuML](https://github.com/rapidsai/cuml) : Enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming.
-- [mlpack](https://github.com/mlpack/mlpack) : An intuitive, fast, and flexible header-only C++ machine learning library with bindings to other languages.
-- [scikit-learn](https://scikit-learn.org/stable/) :  Python module for machine learning built on top of SciPy.
- 
-### Learning resources <a name="learning-resources-machine-learning"></a>
+- [caret](https://cran.r-project.org/web/packages/caret/index.html) — A model-training and tuning framework for R.
+- [cuML](https://github.com/rapidsai/cuml) — GPU-accelerated machine-learning algorithms for tabular data, without requiring CUDA programming.
+- [mlpack](https://github.com/mlpack/mlpack) — A header-only C++ machine-learning library with bindings to other languages.
+- [scikit-learn](https://scikit-learn.org/stable/) — A Python machine-learning library built on SciPy.
 
-:video_game: **Online Interactive courses**
+### Learning Resources <a name="learning-resources-machine-learning"></a>
 
-| Website                       | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [DataCamp : Machine Learning in R for beginners](https://www.datacamp.com/tutorial/machine-learning-in-r) | 🟩 **Beginner** | explanations + Online interpreter | introduction to the basics of machine learning in R |
-| [Kaggle : Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
-| [Kaggle : Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | 🟩 **Beginner** | explanations + Online interpreter | Extract human-understandable insights from any model |
-| [w3schools : Machine Learning Tutorials ](https://www.w3schools.com/python/python_ml_getting_started.asp) | 🟩 **Beginner** | explanations + Online interpreter | Basics and more |
-| [Kaggle : Intermediate Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | 🟨 **Intermediate** | explanations + Online interpreter | Handle missing values, non-numeric values, data leakage, and more... |
-| [Kaggle : Time Series](https://www.kaggle.com/learn/time-series) | 🟨 **Intermediate** | explanations + Online interpreter | Apply machine learning to real-world forecasting tasks. |
+#### Interactive courses
 
-:computer: **Tutorials**
+| Resource | Level | Format | Topics |
+|:---|:---|:---|:---|
+| [DataCamp: Machine Learning in R for Beginners](https://www.datacamp.com/tutorial/machine-learning-in-r) | Beginner | Lessons + online interpreter | Introduction to machine learning in R |
+| [Kaggle: Introduction to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | Beginner | Lessons + online interpreter | Fundamentals and more |
+| [Kaggle: Machine Learning Explainability](https://www.kaggle.com/learn/machine-learning-explainability) | Beginner | Lessons + online interpreter | Interpreting model predictions |
+| [w3schools: Machine Learning](https://www.w3schools.com/python/python_ml_getting_started.asp) | Beginner | Lessons + online interpreter | Fundamentals and more |
+| [Kaggle: Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) | Intermediate | Lessons + online interpreter | Missing values, categorical data, data leakage |
+| [Kaggle: Time Series](https://www.kaggle.com/learn/time-series) | Intermediate | Lessons + online interpreter | Forecasting with machine learning |
 
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google |  🟩 **Beginner** | videos tutorials + QCM/MCQ  | Basics and more |
-| [Machine Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/machine-learning-tutorial-for-beginners) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
-| [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging) | Google |  🟨 **Intermediate** | videos tutorials + QCM/MCQ  | Validate data, debug and optimize a machine learning model, and monitor its performance during development, launch, and production.|
+#### Tutorials
 
+| Title | Author | Level | Format | Topics |
+|:---|:---|:---|:---|:---|
+| [Machine Learning Crash Course](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | Google | Beginner | Video + quizzes | Fundamentals and more |
+| [Machine Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/machine-learning-tutorial-for-beginners) | DATAI Team | Intermediate | Notebook | Fundamentals and more |
+| [Testing and Debugging in Machine Learning](https://developers.google.com/machine-learning/testing-debugging) | Google | Intermediate | Lessons + quizzes | Validating data, debugging, optimizing, and monitoring models |
 
-:book: **Book References**
+#### Books
 
-| Book Name                    | Authors                  | Audience                   | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [An Introduction to Machine Learning Interpretability](https://bradleyboehmke.github.io/HOML/) | Patrick Hall and Navdeep Gill | 🟩 **Beginner** | Learn how to explain your model |
-| [Machine Learning for Humans](https://everythingcomputerscience.com/books/Machine%20Learning%20for%20Humans.pdf) | Vishal Maini Samer Sabri | 🟩 **Beginner** | Supervised Learning, Unsupervised Learning, Neural Networks and more |
-| [Python Machine Learning Projects](https://bradleyboehmke.github.io/HOML/) | Brian Bocheron and Lisa Tagliaferri | 🟨 **Intermediate** | Create machine-learning projects to test your skills and build a portfolio |
-| [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/) | Bradley Boehmke & Brandon Greenwell | ⬛ **all Levels**  | Generalized low-rank models, Clustering algorithms, Autoencoders, Regularized models, Random forests, Gradient boosting machines and more |
-| [The Hundred-Page Machine Learning Book](https://themlbook.com/wiki/doku.php) | Andriy Burkov | ⬛ **all Levels**  | Fundamental Algorithms plus in-depth material, Anatomy of a Learning Algorithm, Basic Practice, Neural Networks and more |
-| [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html) | Shai Shalev-Shwartz and Shai Ben-David | ⬛ **all Levels** | Foundations, Theoretical to Algorithmic Applications, Additional Learning Models, and Advanced Theory |
-
-<br>
+| Title | Authors | Level | Topics |
+|:---|:---|:---|:---|
+| [An Introduction to Machine Learning Interpretability](https://www.oreilly.com/library/view/an-introduction-to/9781492033158/) | Patrick Hall, Navdeep Gill | Beginner | Explaining model predictions |
+| [Machine Learning for Humans](https://everythingcomputerscience.com/books/Machine%20Learning%20for%20Humans.pdf) | Vishal Maini, Samer Sabri | Beginner | Supervised learning, unsupervised learning, neural networks |
+| [Python Machine Learning Projects](https://www.digitalocean.com/community/books/python-machine-learning-projects-a-digitalocean-ebook) | Brian Boucheron, Lisa Tagliaferri | Intermediate | Hands-on machine-learning projects |
+| [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/) | Bradley Boehmke, Brandon Greenwell | All levels | Clustering, autoencoders, regularized models, random forests, gradient boosting |
+| [The Hundred-Page Machine Learning Book](https://themlbook.com/wiki/doku.php) | Andriy Burkov | All levels | Fundamental algorithms, anatomy of a learning algorithm, neural networks |
+| [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html) | Shai Shalev-Shwartz, Shai Ben-David | All levels | Theoretical foundations, learning models, advanced theory |
 
 ## Deep Learning
 
 ### Lists and Repositories <a name="lists-and-repositories-deep-learning"></a>
 
-- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) : A curated list of awesome Deep Learning tutorials, projects and communities.
-- [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers) : The most cited deep learning papers.
-- [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision) : A curated list of deep learning resources for computer vision.
-- [Awesome Deep learning papers and other resources](https://github.com/endymecy/awesome-deeplearning-resources) : Deep Learning and deep reinforcement learning research papers and some codes.
-- [Cvat](https://github.com/cvat-ai/cvat) : Annotate better with CVAT, the industry-leading data engine for machine learning.
-- [Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle) : Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from exciting lectures.
-- [Deep Learning Examples](https://github.com/NVIDIA/DeepLearningExamples) : State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance.
-- [Supervision](https://github.com/roboflow/supervision) : Reusable computer vision tools.
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) — A curated list of deep-learning tutorials, projects, and communities.
+- [Awesome — Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers) — The most-cited deep-learning papers.
+- [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision) — A curated list of deep-learning resources for computer vision.
+- [Awesome Deep Learning Papers and Resources](https://github.com/endymecy/awesome-deeplearning-resources) — Deep-learning and reinforcement-learning research papers and code.
+- [CVAT](https://github.com/cvat-ai/cvat) — An image and video annotation tool for machine learning.
+- [Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle) — A large collection of lecture series on deep learning, reinforcement learning, computer vision, and NLP.
+- [Deep Learning Examples](https://github.com/NVIDIA/DeepLearningExamples) — Deep-learning example scripts organized by model, with reproducible training and deployment.
+- [Supervision](https://github.com/roboflow/supervision) — Reusable computer-vision utilities.
 
 ### Libraries <a name="libraries-deep-learning"></a>
 
-- [Catalyst](https://catalyst-team.com/) : a PyTorch framework for Deep Learning Research and Development. It focuses on reproducibility, rapid experimentation, and codebase reuse so you can create something new rather than write yet another train loop.
-- [Keras](https://keras.io/) : A multi-backend deep learning framework, with support for JAX, TensorFlow, and PyTorch. Effortlessly build and train models for computer vision, natural language processing, audio processing...
-- [PyTorch](https://pytorch.org/) : Tensors and Dynamic neural networks in Python with strong GPU acceleration.
-- [Tensorflow](https://tensorflow.org/) : An Open Source Machine Learning Framework for Everyone.
-- [Torchvision](https://pytorch.org/vision/stable/index.html) : torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.
+- [Catalyst](https://catalyst-team.com/) — A PyTorch framework for deep-learning research, focused on reproducibility, rapid experimentation, and code reuse.
+- [Keras](https://keras.io/) — A multi-backend deep-learning framework supporting JAX, TensorFlow, and PyTorch, for computer vision, NLP, and audio.
+- [PyTorch](https://pytorch.org/) — Tensors and dynamic neural networks in Python with GPU acceleration.
+- [TensorFlow](https://tensorflow.org/) — An open-source machine-learning framework.
+- [torchvision](https://pytorch.org/vision/stable/index.html) — Datasets, model architectures, and image transformations for computer vision.
 
-### Learning resources <a name="learning-resources-deep-learning"></a>
+### Learning Resources <a name="learning-resources-deep-learning"></a>
 
-:video_game: **Online Interactive courses**
+#### Interactive courses
 
-| Website                       | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Kaggle : Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) | 🟨 **Intermediate** | explanations + Online interpreter |  Use TensorFlow and Keras to build and train neural networks for structured data |
-| [Kaggle : Computer Vision](https://www.kaggle.com/learn/computer-vision) | 🟨 **Intermediate** | explanations + Online interpreter |  Apply machine learning to real-world forecasting tasks.  |
+| Resource | Level | Format | Topics |
+|:---|:---|:---|:---|
+| [Kaggle: Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) | Intermediate | Lessons + online interpreter | Building and training neural networks with TensorFlow and Keras |
+| [Kaggle: Computer Vision](https://www.kaggle.com/learn/computer-vision) | Intermediate | Lessons + online interpreter | Convolutional neural networks for image data |
 
-:computer: **Tutorials**
+#### Tutorials
 
-| Title                        | Authors                 | Audience                 | Format                       | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|:-------------------------------:|
-| [Basics of Pytorch](https://www.kaggle.com/code/kanncaa1/pytorch-tutorial-for-deep-learning-lovers) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
-| [Coding TensorFlow](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials | Large panel of topics |
-| [Deep Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/deep-learning-tutorial-for-beginners/notebook) | DATAI Team | 🟨 **Intermediate** | Notebook +  explainations | Basics and more |
-| [DL Zero to Hero](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | TensorFlow | 🟨 **Intermediate** | Youtube videos tutorials |  Few basics on Tensorflow coding |
-| [Roboflow Notebooks](https://github.com/roboflow/notebooks) | Roboflow | 🟨 **Intermediate** | Notebook +  explainations | SOTA computer vision models and techniques |
+| Title | Author | Level | Format | Topics |
+|:---|:---|:---|:---|:---|
+| [Basics of PyTorch](https://www.kaggle.com/code/kanncaa1/pytorch-tutorial-for-deep-learning-lovers) | DATAI Team | Intermediate | Notebook | Fundamentals and more |
+| [Coding TensorFlow](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx) | TensorFlow | Intermediate | Video series | Wide range of topics |
+| [Deep Learning Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/deep-learning-tutorial-for-beginners/notebook) | DATAI Team | Intermediate | Notebook | Fundamentals and more |
+| [Deep Learning Zero to Hero](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) | TensorFlow | Intermediate | Video series | TensorFlow fundamentals |
+| [Roboflow Notebooks](https://github.com/roboflow/notebooks) | Roboflow | Intermediate | Notebook | State-of-the-art computer-vision models |
 
+#### Books
 
+| Title | Authors | Level | Topics |
+|:---|:---|:---|:---|
+| [Dive into Deep Learning](https://d2l.ai/) | Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola | Intermediate | Deep learning with implementations in PyTorch, NumPy/MXNet, JAX, and TensorFlow |
 
-:book: **Book References**
+## Local Workshops
 
-| Book Name                    | Authors                  | Audience                   | Topics                        |
-|:-----------------------------|:-----------------------:|:-----------------------:|:-------------------------------:|
-| [Dive into Deep Learning](https://d2l.ai/d2l-en.pdfl) | Aston zhang, zachary c. Lipton, mu li, and alexander j. Smola | 🟨 **Intermediate** | implementations with PyTorch, NumPy/MXNet, JAX, and TensorFlow. |
+- [Using LLMs to Write Code: Integrating LLMs into your IDE](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)
 
-<br>
-
-# Local Workshops
-
-- [Use LLMs to write code: Integrate LLMs into your IDE](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md)
-
-(TO BE DISCUSSED)
-
-<br>
-
-<br>
+_More workshops to be added._

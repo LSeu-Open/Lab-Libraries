@@ -75,7 +75,7 @@ The F1 score is a metric that combines both precision and recall to provide a si
 
 The F1 score is the harmonic mean of precision and recall. It is calculated using the following formula:
 
-$F1 = 2 * (Precision * Recall)/(Precision * Recall)$
+$$F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
 
 - **Precision**: The ratio of true positive predictions to the total number of positive predictions (true positives + false positives).
 - **Recall**: The ratio of true positive predictions to the total number of actual positives (true positives + false negatives).
@@ -93,7 +93,7 @@ Suppose we have the following values:
 
 The F1 score would be calculated as:
 
-$F1 = 2 * (0.8 * 0.6)/(0.8 + 0.6) = 0.6857$
+$$F1 = 2 \cdot \frac{0.8 \cdot 0.6}{0.8 + 0.6} = 0.6857$$
 
 ### Practical Considerations
 
@@ -105,7 +105,7 @@ By using the F1 score, you can get a more comprehensive understanding of your mo
 
 ## Intersection over Union (IoU) for Cell Segmentation example
 
-To illustrate how we can use Intersection over Union (IoU) for Cell Segmentation, i will use the [Cellpose 3.0 Paper](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v1.full.pdf) figure S5.
+To illustrate how Intersection over Union (IoU) is used for cell segmentation, we use figure S5 from the [Cellpose 3.0 paper](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v1.full.pdf).
 
 <div align="center">
 <img src="https://www.biorxiv.org/content/biorxiv/early/2024/02/12/2024.02.10.579780/F10.large.jpg" alt="IOUcellpose" width="800"/>

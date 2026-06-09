@@ -3,250 +3,328 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Cellpose Installation](#cellpose-installation)
+- [Installation](#installation)
   - [System requirements](#system-requirements)
-  - [Installation with Conda](#installation-with-conda)
-  - [Installation with python Venv](#installation-with-python-venv)
-- [Allow Cellpose to Use GPU](#allow-cellpose-to-use-gpu)
-- [Cellpose GUI Exploration](#cellpose-gui-exploration)
+  - [Install with conda](#install-with-conda)
+  - [Install with a Python venv](#install-with-a-python-venv)
+  - [Enable GPU acceleration](#enable-gpu-acceleration)
+- [The Cellpose GUI](#the-cellpose-gui)
+  - [Loading images](#loading-images)
   - [Views](#views)
-  - [Drawing](#drawing)
-  - [Segmentation](#segmentation)
-  - [GUI Mouse Controls](#gui-mouse-controls)
-- [Cellpose 2 Training your own cellpose model](#cellpose-2-training-your-own-cellpose-model)
-- [Cellpose 3 Image Restoration](#cellpose-3-image-restoration)
+  - [Drawing masks](#drawing-masks)
+  - [Mouse controls](#mouse-controls)
+  - [Keyboard shortcuts](#keyboard-shortcuts)
+- [Segmentation with Cellpose-SAM](#segmentation-with-cellpose-sam)
+  - [Running a segmentation](#running-a-segmentation)
+  - [Tuning the result](#tuning-the-result)
+- [Training your own model (human-in-the-loop)](#training-your-own-model-human-in-the-loop)
+- [Image restoration](#image-restoration)
+- [Classic Cellpose (v1–3): channels, diameter, and the model zoo](#classic-cellpose-v13-channels-diameter-and-the-model-zoo)
 
 ## Introduction
 
-Cellpose is a versatile and powerful tool for cellular segmentation, designed to automatically detect and segment cells in microscopy images. It is **a generalist algorithm for cell and nucleus segmentation** (v1.0) that can be optimized for your own data (v2.0) and perform image restoration (v3.0).
+Cellpose is a deep-learning method for segmenting cells and nuclei in microscopy images.
+The current version, **Cellpose-SAM (v4)**, provides a single generalist model that works
+across imaging modalities, channel orders, and object sizes, so in most cases you do not
+need to assign channels or set a cell diameter. Earlier versions introduced the core
+generalist model (v1), human-in-the-loop training (v2), and image restoration (v3); those
+features remain available and are covered below.
 
-if you want to learn more about Cellpose please read the published articles :
+Key capabilities:
 
-- [Cellpose 1.0 paper](https://www.nature.com/articles/s41592-020-01018-x.epdf?sharing_token=yrCA1mB-y9TR8-RC8w_CPdRgN0jAjWel9jnR3ZoTv0Ms-A3TbUG5N7s_6d3I7lMImMDE6cyl-17ubiknffX50r-dX1un0XSIQ2PGYWsCV1du16fIaipcHNxste8FMByEL75Ek_S2_UEVkSk7lCFllWEVogGWJwmQkBC9uKq9UEA%3D) : Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). Cellpose: a generalist algorithm for cellular segmentation. Nature methods, 18(1), 100-106.
-- [Cellpose 2.0 paper](https://www.nature.com/articles/s41592-022-01663-4) : Pachitariu, M. & Stringer, C. (2022). Cellpose 2.0: how to train your own model. Nature methods, 1-8.
-- [Cellpose 3.0 paper](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v1) : Stringer, C. & Pachitariu, M. (2024). Cellpose3: one-click image restoration for improved segmentation. bioRxiv.
+- A generalist model that segments many cell and nucleus types without per-dataset training.
+- 2D and 3D segmentation.
+- GPU acceleration (NVIDIA CUDA and Apple Silicon MPS).
+- A graphical interface, a Python API, and a command-line interface.
+- Optional fine-tuning on your own data (human-in-the-loop training).
+- Optional image restoration (denoising, deblurring, upsampling).
 
-While there are several other segmentation algorithms available, **Cellpose stands out** due to its unique features and capabilities:
+Reference papers:
 
-- **Deep Learning-Based**: Cellpose uses deep learning models, which can be trained on large datasets to improve accuracy over time.
-- **Versatility**: It can handle a wide range of cell types and imaging conditions, making it a versatile tool for various biological applications.
-- **User-Friendly**: Cellpose offers a graphical user interface (GUI) that makes it accessible to users with minimal programming experience.
-- **GPU Support**: Cellpose can utilize GPU acceleration for faster processing, which is crucial for handling large datasets.
-- **Model Zoo**: It provides a collection of pre-trained models (Model Zoo) that can be used out-of-the-box or fine-tuned for specific applications.
+- Cellpose-SAM (v4): Pachitariu, M., Rariden, M., & Stringer, C. (2025). [Cellpose-SAM: superhuman generalization for cellular segmentation](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1). *bioRxiv*.
+- Cellpose 1.0: Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). [Cellpose: a generalist algorithm for cellular segmentation](https://www.nature.com/articles/s41592-020-01018-x). *Nature Methods, 18*(1), 100–106.
+- Cellpose 2.0: Pachitariu, M., & Stringer, C. (2022). [Cellpose 2.0: how to train your own model](https://www.nature.com/articles/s41592-022-01663-4). *Nature Methods, 19*, 1634–1641.
+- Cellpose 3.0: Stringer, C., & Pachitariu, M. (2024). [Cellpose3: one-click image restoration for improved segmentation](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v1). *bioRxiv*.
 
-<br>
-
-## Cellpose Installation
+## Installation
 
 > [!TIP]
->If you're new to using virtual environments, we recommend starting with our [Setting Up a Python Development Environment tutorial](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md#conda) before proceeding.
+> If you are new to virtual environments, see
+> [Setting up a Python virtual environment](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Python/setting-up-a-python-virtual-environment.md#conda)
+> first.
 
 ### System requirements
 
-Linux, Windows and Mac OS are supported for running the code. For running the graphical interface you will need a Mac OS later than Yosemite. At least 8GB of RAM is required to run the software. 16GB-32GB may be required for larger images and 3D volumes. The software has been heavily tested on Windows 10 and Ubuntu 18.04 and less well-tested on Mac OS. Please open an issue if you have problems with installation.
+Linux, Windows, and macOS are supported. At least 8 GB of RAM is required; 16–32 GB is
+recommended for large images and 3D volumes. A GPU is optional but speeds up processing
+significantly on large datasets. If you run into installation problems, consult the
+[official installation docs](https://cellpose.readthedocs.io/en/latest/installation.html).
 
-### Installation with Conda
+### Install with conda
 
-- Install an [Anaconda distribution}(https://www.anaconda.com/download/success) of Python. Note you might need to use an anaconda prompt if you did not add anaconda to the path.
-- Open an anaconda prompt / command prompt which has conda for python 3 in the path
-- Create a new environment with `conda create --name cellpose python=3.8`. We recommend python 3.8, but python 3.9 and 3.10 will likely work as well.
-- To activate this new environment, run `conda activate cellpose`
-- To install cellpose with the GUI, run `python -m pip install cellpose[gui]`. If you're on a zsh server, you may need to use ' ': `python -m pip install 'cellpose[gui]'`.
+1. Install a conda distribution such as [Anaconda](https://www.anaconda.com/download/success)
+   or Miniconda. On Windows you may need to use the Anaconda Prompt if conda is not on your PATH.
+2. Create an environment (Python 3.10 is recommended; 3.9 and 3.11 also work):
+   ```bash
+   conda create --name cellpose python=3.10
+   ```
+3. Activate it:
+   ```bash
+   conda activate cellpose
+   ```
+4. Install Cellpose with the GUI:
+   ```bash
+   python -m pip install cellpose[gui]
+   ```
+   On zsh shells, quote the extra: `python -m pip install 'cellpose[gui]'`.
 
 > [!NOTE]
-> Note you will always have to run `conda activate cellpose` before you run cellpose.
->
-> I provide a simple script in my [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md) to save you from repeating this tedious task.
+> You must run `conda activate cellpose` before launching Cellpose each time. The
+> [Automate Cellpose GUI Opening](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Tutorials/Image%20Analysis/Automate_Cellpose_GUI_Opening.md)
+> tutorial provides a small script that does this for you.
 
-If you have issues with installation, see the [docs](https://cellpose.readthedocs.io/en/latest/installation.html) for more details.
+The first time Cellpose runs, it downloads the model weights automatically.
 
-### Installation with python Venv
+### Install with a Python venv
 
-It is a good alternative if you don't want to install conda and already have python3 on your machine. The main difference is that you will need to choose where to install the environment and the packages. Cellpose will then live in this environment and not be accessible from other environments.
+Use this if you prefer not to install conda and already have Python 3.10+ available. The
+environment and its packages live in a directory you choose and are isolated from other
+environments.
 
-- Install python3.8 or later from python.org. This will be the version of python that will be used in the environment. You can check your python version with `python --version`.
-- Navigate to the directory where you want to create the environment and run `python3 -m venv cellpose` to create a new environment called cellpose.
-- Activate the environment with source `cellpose/bin/activate` on Mac/Linux or `cellpose\Scripts\activate` on Windows. A prefix (cellpose) should appear in the terminal.
-- Install cellpose into the cellpose venv using pip with `python -m pip install cellpose`.
-- Install the cellpose GUI, with `python -m pip install cellpose[gui]`. Depending on your terminal software, you may need to use quotes like this: `python -m pip install 'cellpose[gui]'`.
-- You can now run cellpose from this environment with `python -m cellpose` or `cellpose` if you are in the cellpose directory.
-- To deactivate the environment, run `deactivate`.
+1. Confirm your Python version: `python --version` (3.10 or later recommended).
+2. Create the environment in your chosen directory:
+   ```bash
+   python -m venv cellpose
+   ```
+3. Activate it:
+   - Windows: `cellpose\Scripts\activate`
+   - macOS / Linux: `source cellpose/bin/activate`
 
-<br>
+   The prompt should now show the `(cellpose)` prefix.
+4. Install Cellpose with the GUI:
+   ```bash
+   python -m pip install cellpose[gui]
+   ```
+5. Launch it with `python -m cellpose`.
+6. Deactivate the environment when done with `deactivate`.
 
-## Allow Cellpose to Use GPU
+### Enable GPU acceleration
 
-If you plan to process a large number of images, consider installing the GPU-accelerated version of PyTorch (if it's not already installed). To utilize your NVIDIA GPU with Python, follow these steps:
+Cellpose runs on [PyTorch](https://pytorch.org/). A standard install may provide a
+CPU-only build, so to use an NVIDIA GPU you install a CUDA build of PyTorch.
 
-First Install the NVIDIA driver: Visit [this website](https://www.nvidia.com/Download/index.aspx?lang=en-us) to download and install the latest driver for your GPU.
+1. Install the latest [NVIDIA driver](https://www.nvidia.com/Download/index.aspx) for your GPU.
+2. Remove the CPU build of PyTorch:
+   ```bash
+   pip uninstall torch
+   ```
+3. Install a CUDA build using the selector on the
+   [PyTorch website](https://pytorch.org/get-started/locally/), choosing the CUDA version
+   supported by your driver. For example:
+   ```bash
+   conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
+   ```
+4. Verify the install reports a CUDA build (for example `cu121`, not `cpu`):
+   ```bash
+   python -c "import torch; print(torch.cuda.is_available())"
+   ```
 
-Next we need to remove the CPU version of torch:
+> [!NOTE]
+> On Apple Silicon (M1–M3), Cellpose uses MPS acceleration automatically; run it with
+> `python -m cellpose --use_gpu`.
 
+## The Cellpose GUI
+
+Launch the GUI from an activated environment:
+
+```bash
+python -m cellpose
 ```
-pip uninstall torch
-```
 
-To install the GPU version of torch, follow the instructions [here](https://pytorch.org/get-started/locally/). The conda install is strongly recommended, and then choose the CUDA version that is supported by your GPU (newer GPUs may need newer CUDA versions > 10.2). 
+For 3D stacks (expected format `Z × channels × Ly × Lx`), open it with
+`python -m cellpose --Zstack`.
 
-For instance this command will install the 11.6 version on Linux and Windows :
+![Cellpose GUI](https://www.cellpose.org/static/images/cellpose_gui.png)
 
-```
-conda install pytorch pytorch-cuda=11.6 -c pytorch -c nvidia
-```
+### Loading images
 
-If the latest CUDA versions don't work, try an older version like cuda 11.3:
-
-```
-conda install pytorch==1.12.0 cudatoolkit=11.3 -c pytorch
-```
-
-After install you can check conda list for pytorch, and its version info should have cuXX.X, not cpu.
-
-<br>
-
-## Cellpose GUI Exploration
-
-You can **drag and drop image files (.tif, .png, .jpg, or .gif) into the GUI** to run Cellpose or manually segment them. During processing, a **progress bar** will appear and you will be unable to interact with the GUI until it has finished running. For more information about **what's happening behind the scenes, refer to the terminal or command prompt** where the GUI was launched from.
-
-<br>
-
-![cellposeGUI](https://www.cellpose.org/static/images/cellpose_gui.png)
-
-<br>
+Drag and drop an image file (`.tif`, `.png`, `.jpg`, or `.gif`) into the GUI to segment it
+or to label it manually, or press `Ctrl + L` to choose a file. While the model runs, a
+progress bar appears and the GUI is unresponsive until it finishes. The terminal where you
+launched the GUI prints details about what is happening.
 
 ### Views
 
-allows you to **toggle between channels/colors**, which can be helpful when segmenting multi-channel images. After segmentation, you can also switch between **different views** to gain a deeper understanding of **how the algorithm interprets your images.**
+Toggle between channels and colours, which helps when working with multi-channel images.
+After segmentation, switch between views to see how the model interpreted the image.
 
-### Drawing
+### Drawing masks
 
-To create a mask, **right-click** and hover your mouse over the red circle without holding it down. The mask will be complete once you return your mouse to the circle. Masks are automatically saved to _seg.npy after each addition in 2D mode. This feature can be disabled in the "File" menu if autosaving is slow due to large images.
+To create a mask, right-click to start, then hover the cursor around the object without
+holding the button; the mask closes when the cursor returns to the red starting circle
+(or press `Esc`). Masks cannot overlap — a new mask drawn over an existing one is cropped
+at the boundary.
 
-Overlapping masks are not allowed. If you draw a new mask on top of an existing one, it will be cropped to prevent overlap.
+- In **2D mode** with *single stroke* enabled, draw each mask in one continuous stroke.
+  Each mask is autosaved to a `_seg.npy` file after it is drawn.
+- In **3D mode**, disable *single stroke* to draw separate strokes per plane and press
+  `Enter` to close the mask. Masks are not autosaved in 3D — save with `Ctrl + S`.
+- **Bulk deletion**: click *delete multiple*, then select individual masks or drag a
+  rectangular region; confirm with *done* or abandon with *cancel*.
 
-In ***2D mode***, use single strokes when drawing masks (if single_stroke is enabled). 
+### Mouse controls
 
-In ***3D mode***, disable single_stroke and draw separate strokes for each plane. Note that complex cell shapes can be achieved by drawing multiple strokes on the same plane in 3D.
-Auto-Save and Mask Deletion. In 3D mode, masks are not auto-saved. To save a mask, click CTRL+S or select "Save" from the "File" menu.
+- **Pan** — left-click + drag
+- **Zoom** — scroll wheel (or the `+`/`=` and `-` buttons)
+- **Select mask** — left-click on a mask
+- **Delete mask** — Ctrl (Cmd on macOS) + left-click
+- **Merge masks** — Alt + left-click (merges the last two)
+- **Start drawing a mask** — right-click
+- **End drawing a mask** — `Esc`, right-click, or return to the red starting circle
 
-***Bulk Mask Deletion***
+### Keyboard shortcuts
 
-Use the 'delete multiple' button to select and delete multiple masks at once. Masks can be deselected by clicking on them again. Alternatively, create a rectangular region to delete a group of masks by clicking the 'delete multiple' button and then moving and/or resizing the region.
+- `Ctrl + L` — load an image
+- `Ctrl + Z` — undo the last mask or stroke
+- `Ctrl + S` — save masks to a `_seg.npy` file
+- `Ctrl + 0` — clear all masks
+- `Ctrl + T` — train a new model
+- `A` / `D` or `←` / `→` — previous / next image
+- `X` — toggle masks on or off
+- `Z` — toggle outlines on or off
+- `Page Up` / `Page Down` — view flows / cell probability
+- `,` / `.` — decrease / increase brush size
+- `Space` — reset zoom
+- `Ctrl + H` — help
 
-### Segmentation
+## Segmentation with Cellpose-SAM
 
-#### GPU Acceleration
+Cellpose-SAM is the default model (`cpsam`). Because it generalizes across imaging
+modalities, channel orders, and object sizes, you usually do not need to select channels
+or set a cell diameter — the workflow is simply to load an image and run segmentation.
 
-Enable GPU: If you have installed the CUDA version of MXNet, activate it for potential speedups when running images in the GUI.
+### Running a segmentation
 
-#### Diameter
+In the GUI, drag in an image and click **run segmentation**; the predicted masks are drawn
+on the image when **MASKS ON** is checked.
 
-Enter the approximate diameter of your cells manually or press "Calibrate" to let the model estimate it (estimated size represented by a disk at the bottom of the view window, which can be disabled by unchecking "Scale Disk On").
+From Python:
+
+```python
+from cellpose import models, io
+
+model = models.CellposeModel(gpu=True)   # loads Cellpose-SAM by default
+img = io.imread("cells.tif")
+masks, flows, styles = model.eval(img)
+
+print(f"Found {masks.max()} masks")
+```
+
+`masks` is a labelled array (0 = background, 1, 2, … = objects). For best speed and
+accuracy, resize images so that objects are smaller than about 100 pixels across.
+
+### Tuning the result
+
+Two settings, available in the GUI and as `eval()` arguments, control how masks are
+selected:
+
+- **Flow threshold** (`flow_threshold`) filters out masks whose predicted flows are
+  inconsistent with the image. Increase it to keep more masks; decrease it to remove
+  ill-shaped masks.
+- **Cell probability threshold** (`cellprob_threshold`) sets the minimum cell-probability
+  value for a pixel to be included in a mask. Decrease it to recover more or larger masks;
+  increase it to drop faint or spurious masks.
+
+```python
+masks, flows, styles = model.eval(
+    img,
+    flow_threshold=0.4,
+    cellprob_threshold=0.0,
+)
+```
+
+## Training your own model (human-in-the-loop)
+
+When the generalist model is not accurate enough for your data, you can fine-tune it on
+your own labels. This human-in-the-loop workflow was introduced in Cellpose 2 and now
+fine-tunes Cellpose-SAM. A [video walkthrough](https://www.youtube.com/watch?v=3Y1VKcxjNy4)
+is available.
+
+1. Drag in an image from a folder of similar images (for example, the same cell type).
+2. Run the generalist model and correct the result: draw missing objects (right-click) and
+   delete incorrect ones (Ctrl + click). Manual edits autosave to a `_seg.npy` file.
+3. Open **Models > Train new model…** (or press `Ctrl + T`), choose a model to start from,
+   name your model, and start training. The default parameters work for most data.
+4. The model trains (much faster with a GPU) and then runs automatically on the next image.
+   Repeat the correct-and-retrain cycle as needed.
+5. The trained model is saved in your image folder and becomes available under the custom
+   model section of the GUI.
 
 > [!CAUTION]
-> Changing the diameter will change the results that the algorithm outputs. When the diameter is set smaller than the true size then cellpose may over-split cells. Similarly, if the diameter is set too big then cellpose may over-merge cells.
+> Each time you train, the network re-trains on **all** labelled images in the folder,
+> weighting them equally. Keep images that belong to the same model together in one folder
+> so the model is not biased toward images it was trained on earlier.
 
-#### Channel Selection
+For 3D data, save spaced-out XY, YZ, and XZ slices into a folder, train on those, then
+apply the custom model to new 3D volumes.
 
-Channel to Segment: Specify the channel containing the cytoplasm or nuclei.
-Optional Channel (Chan2): If using the Cytoplasm Model, select the nuclear channel for this option.
+## Image restoration
 
-#### Settings
+Introduced in Cellpose 3, the `denoise` module restores degraded images before
+segmentation. It offers two classes:
 
-***Flow Threshold***
+- `DenoiseModel` — image restoration only.
+- `CellposeDenoiseModel` — restoration followed by segmentation.
 
-To prevent the network from predicting arbitrary flows, a flow threshold parameter is used to filter out inconsistent predictions. This value determines the maximum allowed error between the predicted flows and the actual flows in the image. If cellpose is not returning as many ROIs as expected, you can increase this threshold to allow more flexible predictions. Conversely, if it's returning too many ill-shaped ROIs, decrease the threshold.
+Three restoration types are provided — **denoising**, **deblurring**, and **upsampling** —
+each with a model trained on the `cyto3` set and one trained on the `nuclei` set. Learn
+more in the [Cellpose 3 paper](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v1.full.pdf).
 
-***Cellprob Threshold***
+## Classic Cellpose (v1–3): channels, diameter, and the model zoo
 
-The network predicts three outputs: X flows, Y flows, and a "cell probability" value. The cell probability output is sigmoid-transformed, ranging from around -6 to +6. To determine ROIs, only pixels above the cellprob threshold are considered. If cellpose is not returning as many ROIs as expected, decrease this threshold to allow more pixels to be included. Conversely, if it's returning too many ROIs from dim areas, increase the threshold.
+The settings below apply to the **classic Cellpose models (v1–3)** such as `cyto3` and
+`nuclei`. Cellpose-SAM does not require them, but they remain relevant if you use a classic
+model or work with older notebooks.
 
-#### Models
+### Channels
 
-Each model will be downloaded automatically to your models.MODELS_DIR (see Installation instructions for more details on MODELS_DIR).
+Classic cytoplasm and nucleus models are trained on two-channel images. You specify which
+channels to use as `channels = [cytoplasm, nucleus]`, where `0 = grayscale`, `1 = red`,
+`2 = green`, `3 = blue`:
 
-> [!IMPORTANT]
-> All built-in models were trained with the ROIs resized to a diameter of **30.0 (diam_mean = 30)**, except the ‘nuclei’ model which was trained with a diameter of 17.0 (diam_mean = 17). 
+- Grayscale or single-channel images: `channels = [0, 0]`.
+- Green cytoplasm with blue nuclei: `channels = [2, 3]`.
+- For the `nuclei` model, the second channel is always `0` (for example, `channels = [3, 0]`
+  to segment blue nuclei).
 
-***Cytoplasm model ('cyto3', 'cyto2', 'cyto')***
+### Diameter
 
-The cytoplasm models in cellpose are trained on two-channel images, where the first channel is the channel to segment, and the second channel is an optional nuclear channel.
-
-Set channels to a list with each of these elements, e.g. `channels = [0,0]` if you want to segment cells in grayscale or for single channel images, or `channels = [2,3]` if you green cells with blue nuclei.
-
-***Nucleus model (‘nuclei’)***
-
-The nuclear model in cellpose is trained on two-channel images, where the first channel is the channel to segment, and the second channel is always set to an array of zeros. 
-
-Therefore set the first channel as 0=grayscale, 1=red, 2=green, 3=blue; and set the second channel to zero, e.g. `channels = [0,0]` if you want to segment nuclei in grayscale or for single channel images, or `channels = [3,0]` if you want to segment blue nuclei.
-
-***Dataset-specific Models***
-
-The main built-in models are dataset-specific models trained on one of the 9 datasets in the Cellpose3 paper. These models do not have a size model. If the diameter is set to 0.0, then the model uses the default diam_mean for the diameter (30.0).
-
-**Cell images**
-
-- tissuenet_cp3 (A large-scale dataset for training segmentation models, containing over 1 million manually labeled cells in tissue images)
-- livecell_cp3 (A large-scale dataset for label-free live cell segmentation)
-- cyto2_cp3 (A large-scale dataset for label-free live cell segmentation by Mouseland)
-
-**yeast cell images**
-
-- yeast_PhC_cp3 (Yeast segmented phase contrast images (10422 cells))
-- yeast_BF_cp3 (Yeast segmented Bright-field images (23046 cells))
-  
-**Bacterial cell images**
-
-- bact_phase_cp3 (Bacterial segmented phase contrast images)
-- bact_fluor_cp3 (Bacterial segmented Fluorescence images)
-- deepbacs_cp3 (Bacterial segmented Bright-field + Fluorescence images)
-
-### GUI Mouse Controls
-
-- **Pan** = left-click + drag
-- **Zoom** = scroll wheel (or +/= and - buttons)
-- **Full view** = double left-click
-- **Select mask** = left-click on mask
-- **Delete mask** = Ctrl (or Command on Mac) + left-click
-- **Merge masks** = Alt + left-click (will merge last two)
-- **Start draw mask** = right-click
-- **End draw mask** = right-click, or return to circle at beginning
-
-<br>
-
-## Cellpose 2 Training your own cellpose model
+Classic models use the expected object diameter. Enter it manually or press **Calibrate**
+to let the model estimate it (shown as a disk at the bottom of the view).
 
 > [!CAUTION]
-> Training can be initiated with one of the pre-trained Cellpose models or from scratch. Each time you start training, whether using a built-in model or beginning anew, the network will re-train on all previously labelled images in the folder, treating them equally and without weighting.
->
-> If you restart a previously retrained network, it will be biased towards the earlier images it has already been trained on. Conversely, if you create a custom model with different images and retrain it, the network will downweight the original images in favor of the new ones not included in the updated training set. To avoid these imbalances, we recommend keeping all images that should be trained together for the same model in the same folder.
+> The diameter changes the result. If it is set smaller than the true size, Cellpose tends
+> to over-split objects; if it is set too large, it tends to over-merge them.
 
-Learn the process with the [video tutorial](https://www.youtube.com/watch?v=3Y1VKcxjNy4).
+### The model zoo
 
-- **Drag and drop an image from a folder of images with a similar style** (like similar cell types).
+Each model is downloaded automatically to your local models directory on first use (set by
+`CELLPOSE_LOCAL_MODELS_PATH`).
 
-- **Run the built-in models** on one of the images using the “model zoo” and find the one that works best for your data. Make sure that if you have a nuclear channel you have selected it for CHAN2.
+> [!NOTE]
+> The built-in models were trained with objects resized to a diameter of 30.0
+> (`diam_mean = 30`), except the `nuclei` model, which used 17.0 (`diam_mean = 17`).
 
-- **Fix the labelling by drawing new ROIs** (right-click) and **deleting incorrect ones** (CTRL+click). The GUI autosaves any manual changes (but does not autosave after running the model, for that click CTRL+S). The segmentation is saved in a _seg.npy file.
+**Generalist models**
 
-- Go to the “Models” menu in the File bar at the top and click **“Train new model…” or use shortcut CTRL+T.**
+- `cyto3`, `cyto2`, `cyto` — cytoplasm models (two-channel: channel to segment plus an
+  optional nuclear channel).
+- `nuclei` — nucleus model (second channel set to zeros).
 
-- Choose **the pretrained model to start the training from** (the model you used in #2), and type in the model name that you want to use. The other parameters should work well in general for most data types. Then click OK.
+**Dataset-specific models** (from the Cellpose 3 paper; no size model — a diameter of 0.0
+falls back to `diam_mean = 30`):
 
-- **The model will train (much faster if you have a GPU)** and then auto-run on the next image in the folder. ***Next you can repeat #3-#5 as many times as is necessary.***
-
-- The **trained model is available** to use in the future in the GUI in the **“custom model” section** and is saved in your image folder.
-
-- If you have 3D data, please save random XY, YZ and XZ slices through your 3D data, ideally sufficiently spaced from each other so the information each slice has is distinct. Then put these slices into a folder and start the human-in-the-loop training. You can then use the new custom model on new 3D data.
-
-<br>
-
-## Cellpose 3 Image Restoration 
-
-Learn more about this in the [Cellpose 3.0 article](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v1.full.pdf).
-
-The image restoration module denoise provides functions for restoring degraded images. There are two main classes, DenoiseModel for image restoration only, and CellposeDenoiseModel for image restoration and then segmentation.
-
-There are three types of image restoration provided, denoising, deblurring, and upsampling, and for each of these there are two models, one trained on the full cyto3 training set and one trained on the nuclei training set.
-
-<br>
+- Cells: `tissuenet_cp3`, `livecell_cp3`, `cyto2_cp3`.
+- Yeast: `yeast_PhC_cp3` (phase contrast), `yeast_BF_cp3` (bright-field).
+- Bacteria: `bact_phase_cp3` (phase contrast), `bact_fluor_cp3` (fluorescence),
+  `deepbacs_cp3` (bright-field and fluorescence).
