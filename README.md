@@ -1,5 +1,3 @@
-![Lab-Libraries](https://raw.githubusercontent.com/LSeu-Open/Lab-Libraries/main/Banners/Header_Lib.png)
-
 # Lab-Libraries
 
 A curated collection of tutorials, guides, and learning resources for students and
