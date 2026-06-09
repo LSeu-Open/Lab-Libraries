@@ -1,6 +1,6 @@
 # Introduction to Virtualization
 
-🟨 **Intermediate** (Recommended experience)
+**Level: Intermediate** (some experience recommended)
 
 ## Table of Contents
 
@@ -8,7 +8,6 @@
     - [What is Containerization?](#what-is-containerization)
     - [Benefits of Containerization](#benefits-of-containerization)
     - [Containerization Use Cases](#containerization-use-cases)
-    - [How Does Containerization Work?](#how-does-containerization-work)
     - [Types of Container Technology](#types-of-container-technology)
         - [Docker](#docker)
         - [Linux Containers](#linux-containers)
@@ -59,8 +58,6 @@ Containerization is used in various scenarios to improve software development an
 4. **DevOps**: Containers facilitate collaboration between development and operations teams by providing a consistent environment for development, testing, and production.
 5. **Legacy Application Modernization**: Containers can be used to modernize legacy applications by packaging them with their dependencies, making them easier to manage and deploy.
 
-## How Does Containerization Work?
-
 ## Types of Container Technology
 
 **Docker**
@@ -86,7 +83,7 @@ Docker is a popular platform for developing, shipping, and running applications 
 
 ```sh
 # Example Dockerfile
-FROM python:3.8-slim
+FROM python:3.12-slim
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
@@ -148,7 +145,7 @@ Linux Containers offer several benefits that make them a useful choice for conta
 
 ```sh
 sudo apt-get install lxc
-sudo lxc-create -t download -n my-container -- --dist ubuntu --release focal --arch amd64
+sudo lxc-create -t download -n my-container -- --dist ubuntu --release noble --arch amd64
 ```
 
 2. **Configuring a Container**
@@ -185,7 +182,7 @@ sudo apt-get install lxc
 
 * Create a Container : Use the lxc-create command to create a new container from a template.
 ```
-sudo lxc-create -t download -n my-container -- --dist ubuntu --release focal --arch amd64
+sudo lxc-create -t download -n my-container -- --dist ubuntu --release noble --arch amd64
 ```
 
 * Configure the Container : Edit the container's configuration file to set up networking, storage, and other settings.
@@ -299,7 +296,7 @@ Both containerization and virtual machines (VMs) are technologies used to create
 
 Summary in one Picture:
 
-![Image](https://github.com/LSeu-Open/Lab-Libraries/blob/main/Banners/Virtualization_vs_Containers.png)
+![Virtualization vs containers](https://raw.githubusercontent.com/LSeu-Open/Lab-Libraries/main/Banners/Virtualization_vs_Containers.png)
 
 Choosing between containerization and virtual machines depends on your specific needs and use cases. VMs offer strong isolation and are suitable for running different operating systems, while Docker containers are lightweight and efficient, making them ideal for modern, scalable applications.
 
@@ -384,7 +381,7 @@ Container orchestration offers several benefits that make it essential for manag
 
 1. **Cluster Management**:
    - **Cluster**: A group of nodes (physical or virtual machines) that run containerized applications.
-   - **Master Node**: Manages the cluster and controls the state of the cluster.
+   - **Control plane node**: Manages the cluster and controls its overall state. (Earlier Kubernetes versions called this the "master node".)
    - **Worker Nodes**: Run the containerized applications.
 
 2. **Scheduling**:
@@ -407,7 +404,7 @@ Container orchestration offers several benefits that make it essential for manag
 - **Kubernetes**: An open-source platform for automating the deployment, scaling, and management of containerized applications.
 - **Docker Swarm**: A native clustering and orchestration tool for Docker containers.
 - **Amazon ECS (Elastic Container Service)**: A fully managed container orchestration service provided by AWS.
-- **Apache Mesos**: A distributed systems kernel that provides resource management and scheduling across a cluster.
+- **HashiCorp Nomad**: A flexible orchestrator for containers and other workloads. (Apache Mesos, once common in this role, was retired to the Apache Attic in 2025.)
 
 ## Kubernetes
 
@@ -437,7 +434,7 @@ Kubernetes offers several benefits that make it a popular choice for container o
 ### How Kubernetes Works
 
 1. **Cluster Architecture**:
-   - **Master Node**: Manages the cluster and controls the state of the cluster.
+   - **Control plane node**: Manages the cluster and controls its overall state. (Earlier Kubernetes versions called this the "master node".)
    - **Worker Nodes**: Run the containerized applications.
 
 2. **Components**:
@@ -473,7 +470,9 @@ spec:
         image: my-app:latest
         ports:
         - containerPort: 80
+```
 
+```sh
 kubectl apply -f deployment.yaml
 ```
 ### Exposing a Service:
@@ -495,7 +494,9 @@ spec:
       port: 80
       targetPort: 80
   type: LoadBalancer
+```
 
+```sh
 kubectl apply -f service.yaml
 ```
 

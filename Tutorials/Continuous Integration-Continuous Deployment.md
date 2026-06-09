@@ -1,6 +1,6 @@
 # Introduction to Continuous Integration/Continuous Deployment (CI/CD)
 
-🟨 **Intermediate** (Recommended experience)
+**Level: Intermediate** (some experience recommended)
 
 ## Table of Contents
 - [What is Continuous Integration?](#what-is-continuous-integration)
@@ -249,11 +249,10 @@ There are numerous tools available to help automate and manage CI/CD pipelines. 
 
 ### Travis CI
 
-- **Description**: Travis CI is a hosted CI/CD service that is easy to set up and use.
+- **Description**: Travis CI is a hosted CI/CD service that is easy to set up and use. (It was an early, widely used option for open-source projects; its free tier for open source has since been significantly reduced.)
 - **Features**:
   - Supports pipeline as code with `.travis.yml` files.
-  - Integrates seamlessly with GitHub.
-  - Offers a free tier for open-source projects.
+  - Integrates with GitHub.
   - Provides real-time build status notifications and detailed build logs.
 
 ### Azure DevOps
@@ -321,7 +320,7 @@ DevOps is a cultural and professional movement that emphasizes collaboration, co
 
 ### Conclusion
 
-CI/CD and DevOps are complementary practices that, when combined, can significantly improve the efficiency, quality, and reliability of software delivery and operations. CI/CD focuses on automating the software development lifecycle, while DevOps emphasizes collaboration, communication, and integration between development and operations. By adopting both CI/CD and DevOps practices, teams can achieve faster, more reliable, and higher-quality software deli
+CI/CD and DevOps are complementary practices that, when combined, can significantly improve the efficiency, quality, and reliability of software delivery and operations. CI/CD focuses on automating the software development lifecycle, while DevOps emphasizes collaboration, communication, and integration between development and operations. By adopting both, teams can deliver software faster, more reliably, and at higher quality.
 
 
 <br>

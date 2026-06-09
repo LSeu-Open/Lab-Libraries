@@ -1,6 +1,6 @@
 # Basic Understanding of the Command Line
 
-🟩 **Begginer** (No prior experience required)
+**Level: Beginner** (no prior experience required)
 
 ## Table of Contents
 
@@ -28,7 +28,8 @@
         - [Console Emulators](#console-emulators)
             - [Key Features of Console Emulators](#key-features-of-console-emulators)
             - [Cmder](#cmder)
-            - [Terminus](#terminus)
+            - [Tabby (formerly Terminus)](#tabby-formerly-terminus)
+            - [Windows Terminal](#windows-terminal)
             - [iTerm2](#iterm2)
     - [Choosing the Right CLI](#choosing-the-right-cli)
         - [Factors to Consider](#factors-to-consider)
@@ -52,11 +53,11 @@
 
 ## Introduction to Command Line Interface (CLI)
 
-## What Is Command Line Interface/CLI?
+### What Is Command Line Interface/CLI?
 
 The Command Line Interface (CLI) is a text-based interface that allows users to interact with a computer's operating system by typing commands. Unlike graphical user interfaces (GUIs), which use windows, icons, and menus, the CLI relies on text input and output. This makes it a powerful tool for performing tasks quickly and efficiently, especially for advanced users and developers.
 
-## What Does the Command Line Look Like?
+### What Does the Command Line Look Like?
 
 The command line typically appears as a simple text prompt where you can type commands. Here's an example of what the command line might look like on different operating systems:
 
@@ -74,7 +75,7 @@ The command line typically appears as a simple text prompt where you can type co
 
 The prompt usually includes information about the current user and the directory you are in. After the prompt, you can type commands followed by the Enter key to execute them.
 
-## Why Should I Learn the Command Line?
+### Why Should I Learn the Command Line?
 
 Learning the command line offers several benefits:
 
@@ -92,7 +93,7 @@ By learning the command line, you gain a deeper understanding of how your comput
 
 <br>
 
-# CLI vs. GUI: Key Differences
+## CLI vs. GUI: Key Differences
 
 The Command Line Interface (CLI) and Graphical User Interface (GUI) are two primary ways to interact with a computer. Each has its own strengths and weaknesses, and understanding the differences between them can help you decide when to use one over the other.
 
@@ -177,7 +178,7 @@ Understanding the strengths and weaknesses of both CLI and GUI can help you choo
 
 <br>
 
-# Understanding Different Types of CLIs
+## Understanding Different Types of CLIs
 
 ## Shell vs. Bash vs. Terminal vs. Command Prompt
 
@@ -303,7 +304,7 @@ A console emulator, also known as a terminal emulator, is a software application
 
 #### Key Features of Console Emulators
 
-1 . **Text-Based Interface:**
+1. **Text-Based Interface:**
 
 Console emulators display text output and accept text input, allowing users to type commands and see the results.
 
@@ -343,14 +344,15 @@ Some console emulators are portable, meaning they can be run from a USB drive or
   - **Pros:** Portable, customizable, supports multiple shells
   - **Cons:** Windows-only, can be resource-intensive
 
-#### Terminus
+#### Tabby (formerly Terminus)
 
-<img src="https://i.ytimg.com/vi/w-f074YweOY/maxresdefault.jpg" alt="drawing" width="200"/>
+Tabby (renamed from Terminus in 2021) is a cross-platform terminal emulator, SSH, and
+serial client.
 
 - **Features:**
-  - Cross-platform terminal emulator
+  - Cross-platform terminal emulator (Windows, macOS, Linux)
   - Highly customizable and extensible
-  - Support for multiple shells and plugins
+  - Support for multiple shells, SSH, serial connections, and plugins
 
 - **Use Cases:**
   - Cross-platform terminal
@@ -360,6 +362,24 @@ Some console emulators are portable, meaning they can be run from a USB drive or
 - **Pros and Cons:**
   - **Pros:** Cross-platform, highly customizable, extensive plugin support
   - **Cons:** Can be complex to configure, may require more system resources
+
+#### Windows Terminal
+
+Windows Terminal is Microsoft's modern, open-source terminal application for Windows. It
+is the recommended default terminal on current versions of Windows.
+
+- **Features:**
+  - Multiple tabs and split panes
+  - Hosts several shells (PowerShell, Command Prompt, WSL) in one window
+  - GPU-accelerated text rendering, themes, and Unicode support
+
+- **Use Cases:**
+  - The default modern terminal experience on Windows
+  - Running and switching between PowerShell, Command Prompt, and WSL
+
+- **Pros and Cons:**
+  - **Pros:** Fast, actively maintained by Microsoft, integrates with WSL
+  - **Cons:** Windows-only
 
 #### iTerm2
 
@@ -394,15 +414,15 @@ Some console emulators are portable, meaning they can be run from a USB drive or
 
 - **Basic System Administration:** Command Prompt (Windows), Bash (Linux/macOS)
 - **Advanced Scripting and Automation:** PowerShell (Windows), Bash or Zsh (Linux/macOS)
-- **Enhanced User Experience:** Fish (Linux/macOS), Cmder (Windows), iTerm2 (macOS)
-- **Cross-Platform Use:** Terminus
+- **Enhanced User Experience:** Fish (Linux/macOS), Windows Terminal or Cmder (Windows), iTerm2 (macOS)
+- **Cross-Platform Use:** Tabby (formerly Terminus)
 
 Understanding the different types of CLIs and their features can help you choose the right tool for your needs, making your command-line experience more efficient and enjoyable.
 
 
 <br>
 
-# Learn the Command Line
+## Learn the Command Line
 
 The command line is a powerful tool for performing a wide range of tasks efficiently. This section will guide you through essential commands and concepts to help you become proficient in using the command line.
 
@@ -578,12 +598,13 @@ The command line is a powerful tool for performing a wide range of tasks efficie
     - `apt install package`: Installs a package.
     - `apt remove package`: Removes a package.
 
-- **yum (CentOS/RHEL):**
-  - Manages software packages.
-  - Example: `yum update`
+- **dnf (Fedora/RHEL):**
+  - Manages software packages. (`dnf` is the modern replacement for `yum`; `yum` still
+    works as an alias on many systems.)
+  - Example: `dnf update`
   - Options:
-    - `yum install package`: Installs a package.
-    - `yum remove package`: Removes a package.
+    - `dnf install package`: Installs a package.
+    - `dnf remove package`: Removes a package.
 
 - **brew (macOS):**
   - Manages software packages.
@@ -594,7 +615,7 @@ The command line is a powerful tool for performing a wide range of tasks efficie
 
 By mastering these essential commands and concepts, you will become proficient in using the command line to perform a wide range of tasks efficiently.
 
-# Basic Commands Recapitulation
+## Basic Commands Recapitulation
 
 This table provides a quick reference for essential commands, their explanations, examples, options, and links to the documentation. By mastering these commands, you will become proficient in using the command line to perform a wide range of tasks efficiently.
 
@@ -613,7 +634,7 @@ This table provides a quick reference for essential commands, their explanations
 | `>`     | Redirects the output of a command to a file, overwriting the file if it exists. | `command > filename` | N/A | [Redirection Documentation](https://www.gnu.org/software/bash/manual/bash.html#Redirections) |
 | `>>`    | Redirects the output of a command to a file, appending to the file if it exists. | `command >> filename` | N/A | [Redirection Documentation](https://www.gnu.org/software/bash/manual/bash.html#Redirections) |
 | `<`     | Redirects the input of a command from a file. | `command < filename` | N/A | [Redirection Documentation](https://www.gnu.org/software/bash/manual/bash.html#Redirections) |
-| `|`     | Passes the output of one command as input to another command. | `command1 | command2` | N/A | [Pipe Documentation](https://www.gnu.org/software/bash/manual/bash.html#Pipelines) |
+| `\|`     | Passes the output of one command as input to another command. | `command1 \| command2` | N/A | [Pipe Documentation](https://www.gnu.org/software/bash/manual/bash.html#Pipelines) |
 | `export`| Sets environment variables. | `export VARIABLE=value` | N/A | [export Documentation](https://linux.die.net/man/1/export) |
 | `unset` | Removes environment variables. | `unset VARIABLE` | N/A | [unset Documentation](https://linux.die.net/man/1/unset) |
 | `source`| Executes a script in the current shell session. | `source script.sh` or `. script.sh` | N/A | [source Documentation](https://linux.die.net/man/1/source) |

@@ -15,9 +15,11 @@
 
 ### Benefits of AI Assistance for Coding
 
-AI assistance in coding has revolutionized the way developers work, offering numerous advantages that enhance productivity and code quality.
+AI coding assistants can speed up routine work and support code quality, but they also have
+real limitations. This page summarizes the benefits, drawbacks, and good practices for
+using them effectively.
 
-Here are some of the key benefits:
+Some of the main benefits:
 
 | Benefit                          | Description                                                                                                                                                                                                 |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -97,7 +99,7 @@ By following these best practices, developers can effectively integrate AI assis
 
 In my other repository, I have gathered a list of resources of all the AI tools that are available to us.
 
-- [AIEnhancedWork](https://github.com/LSeu-Open/AIEnhancedWork) : A collection of AI-driven tools designed to enhance productivity, streamline task automation, and make everyday work more manageable.
+- [AIEnhancedWork](https://github.com/LSeu-Open/AIEnhancedWork) : A curated collection of AI tools for coding and everyday work.
   - [AI augmented IDE](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#ai-augmented-ide) : The collection of AI augmented IDEs, either via extensions or built-in support.
   - [Coding AI providers](https://github.com/LSeu-Open/AIEnhancedWork?tab=readme-ov-file#coding-llms-providers) : The collection of Coding AI providers.
   - [Use AI in your IDE](https://github.com/LSeu-Open/AIEnhancedWork/blob/main/Tutorials/integrating-ai-models-into-ide.md) : A tutorial on how to use integrated AI models in your IDE.

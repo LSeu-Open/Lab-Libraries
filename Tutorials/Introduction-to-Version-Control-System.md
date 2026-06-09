@@ -1,6 +1,6 @@
  # Introduction to Version Control System (VCS)
 
-🟨 **Intermediate** (Recommended experience)
+**Level: Intermediate** (some experience recommended)
 
 ## Table of Contents
 
@@ -25,10 +25,10 @@
     - [Branching and Merging](#branching-and-merging-mercurial)
     - [Collaboration with Mercurial](#collaboration-with-mercurial)
     - [Mercurial Clients](#mercurial-clients)
-    - [What Mercurial and Git Have in Common](#what-mercurial-and-git-have-in-common)
-    - [What Is the Difference Between Git and Mercurial (and Which Is Better)?](#what-is-the-difference-between-git-and-mercurial-and-which-is-better)
+  - [Mercurial vs. Git](#mercurial-vs-git)
+    - [What Is the Difference Between Git and Mercurial?](#what-is-the-difference-between-git-and-mercurial-and-which-is-better)
+    - [Which Should You Choose?](#git-vs-mercurial--which-should-you-choose)
   - [Hosting Platforms for Version Control](#hosting-platforms-for-version-control)
-    - [Introduction to Hosting Platforms](#introduction-to-hosting-platforms)
     - [Quick Comparison: GitHub vs. GitLab vs. Codeberg](#quick-comparison-github-vs-gitlab-vs-codeberg)
     - [GitHub](#github)
       - [Introduction to GitHub](#introduction-to-github)
@@ -54,13 +54,12 @@
 
 ## Introduction
 
-Welcome to this tutorial on Version Control Systems (VCS)! Whether you're a beginner in programming or an experienced developer looking to improve your workflow, understanding and using version control is essential. Version control systems help manage changes to source code over time, enabling collaboration, tracking history, and facilitating the development process.
+Version control systems (VCS) manage changes to source code over time, enabling
+collaboration, tracking history, and supporting the development process.
 
-In this tutorial, we will explore the fundamentals of version control, its purposes, and benefits. We will also delve into different types of version control systems, with a focus on Git and Mercurial. Additionally, we will cover popular hosting platforms for version control, including GitHub, GitLab, and Codeberg, providing a comparision to help you choose the right platform for your needs.
-
-By the end of this tutorial, you will have a solid understanding of the basics how version control systems work, what is Git and Mercurial , and how to leverage hosting platforms to collaborate with others and manage your projects efficiently.
-
-Let's get started!
+This tutorial covers the fundamentals of version control — its purpose and benefits — and
+the main types of system, with a focus on Git and Mercurial. It also compares three
+popular hosting platforms: GitHub, GitLab, and Codeberg.
 
 
 <br>
@@ -362,7 +361,7 @@ Using a Git client can simplify many common tasks, such as visualizing the commi
 
 ### Introduction to Mercurial
 
-Mercurial is another popular distributed version control system (DVCS) that is known for its simplicity and ease of use. Developed by Matt Mackall in 2005, Mercurial shares many similarities with Git but has a different design philosophy and user experience. Mercurial is used by many large organizations and open-source projects, including Mozilla and the Python Software Foundation.
+Mercurial is another distributed version control system (DVCS), known for its simplicity and ease of use. Developed by Matt Mackall in 2005, Mercurial shares many similarities with Git but has a different design philosophy and user experience. It has been used by large projects over the years, though several — including Mozilla (which completed its migration in 2025) and CPython — have since moved to Git.
 
 ### Basic Mercurial Commands
 
@@ -392,7 +391,7 @@ The typical Mercurial workflow involves several key steps:
 6. **Pull Changes**: Use `hg pull` to fetch and integrate changes from a remote repository.
 
 
-### Branching and Merging
+### Branching and Merging <a name="branching-and-merging-mercurial"></a>
 
 Mercurial supports branching and merging, allowing developers to work on different features or bug fixes independently and integrate changes later.
 
@@ -429,7 +428,7 @@ While Mercurial can be used entirely from the command line, there are several gr
 
 - **[TortoiseHg](https://tortoisehg.bitbucket.io/)**: A popular and feature-rich Mercurial client that integrates with Windows Explorer. TortoiseHg provides a comprehensive set of tools for managing repositories, committing changes, and visualizing the commit history.
 
-- **[SourceTree](https://www.sourcetreeapp.com/)**: Developed by Atlassian, SourceTree supports both Git and Mercurial repositories. It offers a rich feature set and a user-friendly interface, making it a popular choice for managing Mercurial repositories.
+- **[Sourcetree](https://www.sourcetreeapp.com/)**: Developed by Atlassian. Sourcetree historically supported both Git and Mercurial, but Atlassian deprecated Mercurial support (Bitbucket dropped Mercurial hosting in 2020), so recent versions focus on Git.
 
 - **[SmartGit](https://www.syntevo.com/smartgit/)**: A powerful and versatile client that supports both Git and Mercurial. SmartGit offers advanced features and a clean interface, making it suitable for both beginners and experienced users.
 
@@ -440,7 +439,6 @@ Using a Mercurial client can simplify many common tasks, such as visualizing the
 ### Mercurial Tutorials
 
 - [Ground Up Mercurial](https://hginit.github.io/01.html)
-- 
 
 Mercurial is a powerful and user-friendly distributed version control system that is well-suited for both small and large projects. By understanding and using Mercurial effectively, you can streamline your development workflow, enhance collaboration, and manage your projects more efficiently.
 
@@ -532,7 +530,7 @@ Hosting platforms for version control systems provide a centralized location for
 |--------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
 | **Open Source**          | Yes, but with limitations               | Yes, fully open source                  | Yes, fully open source                  |
 | **Pricing**              | Free and paid plans                     | Free and paid plans                     | Free and paid plans                     |
-| **CI/CD**                | GitHub Actions                          | GitLab CI/CD                            | Not natively supported                  |
+| **CI/CD**                | GitHub Actions                          | GitLab CI/CD                            | Woodpecker CI and Forgejo Actions       |
 | **Collaboration**        | Pull requests, issues, discussions      | Merge requests, issues, discussions     | Pull requests, issues                   |
 | **Integration**          | Extensive third-party integrations      | Extensive third-party integrations      | Limited third-party integrations        |
 | **Community**            | Large and active                        | Large and active                        | Smaller but growing                     |
@@ -556,7 +554,7 @@ To get started with GitHub, you need to create an account:
 1. Visit the [GitHub website](https://github.com/).
 2. Click on "Sign up" and follow the prompts to create your account.
 
-#### Creating and Managing Repositories
+#### Creating and Managing Repositories <a name="creating-and-managing-repositories-github"></a>
 
 Once you have a GitHub account, you can create and manage repositories:
 
@@ -595,7 +593,7 @@ GitHub offers several features to facilitate collaboration:
 
 #### Introduction to GitLab
 
-GitLab is another popular hosting platform that supports both Git and Mercurial repositories. It offers a comprehensive set of features for managing the entire software development lifecycle, from planning and coding to testing and deployment.
+GitLab is a popular hosting platform for Git repositories. It offers a comprehensive set of features for managing the entire software development lifecycle, from planning and coding to testing and deployment. (GitLab itself does not support Mercurial; the separate [Heptapod](https://heptapod.net/) fork adds Mercurial support.)
 
 #### Creating a GitLab Account
 
@@ -604,7 +602,7 @@ To get started with GitLab, you need to create an account:
 1. Visit the [GitLab website](https://gitlab.com/).
 2. Click on "Register" and follow the prompts to create your account.
 
-#### Creating and Managing Repositories
+#### Creating and Managing Repositories <a name="creating-and-managing-repositories-gitlab"></a>
 
 Once you have a GitLab account, you can create and manage repositories:
 
@@ -650,7 +648,7 @@ To get started with Codeberg, you need to create an account:
 1. Visit the [Codeberg website](https://codeberg.org/).
 2. Click on "Sign up" and follow the prompts to create your account.
 
-#### Creating and Managing Repositories
+#### Creating and Managing Repositories <a name="creating-and-managing-repositories-codeberg"></a>
 
 Once you have a Codeberg account, you can create and manage repositories:
 
